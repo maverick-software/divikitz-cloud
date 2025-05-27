@@ -1,0 +1,20 @@
+{
+	"name" : "Neo's Builder Staff",
+	"slug" : "neo's-builder-staff",
+	"author" : "<a href='https://cloud.neosbuilder.com/'>Neo's Cloud</a>",
+	"version" : "1.0.12", 
+	"download_url" : "https://cloud.neosbuilder.com/repository/neo-buildr-staff.zip",
+	"requires" : "3.0",
+	"tested" : "5.8",
+	"requires_php" : "5.3",
+	"last_updated" : "2022-03-01 5:15:00",
+	"sections" : {
+		"description" : "Build WordPress sites ten times faster with Neo's Builder Staff. Note: This plugin will use for internal staff member",
+		"installation" : "Click the activate button and that's it.",
+		"changelog" : "<h4>1.0 –  1 august 2021</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
+	},
+	"banners" : {
+		"low" : "https://cloud.neosbuilder.com/wp-content/uploads/2022/10/cloudneo.png",
+		"high" : "https://cloud.neosbuilder.com/wp-content/uploads/2022/10/cloudneo.png"
+	}
+}

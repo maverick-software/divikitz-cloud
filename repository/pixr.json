@@ -1,0 +1,20 @@
+{
+	"name" : "Pixr",
+	"slug" : "pixr",
+	"author" : "<a href='https://web1experts.com'>Web1experts</a>",
+	"version" : "1.8.0",
+	"download_url" : "https://wordpress-782565-2667748.cloudwaysapps.com/repository/pixr.zip",
+	"requires" : "3.0",
+	"tested" : "5.8",
+	"requires_php" : "5.3",
+	"last_updated" : "2022-02-22 02:10:00",
+	"sections" : {
+		"description" : "Image API integration for pixabay.com Use shortcode [free_stock_image] to display image",
+		"installation" : "Click the activate button and that's it.",
+		"changelog" : "<h4>1.0 –  1 Jan 2022</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
+	},
+	"banners" : {
+		"low" : "https://rudrastyh.com/wp-content/uploads/updater/banner-772x250.jpg",
+		"high" : "https://rudrastyh.com/wp-content/uploads/updater/banner-1544x500.jpg"
+	}
+}

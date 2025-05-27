@@ -1,0 +1,27 @@
+{
+	"name" : "Kitz Pro Builder",
+	"slug" : "kitsbuilder",
+	"author" : "<a href='https://app.divikitz.com/'>Divi Kitz</a>",
+	"version" : "6.12.25", 
+	"download_url" : "https://app.divikitz.com/repository/kitz-pro-builder.zip",
+	"requires" : "3.0",
+	"tested" : "6.2",
+	"requires_php" : "7.3",
+	"last_updated" : "2023-19-01 5:15:00",
+	"sections" : {
+		"description" : "<h3>Installing and Activating the Plugin</h3><strong>Build WordPress sites ten times faster with Kitz Pro Builder.</strong><ul><li><b>Step 1</b> <i> Navigate to any page that has Divi enabled, and click “Kitz” on the topbar.</i></li><li><b>Step 2</b> <i> You will now enter the builder.</i></li><li><b>Step 3</b> <i> On the sidebar, choose “Sections” or “Layouts”. You can also add additional Divi-enabled pages inside the builder.</i></li><li><b>Step 4</b> <i> Save the page upon exit, and modify the page via the standard Divi builder.</i></li></ui>",
+
+		"installation" : "<h3>Installing and Activating the Plugin</h3><ul><li><b>Step 1</b> <i> Download the plugin via the <a href='https://app.divikitz.com/'>Kitz Pro Builder</a> dashboard</i></li><li><b>Step 2</b> <i> Install on a WordPress site with Divi Theme or Divi Kitz Builder plugin</i></li><li><b>Step 3</b> <i> Copy the API Key from the dashboard under “Account Summary”</i></li><li><b>Step 4</b> <i> Navigate to your new website, and login to the WP-Admin dashboard</i></li><li><b>Step 5</b> <i> Navigate to the Kitz Pro Builder dashboard page</i></li><li><b>Step 6</b> <i> Enter your account email and your AP Key, and click “Connect”</i></li><li><b>Step 7</b> <i> If your connection is successful, you will receive a notification, and your files appear when you activate the Kitz Pro Builder.</i></li><li><b>Step 8</b> <i> Connect your dropbox & save your data in dropbox which you will get in the builder.</i></li></ui>",
+
+		"changelog" : "<h4>1.0 –  16 December, 2022</h4><ul><li>Bug fixes.</li><li>Initital release.</li><li>Now User can save layout into their directory.</li><li>Meet new functionality</li><li>User can save section on their Kitz Pro Builder, Just need to click on save icon</li></ul>",
+		"screenshots": {
+			"name": "Screenshot 1",
+			"path": "https://app.divikitz.com/wp-content/uploads/2023/01/kitz_screenshot.png"
+		}
+	},
+
+	"banners" : {
+		"low" : "https://app.divikitz.com/wp-content/uploads/2023/01/kitz_screenshot.png",
+		"high" : "https://app.divikitz.com/wp-content/uploads/2023/01/kitz_screenshot.png"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name" : "WritrAI",
+	"slug" : "writrai",
+	"author" : "<a href='https://enspyredigital.com/'>Enspyredigital</a>",
+	"version" : "1.5.1", 
+	"download_url" : "https://wordpress-782565-2667748.cloudwaysapps.com/repository/WritrAI.zip",
+	"requires" : "3.0",
+	"tested" : "5.8",
+	"requires_php" : "5.3",
+	"last_updated" : "2022-03-01 00:10:00",
+	"sections" : {
+		"description" : "WritrAI lets you capture the power of GPT-3 Artificial Intelligence and bring it right into the Divi Builder. Generate content from the sidebar and paste into Divi.",
+		"installation" : "Click the activate button and that's it.",
+		"changelog" : "<h4>1.0 –  1 august 2021</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
+	},
+	"banners" : {
+		"low" : "https://rudrastyh.com/wp-content/uploads/updater/banner-772x250.jpg",
+		"high" : "https://rudrastyh.com/wp-content/uploads/updater/banner-1544x500.jpg"
+	}
+}
