@@ -1,0 +1,62 @@
+/* The grid: Four equal columns that floats next to each other */
+.column-free-stock {
+  float: left;
+  width: 23%;
+  margin: 5px;
+  height: 150px;
+}
+
+/* Style the images inside the grid */
+.column-free-stock img {
+  opacity: 0.8; 
+  cursor: pointer; 
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  max-height: 150px;
+  max-width: 100%;
+}
+
+.column-free-stock img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row-free-stock:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-free-stock{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.field-free-stock{
+  width:100%;
+}
+.load-button{
+  margin-left: 40%
+}
+.list-pixbay{
+  width:100%;
+}
+.list-pixbay .image-list{
+  width:75%;
+  float:left;
+}
+.list-pixbay .detail{
+  width:23%;
+  float:right;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.active img {
+  opacity: 1;
+  border: 3px solid #4f94d4;
+}
+
+#free-stock-image-list {
+  max-height: 500px;
+  overflow: auto;
+}

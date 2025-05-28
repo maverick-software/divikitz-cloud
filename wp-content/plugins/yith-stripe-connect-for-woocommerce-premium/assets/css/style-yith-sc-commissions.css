@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'WooCommerce';
+    src: url('../../../woocommerce/assets/fonts/WooCommerce.eot');
+    src: url('../../../woocommerce/assets/fonts/WooCommerce.eot?#iefix') format('embedded-opentype'),
+    url('../../../woocommerce/assets/fonts/WooCommerce.woff') format('woff'),
+    url('../../../woocommerce/assets/fonts/WooCommerce.ttf') format('truetype'),
+    url('../../../woocommerce/assets/fonts/WooCommerce.svg#WooCommerce') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#tiptip_content{
+    max-width: none;
+}
+
+#yith_wcsc_filter{
+    float: left;
+    width: 100%;
+}
+
+.yith_wcsc_user_current_status{
+    float: left;
+    margin-bottom: 1em;
+}
+.yith_wcsc_user_current_status>img{
+    position: relative;
+    top: 5px;
+}
+#yith_product_user_search, .date_from_form, .date_to_form, .date_to_text {
+    float: left;
+}
+.date_from_form:before {
+    vertical-align: inherit;
+    font-family: Dashicons;
+    font-size: 1.2em;
+    content: "\f508";
+    position: relative;
+    float: left;
+    top: 5px;
+}
+.date_to_text{
+    position: relative;
+    top: 5px;
+    margin-left: 0.3em;
+}
+#yith_wcsc_date_from, #yith_wcsc_date_to {
+    vertical-align: inherit;
+    line-height: 32px;
+    height: 32px;
+    max-width: 148px;
+    margin-left: 0.2em;
+}
+/*
+#yith_wcsc_day_month_year {
+    vertical-align: middle;
+}
+.day_form {
+    margin-left: 0.2em;
+}
+.month_year_form {
+    max-width: 148px;
+    margin-left: 0.2em;
+}*/
+
+#yith_wcsc_filter_options {
+    float: left;
+    padding-top: 0.2em;
+    margin-left: 0.4em;
+
+}
+
+#yith_wcsc_filter_options > button {
+    vertical-align: inherit;
+    max-width: 125px;
+    font-size: 0.75em;
+    padding: 5px 10px 5px;
+}
+
+.yith_wcsc_admin > button {
+    padding: 0px 10px 5px !important;
+}
+
+.clear_filter{
+    background: none;
+    color: black;
+    border: 1px solid;
+}
+#ui-datepicker-div {
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0.5em;
+}
+
+.wc-product-search {
+    max-height: 32px;
+}
+#yith_wcsc_export_panel{
+    float: right;
+    margin-top: 0.75em;
+}
+.commissions_pagination, .commissions_pagination>div {
+    float: right;
+}
+.sorting-asc:after{
+    content: "\f142";
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 0;
+    top: 4px;
+    line-height: 10px;
+    position: relative;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none!important;
+    color: #444;
+}
+.yith_wcsc_table_commissions {
+    font-size: 0.80em;
+}
+
+.yith_wcsc_table_commissions tr:nth-child(2n) {
+    background-color: #f5f5f5;
+}
+.view-info{
+    overflow: hidden;
+    cursor: pointer;
+}
+.blockUI.blockOverlay::before {
+    height: 0.4em;
+    width: 0.4em;
+    margin-left: -.17em;
+    margin-top: -.17em;
+}
+.commission_title{
+    float: left;
+    width: 90%;
+}
+.integration_commission_icon{
+    float: left;
+    position: relative;
+    margin-right: 0.5em;
+    top: 7px;
+}
+.commission_status{
+    display: inline-flex;
+    padding: 0 1em;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin: -.25em 0;
+    cursor: inherit!important;
+    white-space: nowrap;
+}
+.commission_status.commission_status_sc_transfer_success{
+    background: #c8d7e1;
+    color: #2e4453;
+}
+.commission_status.commission_status_sc_transfer_error{
+    background: #eba3a3;
+    color: #761919;
+ }
+.commission_status.commission_status_sc_transfer_processing{
+    background: #c6e1c6;
+    color: #5b841b;
+}
+
+/*** Blackbone modal ***/
+
+.wc-backbone-modal * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wc-backbone-modal .wc-backbone-modal-content {
+    position: fixed;
+    background: #fff;
+    z-index: 100000;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: unset;
+    min-width: 500px;
+    max-width: 650px;
+}
+
+.wc-backbone-modal .wc-backbone-modal-content article {
+    overflow: auto
+}
+
+.wc-backbone-modal.wc-backbone-modal-shipping-method-settings .wc-backbone-modal-content {
+    width: 75%;
+}
+
+.wc-backbone-modal .select2-container {
+    width: 100%!important
+}
+
+.wc-backbone-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: #000;
+    opacity: .7;
+    z-index: 99900
+}
+
+.wc-backbone-modal-main {
+    padding-bottom: 30px
+}
+
+.wc-backbone-modal-main article,
+.wc-backbone-modal-main header {
+    display: block;
+    position: relative
+}
+
+.wc-backbone-modal-main .wc-backbone-modal-header {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background: #fcfcfc;
+    padding: 1em 1.5em;
+    border-bottom: 1px solid #ddd
+}
+
+.wc-backbone-modal-main .wc-backbone-modal-header h1 {
+    float: left;
+    margin: 0px 15px 0px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5em
+
+}
+.frontend > h1 {
+     position: absolute;
+     top: -5px;
+ }
+
+.wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link {
+    cursor: pointer;
+    color: #777;
+    height: 54px;
+    width: 54px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border: 0;
+    border-left: 1px solid #ddd;
+    background-color: transparent;
+    -webkit-transition: color .1s ease-in-out, background .1s ease-in-out;
+    transition: color .1s ease-in-out, background .1s ease-in-out
+}
+
+.wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link::before {
+    font: normal 22px/50px dashicons!important;
+    color: #666;
+    display: block;
+    content: '\f335';
+    font-weight: 300
+}
+
+.wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link:focus,
+.wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link:hover {
+    background: #ddd;
+    border-color: #ccc;
+    color: #000
+}
+
+.wc-backbone-modal-main .wc-backbone-modal-header .modal-close-link:focus {
+    outline: 0
+}
+
+.wc-backbone-modal-main article {
+    padding: 0;
+}
+
+.wc-backbone-modal-main article p {
+    margin: 1.5em 0
+}
+
+.wc-backbone-modal-main article p:first-child {
+    margin-top: 0
+}
+
+.wc-backbone-modal-main article p:last-child {
+    margin-bottom: 0
+}
+
+.wc-backbone-modal-main article .pagination {
+    padding: 10px 0 0;
+    text-align: center
+}
+
+.wc-backbone-modal-main footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 1em 1.5em;
+    background: #fcfcfc;
+    border-top: 1px solid #dfdfdf;
+    -webkit-box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, .1);
+    box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, .1)
+}
+
+.wc-backbone-modal-main footer .inner {
+    float: right;
+    line-height: 23px;
+    width: 100%;
+}
+
+.wc-backbone-modal-main footer .inner .button {
+    margin-bottom: 0;
+    float: right;
+}
+
+.commission_status_mark{
+    float: right;
+    margin-right: 54px;
+}
+
+.status_details {
+    float: left;
+    width: 50%;
+    padding: 0em 1.5em;
+}
+
+.order_details {
+    float: left;
+    width: 50%;
+    padding: 0em 1.5em;
+}
+.affiliates_commission_details, .multivendor_commission_details{
+    float: left;
+    width: 50%;
+    padding: 0em 1.5em;
+}
+.commission_details{
+    float: left;
+    width: 100%;
+    margin-top: 1.5em;
+}
+table{
+margin: auto;
+}
+.commission_view_table{
+    float: left;
+    width: 100%;
+}
+
+.frontend th, .frontend td  {
+    padding: 1.5em;
+}
+
+.commission_view_table thead th{
+    border-bottom: 1px solid #ccc;
+}
+
+.view_table_type_column, .view_table_product_column{
+    padding: 1em 0em 1em 1em !important;
+    text-align: left;
+}
+
+.view_table_rate_column,.view_table_quantity_column, .view_table_commission_column, .view_table_cost_column{
+    padding: 1em 1.5em;
+    text-align: right;
+}
+
+.commission_item {
+    margin-top: 0.7em;
+}
+
+.commission_receiver_status_label {
+    position: relative;
+    bottom: 0.5em;
+}
+.commission_view_actions{
+    float: left;
+}

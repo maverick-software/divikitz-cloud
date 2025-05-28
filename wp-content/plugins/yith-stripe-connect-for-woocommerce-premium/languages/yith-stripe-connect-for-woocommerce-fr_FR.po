@@ -1,0 +1,1726 @@
+# Translation of YITH Stripe Connect for WooCommerce in French (France)
+# This file is distributed under the same license as the YITH Stripe Connect for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Stripe Connect for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-stripe-"
+"connect-for-woocommerce.premium\n"
+"POT-Creation-Date: 2023-06-06 11:22:33+00:00\n"
+"PO-Revision-Date: 2022-10-03 20:20:30+0000\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/class.yith-stripe-connect-admin.php:196
+#: includes/class.yith-stripe-connect-admin.php:197
+#: includes/class.yith-stripe-connect.php:530
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/class.yith-stripe-connect-admin.php:345
+msgid "Stripe Connect Receivers"
+msgstr "Stripe Connect Récepteurs"
+
+#: includes/class.yith-stripe-connect-admin.php:490
+msgid "Test"
+msgstr "Test"
+
+#: includes/class.yith-stripe-connect-admin.php:490
+msgid "Live"
+msgstr "Production"
+
+#: includes/class.yith-stripe-connect-admin.php:492
+msgid "Test Client ID"
+msgstr "ID client de test"
+
+#: includes/class.yith-stripe-connect-admin.php:493
+msgid "Test Public Key"
+msgstr "Clé publique de test"
+
+#: includes/class.yith-stripe-connect-admin.php:494
+msgid "Test Secret Key"
+msgstr "Clé secrète de test"
+
+#: includes/class.yith-stripe-connect-admin.php:496
+msgid "Live Client ID"
+msgstr "ID client production"
+
+#: includes/class.yith-stripe-connect-admin.php:497
+msgid "Live Public Key"
+msgstr "Clé publique production"
+
+#: includes/class.yith-stripe-connect-admin.php:498
+msgid "Live Secret Key"
+msgstr "Clé secrète production"
+
+#. translators: 1. Stripe Connect for WooCommerce. 2. Mode (Live/Test). 3.
+#. Missing field.
+#: includes/class.yith-stripe-connect-admin.php:510
+msgid "<b>%1$s -</b> you have enable %2$s mode. This field is required: %3$s"
+msgstr ""
+"<b>%1$s -</b> vous avez activé le mode %2$s. Ce champ est requis : %3$s"
+
+#. translators: 1. YITH Stripe Connect for WooCommerce. 2. Webhook uri 3. Url
+#. to Stripe Dashboard.
+#: includes/class.yith-stripe-connect-admin.php:536
+msgid ""
+"<b>%1$s -</b> Define the following <b>Webhook</b> <code>%2$s</code> in <a "
+"href=\"%3$s\" target=\"_blank\">Stripe Dashboard > Developers > Webhooks</a> "
+"(Endpoints receiving events from Connect applications) section."
+msgstr ""
+"<b>%1$s -</b> Définissez le <b>Webhook</b> <code>%2$s</code> suivant dans <a "
+"href=\"%3$s\" target=\"_blank\">Tableau de bord Stripe > Développeurs > "
+"Webhooks</a> (points de terminaison recevant des événements des applications "
+"Connect)."
+
+#: includes/class.yith-stripe-connect-admin.php:540
+#: includes/class.yith-stripe-connect-admin.php:555
+msgid "Done"
+msgstr "Fait"
+
+#. translators: 1. YITH Stripe Connect for WooCommerce. 2. Redirect uri 3. Url
+#. to Stripe Dashboard.
+#: includes/class.yith-stripe-connect-admin.php:551
+msgid ""
+"<b>%1$s -</b> Define the following <b>Redirect URI</b> <code>%2$s</code> in "
+"<a href=\"%3$s\" target=\"_blank\">Stripe Dashboard > Settings > Connect > "
+"Integration ></a> <b>Redirects</b> section."
+msgstr ""
+"<b>%1$s -</b> Définissez l'<b>URI de redirection</b> <code>%2$s</code> "
+"suivant dans <a href=\"%3$s\" target=\"_blank\"> Tableau de bord Stripe > "
+"Paramètres > Connect > Intégration ></a> <b>Redirections</b>."
+
+#: includes/class.yith-stripe-connect-commissions.php:100
+#, fuzzy
+msgid ""
+"There are still days left before the automatic payment. Do you want to do it"
+"\r\n"
+"\t\t\t\t\tnow?"
+msgstr ""
+"Il reste encore des jours avant le paiement automatique. Voulez-vous le "
+"faire dès à présent ?"
+
+#: includes/class.yith-stripe-connect-commissions.php:104
+msgid "Users have disconnected their Stripe Account from your website!"
+msgstr "Les utilisateurs ont déconnecté leur compte Stripe de votre site Web."
+
+#: includes/class.yith-stripe-connect-commissions.php:439
+msgid "fixed commission"
+msgstr "commission fixe"
+
+#. translators: 1. Commission amount 2. Commission type 3. Receiver email.
+#: includes/class.yith-stripe-connect-commissions.php:443
+msgid "A commission with %1$s (from %2$s) has been created for %3$s"
+msgstr "Une commission avec %1$s (de %2$s) vient d'être créée pour %3$s"
+
+#: includes/class.yith-stripe-connect-commissions.php:866
+msgid "The current commissions have been paid"
+msgstr "Les commissions en cours ont été payées"
+
+#: includes/class.yith-stripe-connect-commissions.php:881
+#: includes/functions.yith-wcsc.php:342
+msgid "The user's Stripe account has been disconnected"
+msgstr "Le compte Stripe de l'utilisateur a été déconnecté"
+
+#: includes/class.yith-stripe-connect-commissions.php:932
+msgid ""
+"Can't transfer the commissions %s for %s. Please take a look at the log file "
+"for more details."
+msgstr ""
+"Impossible de transférer les commissions %s pour %s. Merci de regarder sur "
+"le fichier de log pour plus de détails."
+
+#: includes/class.yith-stripe-connect-commissions.php:936
+msgid "Stripe Connect message: "
+msgstr "Message de Stripe Connect: "
+
+#: includes/class.yith-stripe-connect-commissions.php:951
+#, fuzzy
+msgid ""
+"Commissions %s for %s have been transferred correctly. Transfer ID: \"%s\". "
+"Destination Payment:\r\n"
+"\t\t\t\t\t\"%s\"."
+msgstr ""
+"Les commission %s pour %s ont bien été transférées correctement. ID de "
+"transfert \"%s\". Destination du paiement : \"%s\"."
+
+#: includes/class.yith-stripe-connect-commissions.php:1166
+msgid "Couldn't create commission because it exceeded the order total"
+msgstr ""
+"Impossible de créer une commission, car elle a dépassée le total de la "
+"commande"
+
+#: includes/class.yith-stripe-connect-commissions.php:1182
+msgid "N/A; This commission was processed using Alternative Payment Flow"
+msgstr ""
+"N / A; Cette commission a été traitée à l'aide du flux de paiement alternatif"
+
+#: includes/class.yith-stripe-connect-commissions.php:1435
+#: includes/class.yith-stripe-connect-commissions.php:1502
+#: includes/functions.yith-wcsc.php:386 templates/admin/receivers-panel.php:72
+#: templates/common/commission-pdf.php:124
+#: templates/common/commission-view.php:166
+#: templates/common/commissions-panel.php:214
+msgid "Commission"
+msgstr "Commission"
+
+#: includes/class.yith-stripe-connect-commissions.php:1436
+#: includes/class.yith-stripe-connect-commissions.php:1503
+#: includes/functions.yith-wcsc.php:387 templates/admin/receivers-panel.php:74
+#: templates/common/commission-pdf.php:119
+#: templates/common/commission-view.php:161
+#: templates/common/commissions-panel.php:217
+msgid "Product"
+msgstr "Produit"
+
+#: includes/class.yith-stripe-connect-commissions.php:1437
+#: includes/class.yith-stripe-connect-commissions.php:1504
+#: includes/functions.yith-wcsc.php:388
+#: templates/common/commissions-panel.php:219
+msgid "Total"
+msgstr "Total"
+
+#: includes/class.yith-stripe-connect-commissions.php:1438
+#: includes/class.yith-stripe-connect-commissions.php:1505
+#: includes/functions.yith-wcsc.php:389
+msgid "Details"
+msgstr "Details"
+
+#: includes/class.yith-stripe-connect-commissions.php:1439
+#: includes/class.yith-stripe-connect-commissions.php:1506
+#: includes/functions.yith-wcsc.php:390
+#: templates/common/commissions-panel.php:222
+msgid "Order"
+msgstr "Commande"
+
+#: includes/class.yith-stripe-connect-commissions.php:1440
+#: includes/class.yith-stripe-connect-commissions.php:1507
+#: includes/functions.yith-wcsc.php:391
+msgid "Purchased date"
+msgstr "Date d'achat"
+
+#: includes/class.yith-stripe-connect-commissions.php:1441
+#: includes/class.yith-stripe-connect-commissions.php:1508
+#: includes/functions.yith-wcsc.php:392
+#: templates/common/commissions-panel.php:227
+msgid "Status"
+msgstr "Status"
+
+#: includes/class.yith-stripe-connect-commissions.php:1442
+#: includes/class.yith-stripe-connect-commissions.php:1509
+msgid "Receiver status"
+msgstr "Statut du récepteur"
+
+#: includes/class.yith-stripe-connect-commissions.php:1443
+#: includes/class.yith-stripe-connect-commissions.php:1510
+#: includes/functions.yith-wcsc.php:394
+msgid "Notes"
+msgstr "Notes"
+
+#: includes/class.yith-stripe-connect-frontend.php:133
+#: includes/class.yith-stripe-connect-frontend.php:207
+msgid "Disconnect from Stripe"
+msgstr "Se déconnecter de Stripe"
+
+#: includes/class.yith-stripe-connect-frontend.php:141
+#: includes/class.yith-stripe-connect-frontend.php:201
+msgid "Connect with Stripe"
+msgstr "Se connecter avec Stripe"
+
+#: includes/class.yith-stripe-connect-privacy.php:46
+msgid "While you visit our site, we’ll track:"
+msgstr "Lorsque vous visitez notre site, nous enregistrons:"
+
+#: includes/class.yith-stripe-connect-privacy.php:48
+msgid ""
+"User unique identifier: this ID is used to uniquely identify the user on "
+"Stripe platform and create charges/refunds."
+msgstr ""
+"Identifiant unique de l'utilisateur: cet identifiant est utilisé pour "
+"identifier de manière unique l'utilisateur sur la plateforme Stripe et créer "
+"des frais / remboursements."
+
+#: includes/class.yith-stripe-connect-privacy.php:52
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Les membres de notre équipe ont accès aux informations que vous nous "
+"fournissez. Par exemple, les administrateurs et les responsables de magasin "
+"peuvent accéder à:"
+
+#: includes/class.yith-stripe-connect-privacy.php:54
+msgid "All data returned by Stripe Connect, including users’ details."
+msgstr ""
+"Toutes les données retournées par Stripe Connect, y compris les détails des "
+"utilisateurs."
+
+#: includes/class.yith-stripe-connect-privacy.php:56
+msgid ""
+"Our team members have access to this information to track users’ identity on "
+"Stripe Connect’s server."
+msgstr ""
+"Les membres de notre équipe ont accès à ces informations pour suivre "
+"l'identité des utilisateurs sur le serveur de Stripe Connect."
+
+#: includes/class.yith-stripe-connect-privacy.php:59
+msgid ""
+"We accept payments through Stripe Connect. When processing payments, some of "
+"your data will be passed to Stripe Connect, including information required "
+"to process or support the payment, such as the purchase total and billing "
+"information."
+msgstr ""
+"Nous acceptons les paiements via Stripe Connect. Lors du traitement des "
+"paiements, certaines de vos données seront transmises à Stripe Connect, y "
+"compris les informations requises pour traiter ou prendre en charge le "
+"paiement, telles que le total de l'achat et les informations de facturation."
+
+#: includes/class.yith-stripe-connect-privacy.php:60
+msgid ""
+"Please see the <a href=\"https://stripe.com/us/privacy/\">Stripe Worldwide "
+"Privacy Policy</a> for more details."
+msgstr ""
+"Merci de consulter <a href=\"https://stripe.com/us/privacy/\">Stripe "
+"Worldwide Privacy Policy</a> pour plus de détails."
+
+#: includes/class.yith-stripe-connect-privacy.php:87
+msgid "Stripe Connect data"
+msgstr "Donnée Stripe Connect"
+
+#: includes/class.yith-stripe-connect-privacy.php:119
+msgid "Removed Stripe Connect's customer data."
+msgstr "Supprimer les données clients Stripe Connect"
+
+#: includes/class.yith-stripe-connect-receivers.php:306
+msgid ""
+"A problem occurred while trying to disconnect from Stripe Connect server"
+msgstr ""
+"Un problème est survenu lors de la tentative de déconnexion du serveur "
+"Stripe Connect"
+
+#: includes/class.yith-stripe-connect-receivers.php:322
+msgid "A problem occurred while trying to disconnect from the web page"
+msgstr ""
+"Un problème est survenu lors de la tentative de déconnexion de la page Web"
+
+#: includes/class.yith-stripe-connect-receivers.php:329
+msgid "Your account has been disconnected"
+msgstr "Votre compte a été déconnecté"
+
+#. translators: 1. User display name.
+#: includes/class.yith-stripe-connect-wc-api.php:104
+msgid ""
+"account.application.deauthorized Stripe Webhook event is disconnect for %s, "
+"but it could not be removed from the server"
+msgstr ""
+"account.application.deauthorized L'événement Stripe Webhook est déconnecté "
+"pour %s, mais il n'a pas pu être supprimé du serveur"
+
+#. translators: 1. User display name.
+#: includes/class.yith-stripe-connect-wc-api.php:113
+msgid ""
+"account.application.deauthorized Stripe Webhook event is disconnect for %s"
+msgstr "account.application.deauthorized Stripe Webhook est déconnecté pour %s"
+
+#: includes/class.yith-stripe-connect-wc-api.php:181
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:304
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:315
+msgid "Source payment failed"
+msgstr "Le paiement source a échoué"
+
+#: includes/class.yith-stripe-connect-wc-api.php:210
+msgid "Source payment cancelled"
+msgstr "Paiement à la source annulé"
+
+#: includes/class.yith-stripe-connect.php:420
+msgid "There was an error during payment; please, try again later"
+msgstr ""
+"Il y a eu une erreur pendant le paiement, merci de recommencer plus tard"
+
+#: includes/class.yith-stripe-connect.php:449
+msgid "Error while initializing gateway"
+msgstr "Erreur lors de l'initialisation de la passerelle"
+
+#: includes/class.yith-stripe-connect.php:456
+msgid "Missing order ID for payment confirmation"
+msgstr "ID de commande manquant pour la confirmation de paiement"
+
+#. translators: 1. Specific error message.
+#: includes/class.yith-stripe-connect.php:477
+msgid "Payment verification error: %s"
+msgstr "Erreur de vérification de paiement: %s"
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:52
+msgid "Please, update affiliates to latest version."
+msgstr "Veuillez mettre à jour les affiliés vers la dernière version."
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:88
+msgid "Please take a look at Stripe Connect log file for more details."
+msgstr ""
+"Regarder le fichier journal (log) de Stripe Connect pour plus de détails."
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:91
+msgid "Affiliates' payment: "
+msgstr "Paiement des affiliés: "
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:100
+msgid "Payment correctly issued to Stripe Connect"
+msgstr "Paiement correctement émis à Stripe Connect"
+
+#. Translators: 1. User display name.
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:146
+msgid "The destination account is not connected to any Stripe account."
+msgstr "Le compte de destination n'est connecté à aucun compte Stripe."
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:154
+msgid "Payment sent"
+msgstr "Paiement envoyé"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:39
+msgid "Commission created for Stripe disconnected account"
+msgstr "Commission créée pour le compte Stripe déconnecté"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:40
+#, fuzzy
+msgid ""
+"This email is sent to customers each time a new commission is created for "
+"users who have disconnected their\r\n"
+"\t\t\tStripe account"
+msgstr ""
+"Cet courriel est envoyé aux clients chaque fois qu'une nouvelle commission "
+"est créée pour les utilisateurs qui ont déconnecté leur\n"
+"\n"
+"     compte Stripe"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:43
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:44
+msgid ""
+"New commission has been created, but needs your Stripe Account to be "
+"connected"
+msgstr ""
+"Une nouvelle commission vient d'être créée, mais requiert que votre compte "
+"Stripe soit connecté"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:145
+msgid "Recipient(s)"
+msgstr "Récepteur(s)"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:147
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Entrez les destinataires (séparés par des virgules) pour cet e-mail. La "
+"valeur par défaut est <code>%s</code>."
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:152
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:310
+msgid "Subject"
+msgstr "Sujet"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:154
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:312
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Cela contrôle la ligne d'objet de l'e-mail. Laissez vide pour utiliser "
+"l'objet par défaut: <code>%s</code>."
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:159
+msgid "Email heading"
+msgstr "En tête de l'email"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:161
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:319
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Cela contrôle l'en-tête principal contenu dans la notification par courrier "
+"électronique. Laissez vide pour utiliser l'en-tête par défaut: <code>%s</"
+"code>."
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:166
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:352
+msgid "Email type"
+msgstr "Type d'email"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:168
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:354
+msgid "Choose which format of email to send."
+msgstr "Choisir quel format d'email vous souhaitez envoyer."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:50
+msgid "Payment confirmation email"
+msgstr "Email de confirmation du paiement"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:51
+msgid ""
+"This email is sent to customers that have an off session payment pending "
+"confirmation"
+msgstr ""
+"Cet e-mail est envoyé aux clients qui ont un paiement hors session en "
+"attente de confirmation"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:54
+msgid "Confirm your {order_total} payment"
+msgstr "Confirmer votre paiement {order_total_plain}"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:55
+msgid "Confirm your {order_total_plain} payment"
+msgstr "Confirmez votre paiement {order_total_plain}"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:304
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:306
+msgid "Enable this email notification"
+msgstr "Activer la notification de cet email"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:317
+msgid "Email Heading"
+msgstr "En tête de l'email"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:324
+msgid "Opening text HTML"
+msgstr "Texte d'ouverture HTML"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:326
+msgid ""
+"Enter the text that you want to show before CTA button. You can use the "
+"following placeholders: <code>{site_title}, {site_url}, {card_type}, "
+"{pay_renew_url}, {card_last4}, {order_id}, {order_total}, {billing_email}, "
+"{contact_email}, {opening_text}, {closing_text}</code>."
+msgstr ""
+"Entrez le texte que vous souhaitez afficher avant le bouton CTA. Vous pouvez "
+"utiliser les espaces réservés suivants : <code>{site_title}, {site_url}, "
+"{card_type}, {pay_renew_url}, {card_last4}, {order_id}, {order_total}, "
+"{billing_email}, {contact_email}, {opening_text}, {closing_text}</code>."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:331
+msgid "Opening text plain"
+msgstr "Texte d'ouverture brut"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:333
+msgid ""
+"Enter the text that you want to show before CTA button (plain text version). "
+"You can use the following placeholders: <code>{site_title}, {site_url}, "
+"{card_type}, {pay_renew_url}, {card_last4}, {order_id}, {order_total}, "
+"{billing_email}, {contact_email}, {opening_text}, {closing_text}</code>."
+msgstr ""
+"Saisissez le texte que vous souhaitez afficher avant le bouton CTA (version "
+"texte brut). Vous pouvez utiliser les espaces réservés suivants : "
+"<code>{site_title}, {site_url}, {card_type}, {pay_renew_url}, {card_last4}, "
+"{order_id}, {order_total}, {billing_email}, {contact_email}, {opening_text}, "
+"{closing_text}</code>."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:338
+msgid "Closing text HTML"
+msgstr "Texte de clôture HTML"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:340
+msgid ""
+"Enter the text that you want to show after order summary table. You can use "
+"the following placeholders: <code>{site_title}, {site_url}, {card_type}, "
+"{pay_renew_url}, {card_last4}, {order_id}, {order_total}, {billing_email}, "
+"{contact_email}, {opening_text}, {closing_text}</code>."
+msgstr ""
+"Saisissez le texte que vous souhaitez afficher après le tableau "
+"récapitulatif de la commande. Vous pouvez utiliser les espaces réservés "
+"suivants : <code>{site_title}, {site_url}, {card_type}, {pay_renew_url}, "
+"{card_last4}, {order_id}, {order_total}, {billing_email}, {contact_email}, "
+"{opening_text}, {closing_text}</code>."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:345
+msgid "Closing text plain"
+msgstr "Texte de clôture clair"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:347
+msgid ""
+"Enter the text that you want to show after order summary table (plain text "
+"version). You can use the following placeholders: <code>{site_title}, "
+"{site_url}, {card_type}, {pay_renew_url}, {card_last4}, {order_id}, "
+"{order_total}, {billing_email}, {contact_email}, {opening_text}, "
+"{closing_text}</code>."
+msgstr ""
+"Saisissez le texte que vous souhaitez afficher après le tableau "
+"récapitulatif de la commande (version texte brut).Vous pouvez utiliser les "
+"espaces réservés suivants : <code>{site_title}, {site_url}, {card_type}, "
+"{pay_renew_url}, {card_last4}, {order_id}, {order_total}, {billing_email}, "
+"{contact_email}, {opening_text}, {closing_text}</code>."
+
+#: includes/functions.yith-wcsc.php:105
+msgid "Transfer ID: %s"
+msgstr "ID de transfert: %s"
+
+#: includes/functions.yith-wcsc.php:108
+msgid "Destination payment: %s"
+msgstr "Destination du paiement: %s"
+
+#: includes/functions.yith-wcsc.php:111
+msgid "Transfer error: %s"
+msgstr "Erreur de transfert: %s"
+
+#: includes/functions.yith-wcsc.php:137
+msgid "Commissions paid with YITH WooCommerce Affiliates Plugin"
+msgstr "Commissions payées avec YITH WooCommerce Affiliates Plugin"
+
+#: includes/functions.yith-wcsc.php:160
+msgid "Fixed commission"
+msgstr "Commission fixé"
+
+#: includes/functions.yith-wcsc.php:162
+msgid "each one"
+msgstr "cahcun"
+
+#: includes/functions.yith-wcsc.php:327
+msgid "Pending..."
+msgstr "En attente…"
+
+#: includes/functions.yith-wcsc.php:327
+msgid "Pending payment"
+msgstr "Paiement en attente"
+
+#: includes/functions.yith-wcsc.php:342 templates/admin/receiver-row.php:149
+#: templates/common/commission-row.php:114
+msgid "Disconnected"
+msgstr "Déconnecté"
+
+#: includes/functions.yith-wcsc.php:348
+msgid "days left..."
+msgstr "jours restants…"
+
+#: includes/functions.yith-wcsc.php:348
+msgid "days left to proceed with payment..."
+msgstr "jours restants pour effectuer le paiement…"
+
+#: includes/functions.yith-wcsc.php:354
+msgid "Processing..."
+msgstr "En traitement…"
+
+#: includes/functions.yith-wcsc.php:354
+msgid "Processing transfer"
+msgstr "Traitement du transfert"
+
+#: includes/functions.yith-wcsc.php:359
+msgid "Transfer error..."
+msgstr "Erreur de transfert…"
+
+#: includes/functions.yith-wcsc.php:359
+msgid "Error processing transfer"
+msgstr "Erreur lors du traitement du transfert"
+
+#: includes/functions.yith-wcsc.php:364
+msgid "Paid"
+msgstr "Payé"
+
+#: includes/functions.yith-wcsc.php:364
+msgid "Commission paid"
+msgstr "Commission versée"
+
+#: includes/functions.yith-wcsc.php:393 templates/admin/receivers-panel.php:79
+#: templates/common/commissions-panel.php:230
+msgid "Receiver Status"
+msgstr "Statut du récepteur"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:89
+msgid "Stripe Connect Gateway"
+msgstr "Passerelle Stripe Connect"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:171
+msgid "A valid Name on Card is required."
+msgstr "Un nom valide du porteur de la carte est requis."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:172
+msgid "The credit card number seems to be invalid."
+msgstr "Le numéro de la carte de crédit semble invalide."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:173
+msgid "The CVC number seems to be invalid."
+msgstr "Le cryptogramme visuel ne semble pas valide."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:174
+msgid "The expiration date seems to be invalid."
+msgstr "La date d'expiration ne semble pas valide."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:175
+msgid "You have to add extra information to checkout."
+msgstr "Vous devez renseigner des informations supplémentaires au paiement."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:273
+#: includes/gateways/class.yith-stripe-connect-gateway.php:297
+#: includes/gateways/class.yith-stripe-connect-gateway.php:426
+#: includes/gateways/class.yith-stripe-connect-gateway.php:431
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:610
+msgid "Sorry, There was an error while processing payment; please, try again"
+msgstr ""
+"Désolé, il y a eu une erreur lorsque nous avons procédé au paiement, merci "
+"de recommencer"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:293
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1468
+msgid ""
+"Please, validate your payment method before proceeding further; in order to "
+"do this, refresh the page and proceed at checkout as usual"
+msgstr ""
+"Veuillez valider votre mode de paiement avant de continuer ; pour ce faire, "
+"actualisez la page et procédez au paiement comme d'habitude"
+
+#. translators: 1. Blog name. 2. Order number.
+#. translators: 1. Blog name 2. Order number.
+#. translators: 1. Blog name. 2. Order number.
+#. translators: 1. Blog name. 2. Order number.
+#: includes/gateways/class.yith-stripe-connect-gateway.php:321
+#: includes/gateways/class.yith-stripe-connect-gateway.php:673
+#: includes/gateways/class.yith-stripe-connect-gateway.php:822
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:351
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:560
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:753
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Commande %2$s"
+
+#. translators: 1. Stripe charge id.
+#. translators: 1. Charge id.
+#: includes/gateways/class.yith-stripe-connect-gateway.php:388
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:395
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:656
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:844
+msgid "Stripe Connect payment approved (ID: %s)"
+msgstr "Paiement Stripe Connect validé (ID: %s)"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:459
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:265
+msgid ""
+"No payment method could be applied to this payment; please try again "
+"selecting another payment method"
+msgstr ""
+"Aucune méthode de paiement ne peut être appliquée pour ce paiement, merci de "
+"recommencer en sélectionnant un autre mode de paiement"
+
+#. translators: 1. Cart hash.
+#: includes/gateways/class.yith-stripe-connect-gateway.php:685
+#: includes/gateways/class.yith-stripe-connect-gateway.php:833
+msgid "Payment intent for cart %s"
+msgstr "Intention de paiement pour la carte %s"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1037
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:170
+msgid "There was an error with payment process; please try again later"
+msgstr ""
+"Il y a eu une erreur avec le processeur de paiement, merci de recommencer "
+"ultérieurement"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1047
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:180
+msgid "You must login before using a registered card"
+msgstr "Vous devez être connecter avant d'utiliser une carte enregistrée"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1053
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1074
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:186
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:206
+msgid ""
+"The card you're trying to use isn't valid; please, try again with another "
+"payment method"
+msgstr ""
+"La carte que vous tentez d'utiliser n'est pas valide, merci de recommencer "
+"avec un autre mode de paiement"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1207
+msgid "Guest"
+msgstr "Invité"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1370
+msgid "Credit card info not valid"
+msgstr "Informations de carte de crédit non valides"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1456
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1470
+msgid ""
+"Sorry, There was an error while registering payment method; please, try again"
+msgstr ""
+"Désolé, il y a eu une erreur lorsque nous avons enregistré votre méthode de "
+"paiement, merci de recommencer"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1553
+msgid "Card code"
+msgstr "Code de la carte"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1554
+msgid "CVC"
+msgstr "CVC"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1559
+msgid "Card number"
+msgstr "Numéro de carte"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1563
+msgid "Expiry (MM/YY)"
+msgstr "Expiration (MM/YY)"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1564
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1576
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1577
+msgid "Name on Card"
+msgstr "Nom du porteur de la carte"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:86
+msgid "Multibanco"
+msgstr "Multibanco"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:161
+msgid "Unable to find order"
+msgstr "Impossible de trouver la commande"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:215
+msgid "An error occurred while processing your payment, please try again later"
+msgstr ""
+"Une erreur est survenue lorsque nous avons procédé à votre paiement, merci "
+"de recommencer plus tard"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:243
+msgid "Awaiting for MultiBanco payment confirmation"
+msgstr "En attente de confirmation de paiement MultiBanco"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:308
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:319
+msgid ""
+"Payment failed because MultiBanco transaction wasn't completed correctly; "
+"please, try again"
+msgstr ""
+"Paiement échoué car la transaction MultiBanco n'a pas été complétée "
+"correctement, merci de recommencer"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:428
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:451
+msgid "MULTIBANCO TRANSACTIONS DETAILS:"
+msgstr "DÉTAILS DE TRANSACTION MULTIBANCO:"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:430
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:452
+msgid "Amount:"
+msgstr "Montant:"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:432
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:454
+msgid "Entity:"
+msgstr "Entité:"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:434
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:456
+msgid "Reference:"
+msgstr "Référence:"
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:230
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:235
+msgid "Sorry, there was an error while processing payment; please, try again"
+msgstr ""
+"Désolé, il y a eu une erreur lors du paiement; merci d'essayer à nouveau"
+
+#. translators: 1. Subscription id. 2. Order id. 3. Charge id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:413
+msgid ""
+"Stripe Connect processed successfully. Subscription %1$s. Order %2$s. "
+"(Transaction ID: %3$s)"
+msgstr ""
+"Stripe Connect s'est déroulé avec succès. Abonnement %1$s. Commande %2$s (ID "
+"de transaction: %3$s)"
+
+#. translators: 1. Order id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:455
+msgid "Sorry, any subscription is found for this order: %s"
+msgstr "Désolé, aucun abonnement n'a été trouvé pour cette commande: %s"
+
+#. translators: 1. Order number.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:474
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:704
+msgid "Failed payment for order #%s"
+msgstr "Paiement échoué pour la commande #%s"
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:484
+msgid ""
+"Sorry, the minimum order total allowed to use this payment method is 0.50."
+msgstr ""
+"Désolé, le montant total minimum de la commande autorisé pour utiliser ce "
+"mode de paiement est 0.50."
+
+#. translators: 1. Renew order id. 2. Subscription id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:510
+msgid ""
+"Sorry, couldn't find any user registered to pay the order renew %1$s for "
+"subscription %2$s ."
+msgstr ""
+"Désolé, aucun utilisateur enregistré pour payer la commande de "
+"renouvellement %1$s pour l'abonnement %2$s."
+
+#. translators: 1. Renew order id. 2. Subscription id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:527
+msgid ""
+"Sorry, any card is registered to pay the order renew %1$s for subscription "
+"%2$s ."
+msgstr ""
+"Désolé, aucune carte n'est enregistrée pour payer la commande de "
+"renouvellement %1$s pour l'abonnement %2$s ."
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:601
+msgid "Please, validate your payment method before proceeding further"
+msgstr "Merci de valider votre méthode de paiement avant de continuer"
+
+#. translators: 1. Order number.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:651
+msgid "Payment approved for order #%s"
+msgstr "Paiement validé pour la commande #%s"
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:675
+msgid "Process pre-order upon-release payment: the order does not exist."
+msgstr "Précommande en attente de paiement : la commande n'existe pas."
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:685
+msgid ""
+"(Order #%1$d) Process pre-order upon-release payment: order #%1$d not an "
+"upon release pre-order"
+msgstr ""
+"(Order #%1$d) Précommande en attente de paiement : La commande #%1$d n'est "
+"pas disponible en précommande"
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:695
+msgid "(Order #%d) Process pre-order upon-release payment: no token ID."
+msgstr "(Order #%d) Précommande en attente de paiement : pas d'ID de token."
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:715
+msgid ""
+"(Order #%d) Process pre-order upon-release payment: sorry, the minimum order "
+"total allowed to use this payment method is 0.50."
+msgstr ""
+"(Order #%d) Précommande en attente de paiement : désolé, le total minimum de "
+"commande autorisé pour utiliser ce mode de paiement est de 0,50."
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:725
+msgid ""
+"(Order #%d) Process pre-order upon-release payment: sorry, couldn't find any "
+"user registered to pay the pre-order."
+msgstr ""
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:794
+msgid ""
+"Process pre-order upon-release payment: Please, validate your payment method "
+"before proceeding further."
+msgstr ""
+"Précommande en attente de paiement: Validez une méthode de paiement pour "
+"continuer."
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:803
+msgid ""
+"Process pre-order upon-release payment: There was an error while processing "
+"payment. Please, try again."
+msgstr ""
+"Précommande en attente de paiement : Il y a eu une erreur lors du paiement. "
+"Merci d'essayer à nouveau."
+
+#. translators: 1. Plugin name.
+#: init.php:104
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s est activé mais pas effectif. Il nécessite WooCommerce pour fonctionner."
+
+#: plugin-options/settings-sc-gateway.php:6
+msgid "Choose the alternative flow to apply, when it is possible for the order"
+msgstr ""
+"Choisissez le flux alternatif à appliquer, lorsque cela est possible pour la "
+"commande"
+
+#: plugin-options/settings-sc-gateway.php:10
+#: plugin-options/settings-sc-gateway.php:153
+msgid "None"
+msgstr "Aucun"
+
+#: plugin-options/settings-sc-gateway.php:11
+msgid ""
+"keep using separate Transfers and Charges for any transaction, even one "
+"eligible for other flows. Accounts must be located in the same region (US/"
+"EU); Stripe fees are due to platform."
+msgstr ""
+"continuer à utiliser des virements et des frais séparés pour toute "
+"transaction, même éligible pour d'autres flux. Les comptes doivent être "
+"situés dans la même région (US / EU); Les frais de stripe sont dus à la "
+"plateforme."
+
+#: plugin-options/settings-sc-gateway.php:15
+#: plugin-options/settings-sc-gateway.php:154
+msgid "Destination charges"
+msgstr "Destination charges"
+
+#: plugin-options/settings-sc-gateway.php:16
+msgid ""
+"are created on the platform, but as part of the charge operation, funds are "
+"transferred to the connected account. Stripe fees are split between platform "
+"and connected account."
+msgstr ""
+"sont créés sur la plateforme, mais dans le cadre de l'opération de "
+"facturation, les fonds sont transférés sur le compte connecté. Les frais de "
+"Stripe sont répartis entre la plate-forme et le compte connecté."
+
+#: plugin-options/settings-sc-gateway.php:21
+#: plugin-options/settings-sc-gateway.php:155
+msgid "Direct charges"
+msgstr "Direct charges"
+
+#: plugin-options/settings-sc-gateway.php:22
+msgid ""
+"charge will be created directly on connected account, while platform will "
+"retain its fee. Will disable saved cards. Stripe fees are due to connected "
+"account. Not available when order includes subscriptions."
+msgstr ""
+"les frais seront créés directement sur le compte connecté, tandis que la "
+"plateforme conservera ses frais. Désactivera les cartes enregistrées. Les "
+"frais Stripe sont dus au compte connecté. Non disponible lorsque la commande "
+"comprend des abonnements."
+
+#: plugin-options/settings-sc-gateway.php:42
+#: plugin-options/settings-sc-multibanco-gateway.php:17
+msgid "Label Settings"
+msgstr "Paramètres de l’affichage"
+
+#: plugin-options/settings-sc-gateway.php:44
+#: plugin-options/settings-sc-multibanco-gateway.php:19
+msgid ""
+"Change the title and description that Stripe Connect displays on Checkout"
+msgstr ""
+"Change le titre et la description que Stripe Connect affiche sur la page de "
+"paiement"
+
+#: plugin-options/settings-sc-gateway.php:48
+#: plugin-options/settings-sc-multibanco-gateway.php:22
+msgid "Title"
+msgstr "TItre"
+
+#: plugin-options/settings-sc-gateway.php:50
+#: plugin-options/settings-sc-multibanco-gateway.php:24
+msgid "This controls the title that users see during checkout."
+msgstr "C’est le titre que verra le client sur la page de paiement."
+
+#: plugin-options/settings-sc-gateway.php:51
+msgid "Credit Card (Stripe Connect)"
+msgstr "Carte de crédit (Stripe Connect)"
+
+#: plugin-options/settings-sc-gateway.php:55
+#: plugin-options/settings-sc-multibanco-gateway.php:29
+msgid "Description"
+msgstr "Description"
+
+#: plugin-options/settings-sc-gateway.php:58
+#: plugin-options/settings-sc-multibanco-gateway.php:32
+msgid "This controls the description that users see during checkout."
+msgstr "C’est la description que le client verra sur la page de paiement."
+
+#: plugin-options/settings-sc-gateway.php:59
+msgid ""
+"Pay via Stripe Connect; you can pay with your credit card if you don't have "
+"a Stripe account."
+msgstr ""
+"Payer avec Stripe Connect; vous pouvez payer avec votre carte de crédit si "
+"vous n’avez pas de compte Stripe."
+
+#: plugin-options/settings-sc-gateway.php:63
+msgid "Display card logo"
+msgstr "Afficher les logos des cartes"
+
+#: plugin-options/settings-sc-gateway.php:65
+msgid "Choose the card logo that you want to show"
+msgstr "Choisir les logos des cartes que vous voulez afficher"
+
+#: plugin-options/settings-sc-gateway.php:78
+msgid "Display \"Name on Card\" field during checkout"
+msgstr ""
+"Afficher le champ « Nom du porteur de la carte » sur la page de paiement"
+
+#: plugin-options/settings-sc-gateway.php:80
+msgid "Choose whether to show \"Name on Card\" field of Credit Card form"
+msgstr ""
+"Choisir si vous souhaitez afficher le champ « Nom du porteur de la carte » "
+"sur le formulaire de paiement"
+
+#: plugin-options/settings-sc-gateway.php:85
+msgid "Save cards"
+msgstr "Enregistrer les cartes"
+
+#: plugin-options/settings-sc-gateway.php:87
+msgid ""
+"Choose whether to save cards used at checkout (this is required when YITH "
+"WooCommerce Subscription is enabled)"
+msgstr ""
+"Choisissez d'enregistrer les cartes utilisées lors du paiement (Requis "
+"lorsque vous utilisez YITH WooCommerce Subscription)"
+
+#: plugin-options/settings-sc-gateway.php:91
+#: plugin-options/settings-sc-multibanco-gateway.php:36
+msgid "API Settings"
+msgstr "Réglages API"
+
+#: plugin-options/settings-sc-gateway.php:93
+msgid ""
+"Type here your API Keys from Stripe Connect Account. This step is mandatory "
+"for the plugin to work"
+msgstr ""
+"Renseigner ici vos clés API à partir de votre compte Stripe Connect. Cette "
+"étape est obligatoire pour faire fonctionner l’extension"
+
+#: plugin-options/settings-sc-gateway.php:97
+#: plugin-options/settings-sc-gateway.php:99
+msgid "Live mode client ID"
+msgstr "ID Client en mode Live"
+
+#: plugin-options/settings-sc-gateway.php:99
+#: plugin-options/settings-sc-gateway.php:104
+msgid "section (Check before \"View test data\" is <b>disabled</b> )"
+msgstr "sur Stripe (vérifiez que test data est <b>désactivé</b>)"
+
+#: plugin-options/settings-sc-gateway.php:102
+msgid "Publishable live key"
+msgstr "Publishable live key"
+
+#: plugin-options/settings-sc-gateway.php:104
+#: plugin-options/settings-sc-gateway.php:109
+msgid "Standard keys"
+msgstr "Clés standards"
+
+#: plugin-options/settings-sc-gateway.php:107
+msgid "Secret live key"
+msgstr "Secret live key"
+
+#: plugin-options/settings-sc-gateway.php:109
+msgid ""
+"section, <b>Reveal live key</b> (Check before \"View test data\" is "
+"<b>disabled</b> )"
+msgstr ""
+"section, <b>Révéler la clé en production/live</b> (Vérifiez avant que "
+"\"Afficher les données de test\" soit <b>désactivé</b> )"
+
+#: plugin-options/settings-sc-gateway.php:112
+msgid "Test mode"
+msgstr "Mode test"
+
+#: plugin-options/settings-sc-gateway.php:114
+msgid "Enable test mode"
+msgstr "Activer le mode de test"
+
+#: plugin-options/settings-sc-gateway.php:118
+#: plugin-options/settings-sc-gateway.php:120
+msgid "Test mode client ID"
+msgstr "ID Client mode test"
+
+#: plugin-options/settings-sc-gateway.php:120
+#: plugin-options/settings-sc-gateway.php:126
+msgid "section (Check before \"View test data\" is <b>enabled</b> )"
+msgstr "sur Stripe (vérifiez que test data est <b>activé</b>)"
+
+#: plugin-options/settings-sc-gateway.php:124
+msgid "Publishable test key"
+msgstr "Publishable test key"
+
+#: plugin-options/settings-sc-gateway.php:126
+#: plugin-options/settings-sc-gateway.php:132
+msgid "Standard API keys"
+msgstr "Standard API keys"
+
+#: plugin-options/settings-sc-gateway.php:130
+msgid "Secret test key"
+msgstr "Secret test key"
+
+#: plugin-options/settings-sc-gateway.php:132
+msgid ""
+"section, <b>Reveal live key</b> (Check before \"View test data\" is "
+"<b>enabled</b> )"
+msgstr ""
+"section, <b>Révéler la clé en production/live</b> (Vérifiez avant que "
+"\"Afficher les données de test\" soit <b>désactivé</b> )"
+
+#: plugin-options/settings-sc-gateway.php:136
+msgid "Payment Flow settings"
+msgstr "Paramètres de flux de paiement"
+
+#: plugin-options/settings-sc-gateway.php:138
+msgid "Choose how you want to transfer money to receivers"
+msgstr ""
+"Choisissez comment vous souhaitez transférer de l'argent aux destinataires"
+
+#: plugin-options/settings-sc-gateway.php:141
+msgid "Enable alternative flows"
+msgstr "Activer les flux alternatifs"
+
+#: plugin-options/settings-sc-gateway.php:143
+msgid ""
+"By default plugin will create separate charges and transfers; anyway, for "
+"order that only requires one transfer, you can opt for one of the other "
+"supported methods."
+msgstr ""
+"Par défaut, le plugin créera des frais et des transferts séparés; de toute "
+"façon, pour une commande qui ne nécessite qu'un seul transfert, vous pouvez "
+"opter pour l'une des autres méthodes prises en charge."
+
+#: plugin-options/settings-sc-gateway.php:148
+msgid "Alternative flow"
+msgstr "Flux alternatif"
+
+#: plugin-options/settings-sc-gateway.php:159
+msgid "Delay settings"
+msgstr "Paramètres de délai"
+
+#: plugin-options/settings-sc-gateway.php:161
+msgid ""
+"Indicate after how many days the payment will be sent to the receivers (this "
+"option will apply only for Separate Charges and Transfers)"
+msgstr ""
+"Indiquez après combien de jours le paiement sera envoyé aux receveurs (cette "
+"option ne s'appliquera qu'aux frais et virements séparés)"
+
+#: plugin-options/settings-sc-gateway.php:164
+msgid "Delay time"
+msgstr "Délais de paiement"
+
+#: plugin-options/settings-sc-gateway.php:167
+msgid "Instant payment if empty or with \"0\" value"
+msgstr "Paiement immédiat si vide ou avec \"0\""
+
+#: plugin-options/settings-sc-gateway.php:171
+#: plugin-options/settings-sc-multibanco-gateway.php:45
+msgid "Advanced"
+msgstr "Avancé"
+
+#: plugin-options/settings-sc-gateway.php:175
+#: plugin-options/settings-sc-multibanco-gateway.php:49
+msgid "Log"
+msgstr "Log"
+
+#: plugin-options/settings-sc-gateway.php:177
+#: plugin-options/settings-sc-multibanco-gateway.php:51
+msgid "Enable log"
+msgstr "Activer les log"
+
+#. translators: 1. Path to log file.
+#: plugin-options/settings-sc-gateway.php:181
+msgid "Log Stripe Connect events inside <code>%s</code>"
+msgstr "Enregistrer les log de Stripe Connect dans <code>%s</code>"
+
+#: plugin-options/settings-sc-gateway.php:181
+msgid ""
+"You can also consult the logs in your <a href=\"%s\">Log Dashboard</a>, "
+"without checking this option."
+msgstr ""
+"Vous pouvez également consulter vos log sur le <a href=\"%s\">Dashboard de "
+"Stripe</a> sans cocher cette option."
+
+#: plugin-options/settings-sc-gateway.php:185
+msgid "Exceeding commissions"
+msgstr "Dépasser les commissions"
+
+#: plugin-options/settings-sc-gateway.php:187
+msgid ""
+"Enable this option to allow commission creation when the commissions exceed "
+"the order total"
+msgstr ""
+"Activer cette option pour permettre la création de commissions lorsque les "
+"commissions dépassent le total de la commande"
+
+#: plugin-options/settings-sc-gateway.php:191
+msgid "Config Webhooks"
+msgstr "Configurer les Webhooks"
+
+#. translators: 1. Webhook url to configure. 2. Url to Stripe Dashboard
+#. settings page.
+#: plugin-options/settings-sc-gateway.php:195
+msgid ""
+"You can configure the webhook url <code>%1$s</code> in your <a href=\"%2$s\" "
+"target=\"_blank\">Stripe Dashboard > Developers > Webhooks</a> (Endpoints "
+"receiving events from Connect applications) section. All the webhooks for "
+"all your connected users will be sent to this endpoint."
+msgstr ""
+"Vous pouvez configurer l'url du webhook <code>%1$s</code> dans votre <a href="
+"\"%2$s\" target=\"_blank\">Stripe Dashboard > Developers > Webhooks</a> "
+"(Points de terminaison recevant des événements des applications Connect). "
+"Tous les webhooks de tous vos utilisateurs connectés seront envoyés à ce "
+"point de terminaison."
+
+#: plugin-options/settings-sc-gateway.php:196
+msgid ""
+"It's important to note that only test webhooks will be sent to your "
+"development webhook url*. Yet, if you are working on a live website, <b>both "
+"live and test</b> webhooks will be sent to your production webhook URL. This "
+"is due to the fact that you can create both live and test objects under a "
+"production application."
+msgstr ""
+"Il est important de savoir que seulement les webhooks de test seront envoyés "
+"à l'URL webhook de développement. Cependant si vous travaillez sur un site "
+"en live <b>les deux modes webhooks live et test</b> seront envoyés à l'URL "
+"de webhook en production. Cela est dû au fait que vous pouvez créer des "
+"objets en live et des objets de test dans une application de production."
+
+#: plugin-options/settings-sc-gateway.php:196
+msgid ""
+"we'd recommend that you check the livemode when receiving an event webhook."
+msgstr ""
+"Nous vous recommandons de vérifier le mode live lors de la réception d'un "
+"événement webhook."
+
+#. translators: 1. Url to stripe doc.
+#: plugin-options/settings-sc-gateway.php:198
+msgid ""
+"For more information about webhooks, see the <a href=\"%s\" target=\"_blank"
+"\">webhook documentation</a>"
+msgstr ""
+"Pour plus d'information concernant les webhook, consultez <a href=\"%s\" "
+"target=\"_blank\">la documentation des webhook</a>"
+
+#: plugin-options/settings-sc-gateway.php:201
+msgid "Config Redirect URIs"
+msgstr "Configurer les URL de redirection"
+
+#. translators: 1. Url sto Stripe Dashboard settings page. 2. Redirect URI.
+#: plugin-options/settings-sc-gateway.php:205
+msgid ""
+"A <b>Redirection URI is required</b> when users connect their account to "
+"your site. Go to <a href=\"%1$s\" target=\"_blank\">Stripe Dashboard > "
+"Settings > Connect > Integration ></a> <b>Redirects</b> section and add the "
+"following URl to redirect: <code>%2$s</code>. Redirects URI can be defined "
+"on test and live mode, we would recommend to test both scenarios."
+msgstr ""
+"Une <b>URL de redirection est requise</b> quand un utilisateur connecte leur "
+"compte à votre site. Dirigez-vous sur <a href=\"%1$s\" target=\"_blank"
+"\">Stripe Dashboard > Réglages > Connect > Intégrations ></a> "
+"<b>Redirections</b> et ajoutez l'URL suivante pour rediriger : <code>%2$s</"
+"code>. L'URI de redirection peut être défini en mode test et en production, "
+"nous vous recommandons de tester les deux scénarios."
+
+#: plugin-options/settings-sc-multibanco-gateway.php:25
+msgid "MultiBanco (Stripe Connect)"
+msgstr "MultiBanco (Stripe Connect)"
+
+#: plugin-options/settings-sc-multibanco-gateway.php:33
+msgid "Pay via MultiBanco."
+msgstr "Payer via MultiBanco."
+
+#. translators: 1. Href to main settings tab.
+#: plugin-options/settings-sc-multibanco-gateway.php:40
+msgid ""
+"This gateway will use API Credentials that you configured in main settings "
+"tab. You can check your configuration <a href=\"%s\">here</a>"
+msgstr ""
+"Cette passerelle utilisera les informations d'identification API que vous "
+"avez configurées dans l'onglet Paramètres principaux. Vous pouvez vérifier "
+"votre configuration <a href=\"%s\"> ici </a>"
+
+#. translators: 1. Multibanco log file path. 2. Stripe dashboard url.
+#: plugin-options/settings-sc-multibanco-gateway.php:54
+msgid ""
+"Log Stripe Connect events inside <code>%1$s</code><br/>You can also consult "
+"the logs in your <a href=\"%2$s\">Log Dashboard</a>, without checking this "
+"option."
+msgstr ""
+"Consigner les événements Stripe Connect dans <code>%1$s</code><br/>Vous "
+"pouvez également consulter les journaux dans votre <a href=\"%2$s\">Tableau "
+"de bord des journaux</a>, sans cocher cette option ."
+
+#: templates/admin/receiver-row.php:43
+msgid "Search user"
+msgstr "Chercher l'utilisateur"
+
+#: templates/admin/receiver-row.php:68
+msgid "Fixed"
+msgstr "Fixé"
+
+#: templates/admin/receiver-row.php:75
+msgid "%"
+msgstr "%"
+
+#: templates/admin/receiver-row.php:107
+msgid "Search product"
+msgstr "Rechercher un produit"
+
+#: templates/admin/receiver-row.php:142
+msgid "User disconnected"
+msgstr "Utilisateur déconnecté"
+
+#: templates/admin/receiver-row.php:154 templates/common/commission-row.php:111
+msgid "Connected"
+msgstr "Connecté"
+
+#: templates/admin/receiver-row.php:163
+msgid "Remove"
+msgstr "Supprimer"
+
+#: templates/admin/receiver-row.php:168
+msgid "This receiver has all products assigned"
+msgstr "Ce récepteur a tous les produits assignés"
+
+#: templates/admin/receivers-panel.php:12
+msgid "Receiver's settings"
+msgstr "Paramètres du récepteur"
+
+#: templates/admin/receivers-panel.php:15
+msgid ""
+"Add new receiver conditions that will be applied when a customer make a "
+"purchase (Order status is Processing or Complete). You can add a fixed or "
+"percentage amount for each product to specific user."
+msgstr ""
+"Ajouter de nouvelles conditions de récepteur qui seront appliquées quand un "
+"client effectue un achat (le statut de la commande est En cours ou Terminé). "
+"Vous pouvez ajouter un montant fixe ou un pourcentage pour chaque produit à "
+"utilisateur spécifique."
+
+#: templates/admin/receivers-panel.php:59
+#: templates/admin/receivers-panel.php:101
+msgid "New receiver"
+msgstr "Nouveau récepteur"
+
+#: templates/admin/receivers-panel.php:64
+#: templates/admin/receivers-panel.php:106
+msgid "Save receivers"
+msgstr "Enregistrer le récepteur"
+
+#: templates/admin/receivers-panel.php:70
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: templates/admin/receivers-panel.php:71
+msgid "User"
+msgstr "Utilisateur"
+
+#: templates/admin/receivers-panel.php:76
+msgid "Stripe ID"
+msgstr "ID Stripe"
+
+#: templates/admin/receivers-panel.php:81
+msgid "Actions"
+msgstr "Actions"
+
+#: templates/admin/receivers-panel.php:113
+msgid "About Receiver's disconnected accounts"
+msgstr "À propos des comptes déconnectés des récepteurs"
+
+#: templates/admin/receivers-panel.php:117
+msgid ""
+"The receiver user <b>must connect their Stripe Account</b>. If the <b>Stripe "
+"ID</b> is <b>\"User disconnected\"</b>, the <b>commission can't be created</"
+"b>. Please read the <a href=\"%s\" target=\"_blank\"> Connect User Account</"
+"a> from plugin documentation."
+msgstr ""
+"Le récepteur <b>dois connecter son compte Stripe</b>. Si le <b>Stripe ID</b> "
+"est <b>\"Utilisateur déconnecté\"</b>, la <b>commission ne peut être créée</"
+"b>. Merci de consulter dans la documentation ceci <a href=\"%s\" target="
+"\"_blank\"> Connect User Account</a>."
+
+#: templates/admin/receivers-panel.php:126
+msgid ""
+"You must create the product before proceeding with the Receivers "
+"configuration"
+msgstr ""
+"Vous devez créer le produit avant de procéder à la configuration des "
+"récepteurs"
+
+#: templates/admin/settings-tab.php:26
+msgid "Save changes"
+msgstr "Enregistrer les changements"
+
+#: templates/common/commission-pdf.php:9
+#: templates/common/commission-view.php:22
+msgid "Status details"
+msgstr "Détails du statut"
+
+#: templates/common/commission-pdf.php:12
+#: templates/common/commission-view.php:25
+msgid "Commission status"
+msgstr "Statut de la commission"
+
+#: templates/common/commission-pdf.php:20
+#: templates/common/commission-view.php:33
+msgid "Commission date"
+msgstr "Date de la commission"
+
+#: templates/common/commission-pdf.php:29
+#: templates/common/commission-view.php:42
+msgid "Commission note"
+msgstr "Note de la commission"
+
+#: templates/common/commission-pdf.php:39
+#: templates/common/commission-view.php:52
+msgid "Stripe connect status"
+msgstr "Statut Stripe Connect"
+
+#: templates/common/commission-pdf.php:46
+#: templates/common/commission-view.php:59
+msgid "%s is currently connected"
+msgstr "%s est actuellement connecté"
+
+#: templates/common/commission-pdf.php:48
+#: templates/common/commission-view.php:61
+msgid "%s is currently disconnected"
+msgstr "%s est actuellement déconnecté"
+
+#: templates/common/commission-pdf.php:56
+#: templates/common/commission-view.php:69
+msgid "Order details"
+msgstr "Détails de la commande"
+
+#: templates/common/commission-pdf.php:59
+#: templates/common/commission-view.php:72
+msgid "Order number"
+msgstr "Numéro de commande"
+
+#: templates/common/commission-pdf.php:67
+#: templates/common/commission-view.php:80
+msgid "Order status"
+msgstr "Statut de la commande"
+
+#: templates/common/commission-pdf.php:75
+#: templates/common/commission-view.php:88
+msgid "Order date"
+msgstr "Date de la commande"
+
+#: templates/common/commission-pdf.php:83
+#: templates/common/commission-view.php:96
+msgid "Order total"
+msgstr "Total de la commande"
+
+#: templates/common/commission-pdf.php:92
+msgid "Affiliates' commission details"
+msgstr "Détails des commissions de l'affilié"
+
+#: templates/common/commission-pdf.php:95
+#: templates/common/commission-view.php:111
+msgid "Affiliate payment ID"
+msgstr "ID de paiement de l'affilié"
+
+#: templates/common/commission-pdf.php:105
+#: templates/common/commission-view.php:123
+msgid "Affiliate commission ID"
+msgstr "ID de la commission de l'affilié"
+
+#: templates/common/commission-pdf.php:120
+#: templates/common/commission-view.php:162
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/common/commission-pdf.php:121
+#: templates/common/commission-view.php:163
+msgid "Cost"
+msgstr "Coût"
+
+#: templates/common/commission-row.php:52
+msgid "View"
+msgstr "Voir"
+
+#: templates/common/commission-row.php:56
+msgid "Affiliates Commission"
+msgstr "Commission des affiliés"
+
+#: templates/common/commission-row.php:60
+msgid "Multi Vendor Commission"
+msgstr "Commission Multi Vendeur"
+
+#: templates/common/commission-view.php:17
+msgid "Close modal panel"
+msgstr "Fermer le panneau modal"
+
+#: templates/common/commission-view.php:105
+msgid "Affiliates Commission details"
+msgstr "Détails des commission des affiliés"
+
+#: templates/common/commission-view.php:137
+msgid "Multi Vendor Commission details"
+msgstr "Détails des commissions Multi Vendeur"
+
+#: templates/common/commission-view.php:143
+msgid "Multivendor commission ID"
+msgstr "ID de commission Multi Vendeur"
+
+#: templates/common/commission-view.php:188
+msgid "Print"
+msgstr "Imprimer"
+
+#: templates/common/commissions-panel.php:31
+msgid "Commission Report"
+msgstr "Rapport de la commission"
+
+#. translators: 1. Display name. 2. User ID. 3. User email.
+#: templates/common/commissions-panel.php:78
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#: templates/common/commissions-panel.php:92
+msgid "Filter by product"
+msgstr "Filtrer par produit"
+
+#: templates/common/commissions-panel.php:105
+msgid "Filter by user"
+msgstr "Filtrer par utilisateur"
+
+#: templates/common/commissions-panel.php:120
+msgid "From..."
+msgstr "De…"
+
+#: templates/common/commissions-panel.php:123
+msgid "to"
+msgstr "À"
+
+#: templates/common/commissions-panel.php:126
+msgid "To..."
+msgstr "Au…"
+
+#: templates/common/commissions-panel.php:130
+msgid "Clear"
+msgstr "Effacer"
+
+#: templates/common/commissions-panel.php:131
+msgid "Filter"
+msgstr "Filtrer"
+
+#: templates/common/commissions-panel.php:142
+msgid "Export to CSV"
+msgstr "Exporter en CSV"
+
+#: templates/common/commissions-panel.php:148
+msgid "PDF"
+msgstr "PDF"
+
+#: templates/common/commissions-panel.php:225
+msgid "Purchase date"
+msgstr "Date d'achat"
+
+#: templates/emails/plain/renew-needs-action-email.php:28
+#: templates/emails/renew-needs-action-email.php:35
+msgid "Hi %s,"
+msgstr "Bonjour %s,"
+
+#: templates/emails/plain/renew-needs-action-email.php:33
+msgid "Confirm payment (%s)"
+msgstr "Confirmer le paiement (%s)"
+
+#: templates/emails/renew-needs-action-email.php:41
+msgid "Confirm Payment"
+msgstr "Confirmer le paiement"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Stripe Connect for WooCommerce</strong></code> allows you "
+"to manage a complete commission system directly from your site. Accept "
+"payments with Stripe's reliability and send immediately part of your incomes "
+"to your suppliers or middlemen. <a href=\"https://yithemes.com/\" target="
+"\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+"<code><strong>YITH Stripe Connect pour WooCommerce</strong></code> vous "
+"permet de gérer un système de commission complet directement depuis votre "
+"site. Acceptez les paiements avec la fiabilité de Stripe et envoyez "
+"immédiatement une partie de vos revenus à vos fournisseurs ou "
+"intermédiaires. <a href=\"https://yithemes.com/\" target=\"_blank\">Obtenez "
+"plus d'extensions pour votre e-commerce sur <strong>YITH</strong></a>"
+
+#: includes/class.yith-stripe-connect-admin.php:186
+msgctxt "tab name"
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class.yith-stripe-connect-admin.php:187
+msgctxt "tab name"
+msgid "Multibanco"
+msgstr "Multibanco"
+
+#: includes/class.yith-stripe-connect-admin.php:188
+msgctxt "tab name"
+msgid "Receivers"
+msgstr "Récepteurs"
+
+#: includes/class.yith-stripe-connect-admin.php:189
+msgctxt "tab name"
+msgid "Commissions"
+msgstr "Commissions"
+
+#: includes/class.yith-stripe-connect-commissions.php:102
+#, fuzzy
+msgctxt ""
+"Window message that can be\r\n"
+"\t\t\t\t\tdisplayed with manual payments"
+msgid "Can't process the payment with the current order status"
+msgstr ""
+"Impossible de traiter le paiement avec le statut de la commande en cours"
+
+#: includes/class.yith-stripe-connect-frontend.php:89
+msgctxt "No need translation..."
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/functions.yith-wcsc.php:158
+msgctxt "xx% from price-item"
+msgid "from"
+msgstr "de"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:74
+msgctxt "Order button text on Stripe Connect Gateway"
+msgid "Proceed to Stripe Connect"
+msgstr "Passez à Stripe Connect"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:75
+msgctxt "The Gateway title, no need translation :D"
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:72
+msgctxt "The Gateway title, no need translation :D"
+msgid "Stripe Connect - Multibanco"
+msgstr "Stripe Connect - Multibanco"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:76
+msgctxt "Stripe Connect Gateway description"
+msgid "Stripe Connect Gateway for WooCommerce"
+msgstr "Passerelle Stripe Connect pour WooCommerce"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:73
+msgctxt "Stripe Connect Gateway description"
+msgid "Pay with MultiBanco"
+msgstr "Payer avec MultiBanco"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:71
+msgctxt "Label for the MultiBanco button"
+msgid "Proceed to MultiBanco"
+msgstr "Procéder à MultiBanco"
+
+#: plugin-options/settings-sc-gateway.php:35
+#: plugin-options/settings-sc-multibanco-gateway.php:11
+msgctxt "Settings, activate or deactivate Stripe Connect"
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: plugin-options/settings-sc-gateway.php:37
+msgctxt "Settings, Label for checkbox that enables/disables Stripe Connect"
+msgid "Enable Stripe Connect Gateway"
+msgstr "Activer la passerelle Stripe Connect"
+
+#: plugin-options/settings-sc-multibanco-gateway.php:13
+msgctxt "Settings, Label for checkbox that enables/disables Stripe Connect"
+msgid "Enable Stripe Connect MultiBanco Gateway"
+msgstr "Activer Stripe Connect MultiBanco Gateway"
+
+#: templates/common/commission-pdf.php:122
+#: templates/common/commission-view.php:164
+msgctxt "The type of commission applied"
+msgid "Rate"
+msgstr "Taux"
+
+#: templates/common/commission-pdf.php:123
+#: templates/common/commission-view.php:165
+msgctxt "The type of commission applied"
+msgid "Type"
+msgstr "Type"

@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: inherit
+}
+
+.siteTable {
+    overflow: auto;
+    width: 100%;
+    max-width: 100%
+}
+
+.siteTable table {
+    display: table;
+    width: 100%
+}
+
+.siteTable table tr {
+    display: table-row
+}
+
+.siteTable table td {
+    display: table-cell;
+    padding: 10px 15px;
+    vertical-align: middle;
+    background: #eee;
+    border-bottom: 5px solid #fff
+}
+
+.siteTable table td small {
+    display: block
+}
+
+.siteTable table td span a {
+    vertical-align: middle
+}
+
+.accessDetails .columnDiv {
+    background: #eee;
+    padding: 1rem;
+    justify-content: space-between
+}
+
+.accessMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.accessMenu li a {
+    color: #666;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    text-decoration: none
+}
+
+.accessMenu li.active a {
+    color: #666;
+    background: #e0dfdf
+}
+
+.accessMenu h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 1rem
+}
+
+.detailsCell {
+    max-width: 100%;
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 15px -10px #666;
+    -webkit-box-shadow: 2px 2px 15px -10px #666
+}
+
+.detailsCell .columnHalf {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top
+}
+
+.detailsCell .paddR {
+    padding-right: 5rem
+}
+
+.detailsCell h2 {
+    color: #7875ff;
+    text-transform: uppercase;
+    margin-bottom: 1rem
+}
+
+.detailsCell .columnHalf a {
+    color: #778899
+}
+
+.detailsCell .columnHalf h4 {
+    text-transform: uppercase;
+    color: #708090;
+    margin-bottom: .8rem;
+    margin-top: 1rem
+}
+
+.detailsCell p {
+    margin-bottom: 1rem
+}
+
+.detailsCell .columnHalf p label {
+    min-width: 80px;
+    display: inline-block
+}
+
+.detailsCell .columnHalf p a {
+    margin-left: .5rem
+}
+
+.detailsCell input,
+.detailsCell select {
+    border: 1px solid #ddd;
+    height: 38px;
+    padding: 0 10px;
+    width: 100%
+}
+
+.detailsCell .paddR input {
+    margin-bottom: 1rem
+}
+
+.detailsCell form input[type=submit] {
+    background: #eee;
+    color: #000;
+    height: auto;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.detailsCell .buttonCustom {
+    background: rgb(167 47 244);
+    background: -moz-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: linear-gradient(135deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae2df1', endColorstr='#7875ff', GradientType=1);
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    cursor: pointer
+}
+
+.detailsCell .buttondefault {
+    background: #eee;
+    color: #333;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    cursor: pointer
+}
+
+.detailsCell .buttonCustom:hover,
+.detailsCell .buttondefault:hover {
+    box-shadow: 2px 2px 20px -10px #333
+}
+
+.detailsCell .newStyle input,
+.detailsCell select {
+    width: auto;
+    margin-bottom: 1rem
+}
+
+.detailsCell .newStyle input {
+    width: auto;
+    margin-bottom: 0
+}
+
+p.no-margin {
+    margin-bottom: 0
+}
+
+#bloxxapp_table button {
+    background: rgb(167 47 244);
+    background: -moz-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: linear-gradient(135deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae2df1', endColorstr='#7875ff', GradientType=1);
+    color: #fff;
+    margin-left: .5rem;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer
+}
+
+.importBox .form-group input[type=text] {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 42px;
+    border-radius: 0;
+    font-size: 14px
+}
+
+.app-loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #7875ff !important;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    left: 28% !important;
+    right: 0;
+    margin: auto;
+    top: 0;
+    border-radius: 50%;
+    bottom: 0
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+p#operation_status {
+    color: #7875ff;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    position: fixed;
+    right: 34px;
+    top: 68px;
+    border: 2px solid #7875ff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.accessMenu ul li a:hover,
+.accessMenu ul li:hover {
+    background: rgb(167 47 244);
+    background: -moz-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: linear-gradient(135deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae2df1', endColorstr='#7875ff', GradientType=1);
+    color: #fff !important;
+    outline: 0;
+    box-shadow: none
+}
+
+.accessMenu ul li.active a {
+    background: none;
+    color: #fff
+}
+
+.accessMenu ul li.active {
+    background: rgb(167 47 244);
+    background: -moz-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: linear-gradient(135deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae2df1', endColorstr='#7875ff', GradientType=1);
+    color: #fff !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+.the_api_extended_tbl .smallHidden td:first-child,
+.the_api_extended_tbl .smallHidden th:first-child {
+    width: 60px;
+    max-width: inherit !important;
+}
+
+.the_api_extended_tbl .smallHidden td:nth-child(2),
+.the_api_extended_tbl .smallHidden th:nth-child(2) {
+    width: 400px;
+    padding-left: 12px !important;
+}
+
+.the_api_extended_tbl .smallHidden td:last-child,
+.the_api_extended_tbl .smallHidden th:last-child {
+    width: 50px;
+}
+
+.the_api_extended_tbl h3 {
+    font-weight: 700;
+    color: #7875ff;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.the_api_extended_tbl {
+    margin-top: 30px;
+}
+
+.the_api_extended_tbl .smallHidden td:last-child {
+    padding-right: 10px !important;
+}
+
+.the_api_extended_tbl .smallHidden td a.block_site_button {
+    background: rgb(167 47 244);
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+
+.the_api_extended_tbl .smallHidden td a.block_site_button:hover {
+    background: rgb(167 47 244);
+    background: -moz-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    background: linear-gradient(135deg, rgb(167 47 244) 0%, rgb(124 118 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae2df1', endColorstr='#7875ff', GradientType=1);
+    color: #fff
+}
+
+
+@media (max-width: 600px) {
+    .grid-view-filter ul.listLi {
+        margin: 0 auto;
+    }
+}

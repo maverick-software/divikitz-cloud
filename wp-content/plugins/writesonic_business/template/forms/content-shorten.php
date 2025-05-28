@@ -1,0 +1,31 @@
+<form id="content-shorten" style="display: none;">
+				<p>Note:
+<br>
+1. Content To Shorten can be only 20 to 1000 characters long.
+</p>
+	<table class="form-table" role="presentation">
+		<tbody>
+			<tr>
+				<th>Tone Of Voice <span class="require">*</span></th>
+				<td>
+					<select name="tone_of_voice" id="tone_of_voice" class="content-rephrase field">
+						<option value="excited">Excited</option>
+						<option value="professional">Professional</option>
+						<option value="funny">Funny</option>
+						<option value="encouraging">Encouraging</option>
+						<option value="dramatic">Dramatic</option>
+						<option value="witty">Witty</option>
+						<option value="sarcastic">Sarcastic</option>
+						<option value="engaging">Engaging</option>
+						<option value="creative">Creative</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Content To Shorten</th>
+				<td><textarea id="content_to_shorten" name="content_to_shorten" class="google-ads field"  required></textarea></td>
+			</tr>
+			
+		</tbody>
+	</table>
+</form>

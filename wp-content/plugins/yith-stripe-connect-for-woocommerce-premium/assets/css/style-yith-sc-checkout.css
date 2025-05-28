@@ -1,0 +1,58 @@
+.yith_wcsc_icon{
+    margin: 0em 0.5em;
+}
+.form-row.woocommerce-validated .yith-stripe-element input.input-text,
+.yith-stripe-element input,
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1!important;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    color: #32325d;
+    line-height:18px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.form-row.woocommerce-validated .yith-stripe-element input.input-text::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #aab7c4;
+    opacity: 1; /* Firefox */
+}
+
+.yith-stripe-element input:focus,
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+.yith-cc-number-container { position: relative }
+#yith-stripe-cc { opacity: 0.5; position: absolute; top: 50%; margin-top: 0px; right: 10px; background: no-repeat url( '../images/cc.svg' ); display: block; width: 30px; height: 24px; background-size: contain;  }
+
+#yith-stripe-cc.visa{ opacity: 1;  background: no-repeat url( '../images/visa.svg' ); width: 30px; height: 24px; background-size: contain; }
+#yith-stripe-cc.mastercard{ opacity: 1;  background: no-repeat url( '../images/mastercard.svg' ); width: 30px; height: 24px; background-size: contain;}
+#yith-stripe-cc.maestro{ opacity: 1;  background: no-repeat url( '../images/maestro.svg' );  width: 30px; height: 24px; background-size: contain;}
+#yith-stripe-cc.laser{ opacity: 1;  background: no-repeat url( '../images/laser.svg' );  width: 30px; height: 24px; background-size: contain;}
+#yith-stripe-cc.discover{ opacity: 1;  background: no-repeat url( '../images/discover.svg' );  width: 30px; height: 24px; background-size: contain;}
+#yith-stripe-cc.diners{ opacity: 1;  background: no-repeat url( '../images/diners.svg' );  width: 30px; height: 24px; background-size: contain;}
+#yith-stripe-cc.jcb{ opacity: 1;  background: no-repeat url( '../images/jcb.svg' );  width: 30px; height: 24px; background-size: contain;}
+#yith-stripe-cc.amex{ opacity: 1;  background: no-repeat url( '../images/amex.svg' );  width: 30px; height: 24px; background-size: contain;}
+
+#yith-stripe-card-number.StripeElement,
+#yith-stripe-card-expiry.StripeElement,
+#yith-stripe-card-cvc.StripeElement{
+    height: auto;
+    background: #fff;
+    padding: 1em;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+}

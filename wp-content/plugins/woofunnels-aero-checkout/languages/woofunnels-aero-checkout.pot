@@ -1,0 +1,5065 @@
+# Copyright (C) 2021 WooFunnels
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroCheckout: Custom WooCommerce Checkout Pages 2.9.1\n"
+"Report-Msgid-Bugs-To: https://buildwoofunnels.com/support/\n"
+"Last-Translator: BuildWooFunnels <support@buildwoofunnels.com>\n"
+"Language-Team: BuildWooFunnels <support@buildwoofunnels.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-21T12:07:14+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0-alpha-3f4c34b\n"
+"X-Domain: woofunnels-aero-checkout\n"
+
+#. Plugin Name of the plugin
+msgid "AeroCheckout: Custom WooCommerce Checkout Pages"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://buildwoofunnels.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "AeroCheckout lets you build highly optimized checkout page. Choose from list of growing templates to create dedicated order pages or swap your native checkout with conversion friendly checkout template."
+msgstr ""
+
+#. Author of the plugin
+#: builder/elementor/class-wfacp-elementor.php:67
+#: builder/oxygen/class-wfacp-oxy.php:128
+#: builder/oxygen/class-wfacp-oxy.php:133
+msgid "WooFunnels"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:102
+#: admin/class-wfacp-admin.php:1709
+#: admin/views/admin.php:5
+#: admin/views/admin.php:32
+msgid "Checkouts"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:281
+msgid "Activating plugin..."
+msgstr ""
+
+#: admin/class-wfacp-admin.php:282
+msgid "Installing plugin..."
+msgstr ""
+
+#: admin/class-wfacp-admin.php:283
+msgid "Importing template..."
+msgstr ""
+
+#: admin/class-wfacp-admin.php:311
+msgid "Customize"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:315
+msgid "Customize Form"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:327
+#: admin/views/sections/design/template-preview.php:98
+#: admin/views/sections/design/template-preview.php:104
+msgid "Edit"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:602
+msgid "<a href='%s'>Shipping destination</a> is set to 'Force shipping to customer billing address'. Please remove Shipping Address field from the checkout form."
+msgstr ""
+
+#: admin/class-wfacp-admin.php:618
+msgid "Billing First Name & Last Name are available in the form. Please disable First Name and Last Name from Billing Address field."
+msgstr ""
+
+#: admin/class-wfacp-admin.php:873
+msgid "Custom Fields"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1254
+msgid "Doing testing"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1260
+msgid "My checkout is not looking good"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1266
+msgid "Troubleshooting conflicts with other plugins"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1301
+#: admin/class-wfacp-admin.php:1311
+msgid "WooFunnels Checkout"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1321
+msgid "Make this page as a checkout page"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1360
+msgid "Form Shortcode"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1370
+msgid "Mini Cart Shortcode"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1461
+msgid "Page"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1641
+msgid "Checkout per page"
+msgstr ""
+
+#: admin/class-wfacp-admin.php:1725
+#: includes/class-wfacp-post-table.php:147
+msgid "Checkout Page"
+msgstr ""
+
+#: admin/class-wfacp-importer.php:60
+msgid "Please upload a valid .json file"
+msgstr ""
+
+#: admin/class-wfacp-importer.php:66
+msgid "Please upload a file to import"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:24
+msgid "Welcome"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:28
+msgid "Activate"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:32
+msgid "Ready"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:94
+msgid "Plugin &rsaquo; Setup Wizard"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:142
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:166
+msgid "Thank you for choosing AeroCheckout."
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:171
+msgid "Let's Go!"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:180
+msgid "We have created few sample checkout pages for you. You can edit existing pages or create new."
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:181
+msgid "Click on these links below and keep them handy. You are ready to go!"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:194
+#: admin/views/flex-import.php:33
+msgid "Go to AeroCheckout Pages"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:203
+msgid "Activate AeroCheckout"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:209
+msgid "Enter your AeroCheckout License Key below. Your key unlocks access to dashboard updates and support."
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:211
+msgid "You can find your key on the Account"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:212
+msgid "Dashboard Page"
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:212
+msgid "site."
+msgstr ""
+
+#: admin/class-wfacp-wizard.php:221
+msgid "Invalid Key. Ensure that your are using valid license key. Try again."
+msgstr ""
+
+#: admin/views/admin.php:13
+#: admin/views/admin.php:35
+#: includes/class-wfacp-common.php:2307
+msgid "Export"
+msgstr ""
+
+#: admin/views/admin.php:14
+#: admin/views/admin.php:34
+#: admin/views/sections/design/models.php:59
+#: admin/views/sections/design/template-new.php:90
+msgid "Import"
+msgstr ""
+
+#: admin/views/admin.php:15
+#: admin/views/admin.php:33
+msgid "Add New"
+msgstr ""
+
+#: admin/views/flex-export.php:13
+msgid "Export all AeroCheckout Pages"
+msgstr ""
+
+#: admin/views/flex-export.php:15
+msgid "Note: Designs made using page builders needs to be exported separately."
+msgstr ""
+
+#: admin/views/flex-export.php:22
+msgid "Download Export File"
+msgstr ""
+
+#: admin/views/flex-import.php:13
+msgid "Import AeroCheckout Pages from a JSON file"
+msgstr ""
+
+#: admin/views/flex-import.php:15
+msgid "Note: Designs made using page builders needs to be imported separately."
+msgstr ""
+
+#: admin/views/flex-import.php:30
+msgid "AeroCheckout page(s) have been imported successfully."
+msgstr ""
+
+#: admin/views/global/model.php:20
+#: admin/views/sections/design/models.php:60
+#: admin/views/sections/fields/models.php:59
+#: admin/views/sections/fields/models.php:87
+#: admin/views/sections/products/models.php:27
+#: includes/class-wfacp-common-helper.php:1222
+#: includes/class-wfacp-common-helper.php:1245
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/global/model.php:36
+msgid "Page Created Successfully. Launching  Editor..."
+msgstr ""
+
+#: admin/views/sections/design/short-code.php:10
+#: builder/customizer/customizer-options/class-section-form.php:84
+#: builder/divi/class-wfacp-divi-extension.php:78
+#: builder/divi/class-wfacp-html-block-divi.php:38
+#: builder/elementor/widgets/class-elementor-form.php:26
+#: builder/oxygen/class-wfacp-html-block-oxy.php:72
+#: builder/oxygen/class-wfacp-oxy.php:295
+#: builder/oxygen/modules/class-oxy-form.php:11
+#: builder/oxygen/modules/class-oxy-form.php:675
+msgid "Checkout Form"
+msgstr ""
+
+#: admin/views/sections/design/short-code.php:38
+msgid "Use this shortcode to embed the checkout form on this page. Switch to "
+msgstr ""
+
+#: admin/views/sections/design/short-code.php:54
+msgid "Use this shortcode to embed the checkout form on other page(s)."
+msgstr ""
+
+#: admin/views/sections/design/short-code.php:67
+msgid "Use this shortcode to display mini cart your pages."
+msgstr ""
+
+#: admin/views/sections/design/template-new.php:85
+#: admin/views/sections/design/template-new.php:89
+#: admin/views/sections/design/template-preview.php:110
+msgid "Preview"
+msgstr ""
+
+#: admin/views/sections/design/template-new.php:86
+msgid "Get PRO"
+msgstr ""
+
+#: admin/views/sections/design/template-new.php:90
+msgid "Importing..."
+msgstr ""
+
+#: admin/views/sections/design/template-preview.php:11
+msgid "Selected Template"
+msgstr ""
+
+#: admin/views/sections/design/template-preview.php:79
+msgid "Customizing"
+msgstr ""
+
+#: admin/views/sections/design/template-preview.php:83
+msgid " Using "
+msgstr ""
+
+#: admin/views/sections/design/template-preview.php:91
+msgid "Note: You can switch your checkout shortcode with the elementor checkout widget."
+msgstr ""
+
+#: admin/views/sections/fields.php:44
+msgid "<i class=\"dashicons dashicons-plus\"></i>"
+msgstr ""
+
+#: admin/views/sections/fields.php:45
+msgid "Add Next Step"
+msgstr ""
+
+#: admin/views/sections/fields.php:52
+#: admin/views/sections/optimization.php:27
+#: admin/views/sections/product.php:18
+#: admin/views/sections/settings.php:30
+#: admin/views/settings.php:67
+msgid "Save changes"
+msgstr ""
+
+#: admin/views/sections/fields.php:74
+#: builder/oxygen/modules/class-oxy-form.php:226
+#: includes/class-wfacp-common-helper.php:1615
+#: includes/class-wfacp-common.php:462
+msgid "Fields"
+msgstr ""
+
+#: admin/views/sections/fields/address.php:15
+#: admin/views/sections/fields/address.php:97
+#: admin/views/sections/fields/address.php:151
+#: admin/views/sections/fields/product_switcher.php:170
+#: builder/customizer/customizer-options/class-section-cart.php:600
+#: builder/customizer/customizer-options/class-section-cart.php:660
+#: builder/customizer/customizer-options/class-section-form.php:1804
+#: builder/customizer/customizer-options/class-section-form.php:1869
+#: builder/divi/class-wfacp-html-block-divi.php:541
+#: builder/divi/class-wfacp-html-block-divi.php:548
+#: builder/divi/modules/class-divi-mini-cart.php:210
+#: builder/divi/modules/class-divi-mini-cart.php:215
+#: builder/elementor/class-wfacp-html-block-elementor.php:527
+#: builder/elementor/class-wfacp-html-block-elementor.php:532
+#: builder/elementor/class-wfacp-html-block-elementor.php:568
+#: builder/elementor/class-wfacp-html-block-elementor.php:573
+#: builder/elementor/widgets/class-elementor-form.php:328
+#: builder/elementor/widgets/class-elementor-summary.php:193
+#: builder/elementor/widgets/class-elementor-summary.php:198
+#: builder/oxygen/class-wfacp-html-block-oxy.php:410
+#: builder/oxygen/class-wfacp-html-block-oxy.php:414
+#: builder/oxygen/modules/class-oxy-form.php:322
+#: includes/class-wfacp-common-helper.php:1332
+#: includes/class-wfacp-common-helper.php:1394
+msgid "Label"
+msgstr ""
+
+#: admin/views/sections/fields/address.php:105
+#: includes/class-wfacp-common-helper.php:1333
+#: includes/class-wfacp-common-helper.php:1401
+#: includes/class-wfacp-common-helper.php:1418
+msgid "Placeholder"
+msgstr ""
+
+#: admin/views/sections/fields/address.php:113
+#: includes/class-wfacp-common-helper.php:1419
+msgid "Required"
+msgstr ""
+
+#: admin/views/sections/fields/html_field.php:16
+msgid "This label is for admin purpose only, won't appear on the checkout form."
+msgstr ""
+
+#: admin/views/sections/fields/html_field.php:23
+#: builder/customizer/customizer-options/class-section-footer.php:60
+#: builder/customizer/customizer-options/class-section-form.php:1436
+#: builder/customizer/customizer-options/class-section-listing.php:194
+#: builder/customizer/customizer-options/class-section-styles.php:150
+#: builder/customizer/customizer-options/class-section-testimonial.php:205
+#: builder/customizer/customizer-options/class-section-twidget.php:52
+#: builder/customizer/customizer-options/class-section-twidget.php:66
+#: builder/customizer/templates/embed_forms_1/template.php:633
+#: builder/customizer/templates/embed_forms_1/template.php:652
+msgid "Content"
+msgstr ""
+
+#: admin/views/sections/fields/input_fields.php:6
+msgid "Basic "
+msgstr ""
+
+#: admin/views/sections/fields/input_fields.php:23
+msgid "Add New Field"
+msgstr ""
+
+#: admin/views/sections/fields/models.php:14
+#: includes/class-wfacp-common-helper.php:1435
+msgid "Add Field"
+msgstr ""
+
+#: admin/views/sections/fields/models.php:25
+msgid "Edit field"
+msgstr ""
+
+#: admin/views/sections/fields/models.php:60
+#: includes/class-wfacp-common-helper.php:1251
+#: includes/class-wfacp-common-helper.php:1308
+#: includes/class-wfacp-common-helper.php:1330
+msgid "Update"
+msgstr ""
+
+#: admin/views/sections/fields/no-template.php:11
+msgid "Please Choose Design"
+msgstr ""
+
+#: admin/views/sections/fields/no-template.php:14
+msgid "To generate a checkout page add a product."
+msgstr ""
+
+#: admin/views/sections/fields/no-template.php:15
+msgid "Tip: You can also mark this page as a Global Checkout when page is ready!"
+msgstr ""
+
+#: admin/views/sections/fields/no-template.php:18
+msgid "Choose Design"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:13
+msgid "General"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:14
+#: builder/customizer/customizer-options/class-product-switcher.php:341
+#: builder/customizer/customizer-options/class-section-product-details.php:110
+#: builder/divi/class-wfacp-html-block-divi.php:374
+#: builder/elementor/class-wfacp-html-block-elementor.php:380
+#: includes/class-wfacp-common-helper.php:1237
+msgid "Description"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:15
+#: builder/customizer/customizer-options/class-section-cart.php:259
+#: builder/customizer/customizer-options/class-section-customer-care.php:451
+#: builder/customizer/customizer-options/class-section-form.php:262
+#: builder/customizer/customizer-options/class-section-header.php:221
+#: builder/customizer/customizer-options/class-section-html-widget.php:69
+#: builder/customizer/customizer-options/class-section-html-widget.php:268
+#: builder/customizer/customizer-options/class-section-html-widget.php:469
+#: builder/customizer/customizer-options/class-section-listing.php:310
+#: builder/customizer/customizer-options/class-section-promises.php:149
+#: builder/customizer/customizer-options/class-section-testimonial.php:402
+#: builder/customizer/customizer-options/class-section-twidget.php:213
+#: builder/customizer/templates/layout_9/template.php:1274
+#: builder/divi/class-wfacp-html-block-divi.php:389
+#: builder/elementor/class-wfacp-html-block-elementor.php:396
+#: builder/oxygen/modules/class-oxy-form.php:415
+#: builder/oxygen/modules/class-oxy-form.php:631
+#: builder/oxygen/modules/class-oxy-form.php:765
+#: includes/class-wfacp-common-helper.php:2080
+#: includes/class-wfacp-common-helper.php:2081
+msgid "Advanced"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:16
+msgid "Templates"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:47
+#: admin/views/sections/fields/product_switcher.php:176
+#: includes/class-wfacp-common-helper.php:1396
+#: includes/class-wfacp-common-helper.php:1991
+msgid "Default"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:51
+#: admin/views/sections/fields/product_switcher.php:129
+#: builder/customizer/customizer-options/class-product-switcher.php:63
+#: builder/customizer/customizer-options/class-section-cart.php:206
+#: builder/customizer/customizer-options/class-section-layout.php:97
+#: builder/customizer/customizer-options/class-section-layout.php:133
+#: builder/customizer/customizer-options/class-section-order-summary.php:57
+#: builder/customizer/customizer-options/class-section-product-details.php:52
+#: builder/divi/modules/class-divi-mini-cart.php:27
+#: builder/elementor/widgets/class-elementor-summary.php:38
+#: includes/class-wfacp-common-helper.php:1609
+msgid "Product"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:52
+#: admin/views/sections/fields/product_switcher.php:123
+#: builder/customizer/class-wfacp-pre-built.php:2345
+#: builder/customizer/customizer-options/class-section-product-details.php:70
+#: builder/divi/class-wfacp-html-block-divi.php:368
+#: builder/divi/modules/class-divi-form.php:180
+#: builder/divi/modules/class-divi-form.php:200
+#: builder/divi/modules/class-divi-mini-cart.php:24
+#: builder/elementor/class-wfacp-html-block-elementor.php:374
+#: builder/elementor/widgets/class-elementor-summary.php:35
+#: builder/oxygen/modules/class-oxy-form.php:121
+#: builder/oxygen/modules/class-oxy-form.php:128
+#: builder/oxygen/modules/class-oxy-mini-cart.php:31
+#: includes/class-wfacp-common-helper.php:1236
+msgid "Title"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:56
+msgid "Enable Delete"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:95
+#: includes/class-wfacp-common-helper.php:1404
+msgid "Enable Product Deletion"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:101
+msgid "Enable Custom Product Name In Order Details"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:103
+msgid "This option will allow you to view the product custom name on Thank you page, Customer Email & Admin Order Detail page"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:113
+msgid "Use this section to show per product custom description when the product is selected."
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:114
+msgid "Note: This feature will work if you are using product specific order forms."
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:117
+msgid "Hide Custom Product Description"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:130
+msgid "Custom Details"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:154
+msgid "Best Value Tag"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:157
+msgid "Hide Best Value Tag"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:162
+msgid "Apply on Product"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:174
+msgid "Position"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:177
+msgid "Above product title"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:178
+msgid "Below product title"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:179
+msgid "Top left corner"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:180
+msgid "Top right corner"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:185
+#: builder/customizer/class-wfacp-customizer.php:78
+msgid "Other"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:221
+msgid "Oops! no products found"
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:225
+msgid "To edit this field  please add atleast one product "
+msgstr ""
+
+#: admin/views/sections/fields/product_switcher.php:233
+#: admin/views/sections/products/add-new.php:9
+#: admin/views/sections/products/models.php:28
+#: admin/views/sections/products/no-product-new.php:15
+#: admin/views/sections/products/table.php:103
+#: includes/class-wfacp-common-helper.php:1255
+msgid "Add Product"
+msgstr ""
+
+#: admin/views/sections/fields/single-step.php:29
+msgid "Click to edit. Drag to re-order."
+msgstr ""
+
+#: admin/views/sections/fields/single-step.php:34
+msgid "Drag new fields here to populate the section"
+msgstr ""
+
+#: admin/views/sections/fields/single-step.php:46
+msgid "Note: Payment Information containing gateways will be automatically added to the end of order form."
+msgstr ""
+
+#: admin/views/sections/fields/single-step.php:50
+msgid "Create a new section to add fields in this step."
+msgstr ""
+
+#: admin/views/sections/fields/single-step.php:51
+#: includes/class-wfacp-common-helper.php:1307
+#: includes/class-wfacp-common-helper.php:1329
+msgid "Add Section"
+msgstr ""
+
+#: admin/views/sections/optimization.php:7
+msgid "Google Address Autocompletion"
+msgstr ""
+
+#: admin/views/sections/optimization.php:8
+#: includes/class-wfacp-common-helper.php:1511
+msgid "Auto Apply Coupons"
+msgstr ""
+
+#: admin/views/sections/optimization.php:9
+#: includes/class-wfacp-common-helper.php:1539
+msgid "Smart Buttons for Express Checkout"
+msgstr ""
+
+#: admin/views/sections/optimization.php:10
+#: includes/class-wfacp-common-helper.php:1479
+msgid "Multistep Field Preview"
+msgstr ""
+
+#: admin/views/sections/optimization.php:11
+#: includes/class-wfacp-common-helper.php:1530
+msgid "Preferred Countries"
+msgstr ""
+
+#: admin/views/sections/optimization.php:12
+#: includes/class-wfacp-common-helper.php:1574
+msgid "Time Checkout Expiry"
+msgstr ""
+
+#: admin/views/sections/optimization.php:13
+#: includes/class-wfacp-common-helper.php:1591
+msgid "Prefill Form for Abandoned Users"
+msgstr ""
+
+#: admin/views/sections/optimization.php:14
+#: includes/class-wfacp-common-helper.php:1595
+msgid "Auto fill State from Zip Code and Country"
+msgstr ""
+
+#: admin/views/sections/optimization.php:15
+#: includes/class-wfacp-common-helper.php:1607
+msgid "Generate URL to populate checkout"
+msgstr ""
+
+#: admin/views/sections/product.php:14
+#: includes/class-wfacp-common.php:456
+msgid "Products"
+msgstr ""
+
+#: admin/views/sections/product.php:28
+msgid "Learn how to set this page as a global checkout"
+msgstr ""
+
+#: admin/views/sections/product.php:36
+#: includes/class-wfacp-common-helper.php:1546
+msgid "Product Selection"
+msgstr ""
+
+#: admin/views/sections/product.php:40
+msgid "Restrict buyer to select only one of the above products (e.g. when selling similar products with different pricing plans or quantity)"
+msgstr ""
+
+#: admin/views/sections/product.php:44
+msgid "Allow buyer to select any of the above product(s) (e.g. when selling multiple products)"
+msgstr ""
+
+#: admin/views/sections/product.php:48
+msgid "Force sell all of the above product(s) (e.g. when selling a fixed price bundle)"
+msgstr ""
+
+#: admin/views/sections/products/add-new.php:14
+msgid "To generate a checkout page add a product.<br>Tip: You can also mark this page as a Global Checkout when page is ready!"
+msgstr ""
+
+#: admin/views/sections/products/add-new.php:17
+msgid "Add A Product"
+msgstr ""
+
+#: admin/views/sections/products/models.php:14
+msgid "Select a Product"
+msgstr ""
+
+#: admin/views/sections/products/models.php:19
+msgid "Oops! No elements found. Consider changing the search query."
+msgstr ""
+
+#: admin/views/sections/products/no-product-new.php:8
+msgid "Add a product to the checkout page"
+msgstr ""
+
+#: admin/views/sections/products/no-product-new.php:11
+msgid "You can sell as many product as you want. If you intend to create global checkout for your storefront skip this step."
+msgstr ""
+
+#: admin/views/sections/products/table.php:37
+msgid "Price"
+msgstr ""
+
+#: admin/views/sections/products/table.php:42
+msgid " Regular Price"
+msgstr ""
+
+#: admin/views/sections/products/table.php:46
+msgid "Sale Price"
+msgstr ""
+
+#: admin/views/sections/products/table.php:68
+msgid "Percentage % on Sale Price"
+msgstr ""
+
+#: admin/views/sections/products/table.php:69
+msgid "Fixed Amount on Sale Price"
+msgstr ""
+
+#: admin/views/sections/products/table.php:70
+msgid "Percentage % on Regular Price"
+msgstr ""
+
+#: admin/views/sections/products/table.php:71
+msgid "Fixed Amount on Regular Price"
+msgstr ""
+
+#: admin/views/sections/settings.php:15
+msgid "Tracking Analytics"
+msgstr ""
+
+#: admin/views/sections/settings.php:16
+msgid "Custom Scripts"
+msgstr ""
+
+#: admin/views/sections/settings.php:18
+#: builder/customizer/customizer-options/class-section-custom-css.php:37
+#: builder/customizer/customizer-options/class-section-custom-css.php:43
+#: builder/customizer/customizer-options/class-section-custom-css.php:49
+#: includes/class-wfacp-common-helper.php:1497
+#: includes/class-wfacp-common-helper.php:2098
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/settings.php:5
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:57
+#: builder/divi/modules/class-divi-mini-cart.php:250
+#: builder/elementor/widgets/class-elementor-summary.php:212
+#: includes/class-wfacp-common.php:472
+msgid "Settings"
+msgstr ""
+
+#: builder/customizer/class-wfacp-customizer.php:48
+msgid "Customizer"
+msgstr ""
+
+#: builder/customizer/class-wfacp-customizer.php:200
+msgid "This is a checkout preview for styling purposes. Some of the checkout functions such as showing payment methods or applying coupons  or updating of prices based on shipping methods are restricted. Click here to see the checkout. <a href=\""
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2334
+msgid "CSS Ready Classes"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2337
+msgid "Here are set of CSS classes that can be used to style the checkout form"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2347
+#: includes/class-wfacp-common-helper.php:1313
+msgid "Classes"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2355
+msgid "To create full width field"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2360
+msgid "To create two columns structure and set field left side"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2365
+msgid "To create three columns structure and set field left side"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2371
+msgid "To create two third columns structure"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2375
+msgid "To create field from new line use clearfix"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2492
+#: builder/customizer/customizer-options/class-section-form.php:39
+msgid "&laquo; Return"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2738
+msgid "Add cart link to progress bar"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2745
+msgid "Cart Title"
+msgstr ""
+
+#: builder/customizer/class-wfacp-pre-built.php:2747
+msgid "Cart"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:44
+#: builder/customizer/customizer-options/class-product-switcher.php:51
+msgid "Product List"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:75
+#: builder/customizer/customizer-options/class-product-switcher.php:228
+#: builder/customizer/customizer-options/class-product-switcher.php:286
+#: builder/customizer/customizer-options/class-section-cart.php:569
+#: builder/customizer/customizer-options/class-section-cart.php:630
+#: builder/customizer/customizer-options/class-section-form.php:1188
+#: builder/customizer/customizer-options/class-section-form.php:1267
+#: builder/customizer/customizer-options/class-section-form.php:1772
+#: builder/customizer/templates/embed_forms_1/template.php:907
+#: builder/customizer/templates/embed_forms_1/template.php:985
+#: builder/customizer/templates/embed_forms_1/template.php:1211
+#: builder/divi/class-wfacp-html-block-divi.php:540
+#: builder/divi/class-wfacp-html-block-divi.php:547
+#: builder/divi/modules/class-divi-mini-cart.php:209
+#: builder/divi/modules/class-divi-mini-cart.php:214
+#: builder/elementor/class-wfacp-html-block-elementor.php:526
+#: builder/elementor/class-wfacp-html-block-elementor.php:531
+#: builder/elementor/class-wfacp-html-block-elementor.php:567
+#: builder/elementor/class-wfacp-html-block-elementor.php:572
+#: builder/elementor/widgets/class-elementor-form.php:327
+#: builder/elementor/widgets/class-elementor-summary.php:192
+#: builder/elementor/widgets/class-elementor-summary.php:197
+#: builder/oxygen/class-wfacp-html-block-oxy.php:409
+#: builder/oxygen/class-wfacp-html-block-oxy.php:413
+msgid "Background"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:94
+#: builder/customizer/customizer-options/class-product-switcher.php:190
+#: builder/customizer/customizer-options/class-section-footer.php:65
+#: builder/customizer/customizer-options/class-section-form.php:1287
+#: builder/customizer/customizer-options/class-section-html-widget.php:56
+#: builder/customizer/customizer-options/class-section-html-widget.php:255
+#: builder/customizer/customizer-options/class-section-html-widget.php:456
+#: builder/customizer/customizer-options/class-section-listing.php:234
+#: builder/customizer/customizer-options/class-section-promises.php:110
+#: builder/customizer/templates/embed_forms_1/template.php:1021
+#: builder/customizer/templates/embed_forms_1/template.php:1253
+msgid "Text"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:158
+msgid "Saving"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:185
+#: builder/divi/class-wfacp-html-block-divi.php:330
+#: builder/elementor/class-wfacp-html-block-elementor.php:336
+#: importer/checkout-settings/classic-step-2.php:134
+#: importer/checkout-settings/classic-step-3.php:137
+#: importer/checkout-settings/marketer-step-2.php:133
+#: importer/checkout-settings/marketer-step-3.php:136
+#: importer/checkout-settings/royale-step-2.php:201
+#: importer/checkout-settings/royale-step-3.php:199
+#: importer/checkout-settings/salesletter-step-2.php:131
+#: importer/checkout-settings/salesletter-step-3.php:137
+#: importer/checkout-settings/shopcheckout-multi.php:162
+#: importer/checkout-settings/shopcheckout-step-2.php:122
+#: importer/checkout-settings/shopcheckout-step-3.php:117
+#: importer/checkout-settings/shopcheckout-three.php:145
+msgid "Best Value"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:275
+msgid "Product Description"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:304
+#: builder/customizer/customizer-options/class-section-cart.php:94
+#: builder/customizer/customizer-options/class-section-customer-care.php:69
+#: builder/customizer/customizer-options/class-section-form.php:1062
+#: builder/customizer/customizer-options/class-section-listing.php:81
+#: builder/customizer/customizer-options/class-section-listing.php:230
+#: builder/customizer/customizer-options/class-section-testimonial.php:89
+#: builder/customizer/customizer-options/class-section-testimonial.php:288
+#: builder/customizer/templates/embed_forms_1/template.php:710
+#: builder/customizer/templates/layout_9/template.php:1129
+#: builder/divi/class-wfacp-html-block-divi.php:362
+#: builder/divi/modules/class-divi-form.php:181
+#: builder/divi/modules/class-divi-form.php:182
+#: builder/divi/modules/class-divi-mini-cart.php:23
+#: builder/divi/modules/class-divi-mini-cart.php:44
+#: builder/elementor/class-wfacp-html-block-elementor.php:368
+#: builder/elementor/widgets/class-elementor-summary.php:34
+#: builder/elementor/widgets/class-elementor-summary.php:56
+#: builder/oxygen/modules/class-oxy-form.php:122
+#: builder/oxygen/modules/class-oxy-form.php:144
+#: builder/oxygen/modules/class-oxy-form.php:426
+#: builder/oxygen/modules/class-oxy-mini-cart.php:30
+msgid "Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:322
+msgid "Product Title"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:380
+#: builder/customizer/customizer-options/class-section-form.php:1308
+#: builder/customizer/templates/embed_forms_1/template.php:434
+#: builder/divi/class-abstract-wfacp-fields.php:544
+#: builder/elementor/class-abstract-wfacp-fields.php:204
+#: builder/elementor/class-abstract-wfacp-fields.php:267
+msgid "Border"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:403
+#: builder/customizer/customizer-options/class-section-form.php:1664
+#: builder/customizer/templates/embed_forms_1/template.php:406
+#: builder/customizer/templates/embed_forms_1/template.php:473
+#: builder/divi/class-abstract-wfacp-fields.php:552
+msgid "Width"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:430
+#: builder/customizer/customizer-options/class-section-cart.php:319
+#: builder/customizer/customizer-options/class-section-customer-care.php:512
+#: builder/customizer/customizer-options/class-section-form.php:324
+#: builder/customizer/customizer-options/class-section-header.php:281
+#: builder/customizer/customizer-options/class-section-html-widget.php:129
+#: builder/customizer/customizer-options/class-section-html-widget.php:329
+#: builder/customizer/customizer-options/class-section-html-widget.php:530
+#: builder/customizer/customizer-options/class-section-listing.php:372
+#: builder/customizer/customizer-options/class-section-promises.php:211
+#: builder/customizer/customizer-options/class-section-testimonial.php:463
+#: builder/customizer/customizer-options/class-section-twidget.php:275
+#: builder/customizer/templates/layout_9/template.php:1336
+msgid "Border Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-product-switcher.php:455
+#: builder/customizer/customizer-options/class-section-cart.php:344
+#: builder/customizer/customizer-options/class-section-customer-care.php:538
+#: builder/customizer/customizer-options/class-section-header.php:306
+#: builder/customizer/customizer-options/class-section-html-widget.php:154
+#: builder/customizer/customizer-options/class-section-html-widget.php:354
+#: builder/customizer/customizer-options/class-section-html-widget.php:555
+#: builder/customizer/customizer-options/class-section-listing.php:398
+#: builder/customizer/customizer-options/class-section-promises.php:237
+#: builder/customizer/customizer-options/class-section-testimonial.php:489
+#: builder/customizer/customizer-options/class-section-twidget.php:301
+#: builder/customizer/templates/embed_forms_1/template.php:550
+#: builder/customizer/templates/layout_9/template.php:1361
+#: builder/oxygen/class-abstract-wfacp-fields.php:644
+msgid "Padding"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:54
+#: builder/customizer/templates/layout_9/template.php:1486
+#: builder/customizer/templates/layout_9/template.php:1625
+msgid "Your Cart"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:56
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:40
+#: builder/divi/class-wfacp-divi-extension.php:82
+#: builder/elementor/widgets/class-elementor-summary.php:17
+#: builder/oxygen/class-wfacp-oxy.php:299
+#: builder/oxygen/modules/class-oxy-mini-cart.php:11
+msgid "Mini Cart"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:77
+#: builder/customizer/customizer-options/class-section-form.php:98
+#: builder/oxygen/modules/class-oxy-form.php:201
+#: builder/oxygen/modules/class-oxy-form.php:425
+msgid "Section"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:87
+#: builder/customizer/customizer-options/class-section-customer-care.php:62
+#: builder/customizer/customizer-options/class-section-listing.php:74
+#: builder/customizer/customizer-options/class-section-testimonial.php:82
+#: builder/customizer/templates/layout_9/template.php:1122
+msgid "Enable Section Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:112
+#: builder/customizer/customizer-options/class-section-customer-care.php:87
+#: builder/customizer/customizer-options/class-section-customer-care.php:218
+#: builder/customizer/customizer-options/class-section-form.php:114
+#: builder/customizer/customizer-options/class-section-form.php:404
+#: builder/customizer/customizer-options/class-section-form.php:520
+#: builder/customizer/customizer-options/class-section-form.php:1503
+#: builder/customizer/customizer-options/class-section-listing.php:99
+#: builder/customizer/customizer-options/class-section-styles.php:145
+#: builder/customizer/customizer-options/class-section-testimonial.php:108
+#: builder/customizer/customizer-options/class-section-twidget.php:139
+#: builder/customizer/templates/layout_9/template.php:1147
+msgid "Font Size"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:149
+#: builder/customizer/customizer-options/class-section-customer-care.php:124
+#: builder/customizer/customizer-options/class-section-customer-care.php:256
+#: builder/customizer/customizer-options/class-section-form.php:179
+#: builder/customizer/customizer-options/class-section-form.php:455
+#: builder/customizer/customizer-options/class-section-listing.php:135
+#: builder/customizer/customizer-options/class-section-promises.php:117
+#: builder/customizer/customizer-options/class-section-testimonial.php:145
+#: builder/customizer/customizer-options/class-section-twidget.php:169
+#: builder/customizer/templates/embed_forms_1/template.php:871
+#: builder/customizer/templates/layout_9/template.php:1183
+msgid "Text Alignment"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:178
+#: builder/customizer/customizer-options/class-section-customer-care.php:151
+#: builder/customizer/customizer-options/class-section-customer-care.php:283
+#: builder/customizer/customizer-options/class-section-form.php:152
+#: builder/customizer/customizer-options/class-section-form.php:435
+#: builder/customizer/customizer-options/class-section-form.php:1636
+#: builder/customizer/customizer-options/class-section-listing.php:165
+#: builder/customizer/customizer-options/class-section-testimonial.php:174
+#: builder/customizer/customizer-options/class-section-twidget.php:191
+#: builder/customizer/templates/layout_9/template.php:1210
+msgid "Font Weight"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:211
+#: builder/customizer/customizer-options/class-section-customer-care.php:336
+#: builder/customizer/customizer-options/class-section-product-details.php:190
+#: builder/customizer/customizer-options/class-section-testimonial.php:321
+#: builder/divi/modules/class-divi-mini-cart.php:29
+#: builder/elementor/widgets/class-elementor-summary.php:40
+#: builder/oxygen/modules/class-oxy-mini-cart.php:36
+msgid "Image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:212
+msgid "Check if you want to show the image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:218
+#: builder/divi/modules/class-divi-form.php:266
+#: builder/divi/modules/class-divi-mini-cart.php:30
+#: builder/elementor/widgets/class-elementor-form.php:253
+#: builder/elementor/widgets/class-elementor-summary.php:41
+#: builder/oxygen/modules/class-oxy-form.php:500
+#: builder/oxygen/modules/class-oxy-mini-cart.php:38
+msgid "Quantity Switcher"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:219
+msgid "Check if you want Quantity Switcher"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:225
+#: builder/divi/modules/class-divi-form.php:267
+#: builder/divi/modules/class-divi-mini-cart.php:31
+#: builder/elementor/widgets/class-elementor-form.php:254
+#: builder/elementor/widgets/class-elementor-summary.php:42
+#: builder/oxygen/modules/class-oxy-form.php:501
+#: builder/oxygen/modules/class-oxy-mini-cart.php:39
+msgid "Allow Deletion"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:226
+msgid "Check if you want delete item"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:232
+#: builder/customizer/customizer-options/class-section-cart.php:551
+#: builder/divi/modules/class-divi-mini-cart.php:34
+#: builder/elementor/widgets/class-elementor-summary.php:46
+#: builder/oxygen/modules/class-oxy-mini-cart.php:144
+msgid "Coupon"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:237
+#: builder/customizer/templates/embed_forms_1/template.php:1740
+#: builder/customizer/templates/layout_9/template.php:1058
+msgid "Hide Coupon"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:238
+msgid "Check if you want to hide the coupon from the sidebar order summary"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:244
+#: builder/customizer/templates/embed_forms_1/template.php:1754
+#: builder/customizer/templates/layout_9/template.php:1072
+msgid "Make Collapsible"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:245
+#: builder/customizer/templates/embed_forms_1/template.php:1755
+#: builder/customizer/templates/layout_9/template.php:1073
+msgid "Check if you want to keep coupon field collapsible"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:264
+#: builder/customizer/customizer-options/class-section-customer-care.php:456
+#: builder/customizer/customizer-options/class-section-form.php:268
+#: builder/customizer/customizer-options/class-section-header.php:226
+#: builder/customizer/customizer-options/class-section-html-widget.php:74
+#: builder/customizer/customizer-options/class-section-html-widget.php:273
+#: builder/customizer/customizer-options/class-section-html-widget.php:474
+#: builder/customizer/customizer-options/class-section-listing.php:315
+#: builder/customizer/customizer-options/class-section-promises.php:154
+#: builder/customizer/customizer-options/class-section-testimonial.php:407
+#: builder/customizer/customizer-options/class-section-twidget.php:218
+#: builder/customizer/templates/embed_forms_1/template.php:439
+#: builder/customizer/templates/layout_9/template.php:1279
+msgid "Border Type"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:292
+#: builder/customizer/customizer-options/class-section-customer-care.php:485
+#: builder/customizer/customizer-options/class-section-form.php:297
+#: builder/customizer/customizer-options/class-section-header.php:254
+#: builder/customizer/customizer-options/class-section-html-widget.php:102
+#: builder/customizer/customizer-options/class-section-html-widget.php:301
+#: builder/customizer/customizer-options/class-section-html-widget.php:502
+#: builder/customizer/customizer-options/class-section-listing.php:345
+#: builder/customizer/customizer-options/class-section-promises.php:184
+#: builder/customizer/customizer-options/class-section-testimonial.php:436
+#: builder/customizer/customizer-options/class-section-twidget.php:248
+#: builder/customizer/templates/layout_9/template.php:1308
+msgid "Border Width"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:369
+#: builder/customizer/customizer-options/class-section-customer-care.php:563
+#: builder/customizer/customizer-options/class-section-footer.php:114
+#: builder/customizer/customizer-options/class-section-form.php:1262
+#: builder/customizer/customizer-options/class-section-header.php:331
+#: builder/customizer/customizer-options/class-section-html-widget.php:179
+#: builder/customizer/customizer-options/class-section-html-widget.php:379
+#: builder/customizer/customizer-options/class-section-html-widget.php:580
+#: builder/customizer/customizer-options/class-section-listing.php:425
+#: builder/customizer/customizer-options/class-section-product-details.php:218
+#: builder/customizer/customizer-options/class-section-promises.php:264
+#: builder/customizer/customizer-options/class-section-testimonial.php:516
+#: builder/customizer/customizer-options/class-section-twidget.php:327
+#: builder/customizer/templates/embed_forms_1/template.php:939
+msgid "Colors"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:374
+msgid "Section Background Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:392
+msgid "Section Title"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:410
+msgid "Label & Price"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:477
+msgid "Total Value"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:514
+msgid "Divider Line"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:690
+msgid "Quantity Background"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-cart.php:708
+msgid "Quantity Text Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:36
+#: builder/customizer/customizer-options/class-section-header.php:178
+msgid "support@example.com"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:42
+#: builder/customizer/customizer-options/class-section-customer-care.php:48
+#: builder/customizer/customizer-options/class-section-customer-care.php:71
+#: builder/customizer/customizer-options/class-section-layout.php:75
+#: builder/customizer/customizer-options/class-section-layout.php:102
+#: builder/customizer/customizer-options/class-section-layout.php:138
+msgid "Customer Support"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:56
+#: builder/customizer/customizer-options/class-section-form.php:215
+#: builder/customizer/customizer-options/class-section-listing.php:69
+#: builder/customizer/customizer-options/class-section-testimonial.php:77
+#: builder/customizer/templates/layout_9/template.php:1117
+msgid "Section Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:180
+#: builder/customizer/customizer-options/class-section-customer-care.php:192
+#: builder/customizer/templates/embed_forms_1/template.php:738
+#: builder/divi/modules/class-divi-form.php:186
+#: builder/divi/modules/class-divi-form.php:220
+#: builder/divi/modules/class-divi-form.php:311
+#: builder/divi/modules/class-divi-form.php:391
+#: builder/oxygen/modules/class-oxy-form.php:123
+#: builder/oxygen/modules/class-oxy-form.php:183
+#: includes/class-wfacp-common-helper.php:1312
+msgid "Sub Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:185
+msgid "Enable Sub Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:194
+msgid "OUR AWARD-WINNING CUSTOMER SUPPORT IS HERE FOR YOU"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:313
+msgid "Supporter"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:318
+#: builder/customizer/customizer-options/class-section-testimonial.php:292
+#: includes/class-wfacp-post-table.php:263
+msgid "Name"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:320
+msgid "Tavleen Kaur"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:343
+#: builder/customizer/customizer-options/class-section-testimonial.php:296
+msgid "Designation"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:345
+msgid "Customer Happiness Manager"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:361
+msgid "Signature"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:371
+msgid "Contact"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:376
+#: builder/customizer/customizer-options/class-section-customer-care.php:378
+msgid "Email or call us for support"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:394
+msgid "Contact Description"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:412
+msgid "Chat Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:414
+msgid "Chat With Us"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:430
+msgid "Chat Description"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:432
+msgid "Monday - Friday, 7:00am - 7:00pm (Pacific Time)"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:568
+#: builder/customizer/customizer-options/class-section-footer.php:119
+#: builder/customizer/customizer-options/class-section-header.php:336
+#: builder/customizer/customizer-options/class-section-html-widget.php:184
+#: builder/customizer/customizer-options/class-section-html-widget.php:384
+#: builder/customizer/customizer-options/class-section-html-widget.php:585
+#: builder/customizer/customizer-options/class-section-listing.php:430
+#: builder/customizer/customizer-options/class-section-product-details.php:223
+#: builder/customizer/customizer-options/class-section-promises.php:270
+#: builder/customizer/customizer-options/class-section-testimonial.php:522
+#: builder/customizer/customizer-options/class-section-twidget.php:333
+#: builder/customizer/templates/layout_9/template.php:836
+#: builder/customizer/templates/layout_9/template.php:1238
+#: builder/divi/modules/class-divi-form.php:353
+#: builder/divi/modules/class-divi-form.php:511
+#: builder/elementor/widgets/class-elementor-form.php:588
+#: builder/elementor/widgets/class-elementor-form.php:812
+#: builder/elementor/widgets/class-elementor-summary.php:277
+#: builder/oxygen/modules/class-oxy-form.php:207
+#: builder/oxygen/modules/class-oxy-form.php:564
+msgid "Background Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:587
+#: builder/customizer/customizer-options/class-section-listing.php:449
+#: builder/customizer/customizer-options/class-section-testimonial.php:541
+#: builder/customizer/templates/layout_9/template.php:1256
+msgid "Section Heading Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:606
+#: builder/customizer/customizer-options/class-section-header.php:361
+#: builder/customizer/customizer-options/class-section-listing.php:505
+#: builder/customizer/templates/layout_9/template.php:861
+msgid "Icon Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:624
+msgid "Sub Heading Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-customer-care.php:643
+#: builder/customizer/customizer-options/class-section-footer.php:138
+#: builder/customizer/customizer-options/class-section-header.php:398
+#: builder/customizer/customizer-options/class-section-html-widget.php:203
+#: builder/customizer/customizer-options/class-section-html-widget.php:403
+#: builder/customizer/customizer-options/class-section-html-widget.php:604
+#: builder/customizer/customizer-options/class-section-listing.php:487
+#: builder/customizer/customizer-options/class-section-product-details.php:261
+#: builder/customizer/customizer-options/class-section-promises.php:290
+#: builder/customizer/customizer-options/class-section-testimonial.php:579
+#: builder/customizer/customizer-options/class-section-twidget.php:371
+#: builder/customizer/templates/layout_9/template.php:898
+#: builder/divi/modules/class-divi-form.php:834
+msgid "Content Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-footer.php:36
+msgid "Refund policy"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-footer.php:37
+msgid "Privacy policy"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-footer.php:38
+msgid "Terms of service"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-footer.php:39
+msgid "Copyright © 2021 WooFunnels - All Rights Reserved"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-footer.php:46
+#: builder/customizer/customizer-options/class-section-footer.php:52
+#: includes/class-wfacp-common-helper.php:1493
+msgid "Footer"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-footer.php:76
+msgid "Text Font Size"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:40
+msgid "Use {step_name} to dynamically show the name of previous step"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:51
+msgid "Click here to know more about available classes to setup fields."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:71
+msgid "Select a product"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:91
+msgid "Form Style"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:109
+#: builder/customizer/customizer-options/class-section-form.php:399
+#: builder/customizer/customizer-options/class-section-form.php:515
+#: builder/customizer/customizer-options/class-section-form.php:1496
+#: builder/customizer/templates/embed_forms_1/template.php:772
+#: builder/elementor/class-abstract-wfacp-fields.php:299
+#: builder/oxygen/class-abstract-wfacp-fields.php:203
+#: builder/oxygen/modules/class-oxy-form.php:345
+#: builder/oxygen/modules/class-oxy-form.php:380
+#: builder/oxygen/modules/class-oxy-form.php:628
+#: builder/oxygen/modules/class-oxy-form.php:668
+#: builder/oxygen/modules/class-oxy-form.php:769
+msgid "Typography"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:209
+#: builder/customizer/customizer-options/class-section-form.php:479
+#: builder/customizer/customizer-options/class-section-form.php:755
+#: builder/customizer/customizer-options/class-section-form.php:1094
+#: builder/customizer/customizer-options/class-section-form.php:1112
+#: builder/customizer/customizer-options/class-section-form.php:1139
+#: builder/customizer/customizer-options/class-section-form.php:1168
+#: builder/customizer/customizer-options/class-section-form.php:1754
+#: builder/customizer/templates/embed_forms_1/template.php:513
+#: builder/oxygen/class-wfacp-html-block-oxy.php:210
+#: builder/oxygen/modules/class-oxy-form.php:349
+#: builder/oxygen/modules/class-oxy-form.php:384
+#: builder/oxygen/modules/class-oxy-form.php:482
+#: builder/oxygen/modules/class-oxy-form.php:612
+#: builder/oxygen/modules/class-oxy-form.php:752
+msgid "Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:240
+msgid "Section Background"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:349
+msgid "Padding (Left and Right)"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:373
+msgid "Margin (Bottom)"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:393
+msgid "Section Sub Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:484
+msgid "Section Subheading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:510
+msgid "Field Style"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:551
+msgid "Field Border Layout"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:617
+msgid "Field  Border Width"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:760
+msgid "Field Label"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:809
+msgid "Field Border"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:889
+msgid "Field Focus"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:969
+msgid "Field Value"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1057
+#: builder/oxygen/modules/class-oxy-form.php:424
+msgid "Payment Methods"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1063
+#: builder/customizer/templates/layout_1/template.php:255
+#: builder/customizer/templates/layout_4/template.php:234
+#: builder/divi/modules/class-divi-form.php:219
+#: builder/elementor/widgets/class-elementor-form.php:829
+#: importer/checkout-settings/embed_forms_2.php:89
+msgid "Payment Information"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1073
+#: builder/oxygen/modules/class-oxy-form.php:427
+msgid "Sub heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1074
+#: builder/elementor/widgets/class-elementor-form.php:830
+#: includes/class-wfacp-template.php:1982
+msgid "All transactions are secure and encrypted. Credit card information is never stored on our servers."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1100
+msgid "Step Bar Text"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1208
+#: builder/customizer/customizer-options/class-section-layout.php:96
+#: builder/customizer/customizer-options/class-section-layout.php:132
+#: builder/customizer/templates/embed_forms_1/template.php:399
+msgid "Form"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1213
+msgid "Validation Text"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1254
+#: builder/oxygen/class-wfacp-html-block-oxy.php:368
+#: importer/checkout-settings/closer.php:128
+#: importer/checkout-settings/embed_forms_1.php:197
+#: importer/checkout-settings/flavour.php:111
+#: importer/checkout-settings/magnetic-step-3.php:68
+#: includes/class-wfacp-common-helper.php:2716
+msgid "Order Total"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1351
+#: builder/customizer/templates/layout_9/template.php:139
+msgid "Order Complete"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1356
+msgid "Step "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1414
+msgid "PLACE ORDER"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1419
+msgid "NEXT STEP"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1443
+msgid "Use {step_name} to dynamically show the name of next step"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1541
+msgid "Padding Top Bottom"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1576
+msgid "Padding Left Right"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1612
+#: builder/divi/class-abstract-wfacp-fields.php:561
+#: builder/divi/modules/class-divi-form.php:362
+msgid "Border Radius"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1692
+msgid "Alignment"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1741
+#: builder/divi/modules/class-divi-form.php:548
+#: builder/elementor/widgets/class-elementor-form.php:853
+#: builder/oxygen/modules/class-oxy-form.php:595
+msgid "Sticky on Mobile"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1760
+msgid "Button"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1836
+msgid "Background "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1903
+#: builder/oxygen/modules/class-oxy-form.php:644
+msgid "Additional Text"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1910
+#: builder/oxygen/modules/class-oxy-form.php:468
+msgid "Text Below Place Order Button"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1911
+#: builder/oxygen/modules/class-oxy-form.php:468
+msgid "We Respect Your Privacy & Information"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1982
+msgid "Back Link"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:1993
+#: builder/customizer/customizer-options/class-section-form.php:2889
+msgid "Normal Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:2025
+#: builder/customizer/customizer-options/class-section-form.php:2957
+#: builder/elementor/class-abstract-wfacp-fields.php:453
+msgid "Hover Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:2158
+msgid "Custom Classes"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:2243
+#: builder/divi/modules/class-divi-form.php:117
+msgid "Custom Class"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:2615
+msgid "Form Content"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-form.php:2878
+msgid "Form Links"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-guarantee-badge.php:69
+msgid "Badge"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-guarantee-badge.php:74
+msgid "Enable Badge"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-guarantee-badge.php:81
+msgid "Select Badge"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-guarantee-badge.php:106
+msgid "Icon Max Width"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-guarantee-badge.php:127
+msgid "Margin Left"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-guarantee-badge.php:144
+msgid "Margin Top"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:56
+#: builder/customizer/customizer-options/class-section-header.php:62
+msgid "Logo"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:72
+msgid "Logo Link"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:73
+#: builder/customizer/customizer-options/class-section-header.php:164
+msgid "#"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:74
+msgid "http://www.yoursite.com"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:79
+msgid "Open link into new window"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:80
+#: builder/customizer/customizer-options/class-section-header.php:171
+msgid "To Open in new tab"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:86
+msgid "Max Width"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:106
+msgid "Page SEO Title"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:120
+#: importer/checkout-settings/flavour-step-2.php:45
+#: importer/checkout-settings/minimilist-step-2.php:45
+#: importer/checkout-settings/minimilist-step-3.php:45
+#: importer/checkout-settings/minimilist.php:48
+#: importer/checkout-settings/persuader-step-2.php:45
+#: importer/checkout-settings/persuader-step-3.php:45
+#: importer/checkout-settings/persuader.php:48
+#: importer/checkout-settings/presenter-step-2.php:45
+#: importer/checkout-settings/presenter-step-3.php:45
+#: importer/checkout-settings/razor-step-2.php:45
+#: importer/checkout-settings/razor-step-3.php:45
+#: importer/checkout-settings/razor.php:58
+#: importer/checkout-settings/shopcheckout.php:47
+msgid "Contact Information"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:125
+msgid "Header Text"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:126
+msgid "Need support?"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:143
+msgid "Helpdesk Label"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:145
+msgid "Helpdesk"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:162
+msgid "Helpdesk URL"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:163
+msgid "URL of your contact page or any support page if you have"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:170
+msgid "Helpdesk URL open in New Tab"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:177
+#: includes/class-wfacp-common-helper.php:1389
+msgid "Email"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:195
+msgid "Phone"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:196
+msgid "844-440-2777"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:213
+msgid "Number to be dial on click"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-header.php:214
+msgid "8444402777"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-html-widget.php:57
+msgid "There is a demo text HTML 1"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-html-widget.php:256
+msgid "There is a demo text HTML 2"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-html-widget.php:457
+msgid "There is a demo text HTML 3"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:43
+#: builder/customizer/customizer-options/class-section-layout.php:49
+msgid "Widget Visibility"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:55
+msgid "Sections"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:60
+msgid "Elements Order & Visibility for Desktop View Sidebar"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:61
+#: builder/customizer/customizer-options/class-section-layout.php:118
+#: builder/customizer/templates/layout_1/template.php:316
+#: builder/customizer/templates/layout_4/template.php:296
+#: builder/customizer/templates/layout_9/template.php:710
+msgid "<b>Tip:</b> Drag and Drop Sections to modify its position. <br>Click on Eye icon to turn ON/OFF visibility of the section."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:71
+#: builder/customizer/customizer-options/class-section-layout.php:98
+#: builder/customizer/customizer-options/class-section-layout.php:134
+#: builder/customizer/customizer-options/class-section-listing.php:199
+msgid "Benefits"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:72
+#: builder/customizer/customizer-options/class-section-layout.php:99
+#: builder/customizer/customizer-options/class-section-layout.php:135
+#: builder/customizer/customizer-options/class-section-testimonial.php:259
+msgid "Testimonials"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:73
+#: builder/customizer/customizer-options/class-section-layout.php:100
+#: builder/customizer/customizer-options/class-section-layout.php:136
+#: builder/customizer/customizer-options/class-section-promises.php:53
+#: builder/customizer/customizer-options/class-section-promises.php:83
+#: builder/customizer/customizer-options/class-section-promises.php:86
+msgid "Promises"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:74
+#: builder/customizer/customizer-options/class-section-layout.php:101
+#: builder/customizer/customizer-options/class-section-layout.php:137
+msgid "Assurance"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:76
+#: builder/customizer/customizer-options/class-section-layout.php:103
+#: builder/customizer/customizer-options/class-section-layout.php:139
+msgid "Custom HTML Sidebar-1"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:77
+#: builder/customizer/customizer-options/class-section-layout.php:104
+#: builder/customizer/customizer-options/class-section-layout.php:140
+msgid "Custom HTML Sidebar-2"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:78
+#: builder/customizer/customizer-options/class-section-layout.php:141
+#: builder/customizer/templates/layout_2/template.php:128
+#: builder/customizer/templates/layout_2/template.php:131
+msgid "Custom HTML Sidebar-3"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:84
+msgid "Elements Order & Visibility for Mobile View"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:85
+msgid "<i><b>Tip:</b> You can rearrange widgets or control visibility on mobile. Shrinking the browser and checking preview may not lead to real results. Check on mobile decide to see the actual preview.</i>"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:105
+msgid "Custom HTML Below Form"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-layout.php:117
+msgid "All Customizer Data"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:83
+msgid "Why Buy From Us"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:202
+msgid "Benefit"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:207
+msgid "100% Safe and Secure Shopping"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:208
+msgid "All the information that you submit here is 100% encrypted. This is 128 bit SSL encrypted payment."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:212
+msgid "Best Prices"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:213
+msgid "We ensure product quality at highly competitive prices. We have 93% customer satisfaction rate."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:217
+msgid "Fast Shipping"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:218
+msgid "We work hard to ensure that you get on time delievery. And adhere to our estimated shipping dates."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:222
+msgid "Quick Order Processing and Tracking"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:223
+msgid "As soon as you place the order, you will receive email for order confirmation & we shall begin processing your order right after. You will receive tracking id for your order after shipping."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:242
+msgid "Built-in List Icons"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:279
+msgid "Hide Benefits Icon"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:280
+msgid "You can hide the list icons"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:286
+msgid "Show Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:287
+msgid "You can show / hide the heading of each list item"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:293
+msgid "Show Description"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:294
+msgid "You can Show the description"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:300
+msgid "Bold Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:301
+msgid "Set heading bold or normal"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-listing.php:468
+#: builder/customizer/customizer-options/class-section-product-details.php:242
+#: builder/customizer/customizer-options/class-section-testimonial.php:560
+#: builder/customizer/customizer-options/class-section-twidget.php:352
+msgid "Heading Color"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:63
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:70
+#: builder/customizer/customizer-options/class-section-order-summary.php:66
+msgid "Enable if you want to Show the image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:69
+msgid "Enable Product Image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:76
+msgid "Enable Quantity Image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:77
+msgid "Enable if you want to Show the Quantity box"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:83
+msgid "Enable Delete Item"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:84
+msgid "Enable if you want to delete the item"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:90
+#: builder/divi/modules/class-divi-form.php:264
+#: builder/elementor/widgets/class-elementor-form.php:250
+#: builder/oxygen/modules/class-oxy-form.php:495
+#: builder/oxygen/modules/class-oxy-mini-cart.php:145
+msgid "Enable Coupon"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:91
+msgid "Enable if you want to Show the Coupon Field"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:97
+msgid "Enable Collapsible Coupon"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-mini-cart-summary.php:98
+msgid "Enable if you want to Show the Collapsible Coupon Link"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-order-summary.php:40
+#: builder/customizer/templates/layout_9/views/template-parts/main-order-pay-summary.php:32
+#: builder/customizer/templates/layout_9/views/template-parts/main-order-summary.php:44
+#: builder/customizer/templates/layout_9/views/template-parts/mini-cart-order-summary.php:60
+#: builder/customizer/templates/layout_9/views/template-parts/order-summary.php:67
+#: builder/divi/modules/class-divi-mini-cart.php:24
+#: builder/elementor/widgets/class-elementor-summary.php:35
+#: builder/oxygen/class-wfacp-html-block-oxy.php:78
+#: builder/oxygen/modules/class-oxy-mini-cart.php:31
+#: importer/checkout-settings/build_1.php:121
+#: importer/checkout-settings/build_2.php:123
+#: importer/checkout-settings/build_3.php:109
+#: importer/checkout-settings/classic-step-2.php:106
+#: importer/checkout-settings/classic-step-3.php:109
+#: importer/checkout-settings/closer-step-2.php:122
+#: importer/checkout-settings/closer.php:109
+#: importer/checkout-settings/custom_funnel_form_1.php:123
+#: importer/checkout-settings/custom_funnel_form_2.php:168
+#: importer/checkout-settings/custom_funnel_form_3.php:158
+#: importer/checkout-settings/embed_forms_1.php:178
+#: importer/checkout-settings/embed_forms_2.php:199
+#: importer/checkout-settings/embed_forms_4.php:161
+#: importer/checkout-settings/embed_forms_5.php:158
+#: importer/checkout-settings/embed_forms_6.php:146
+#: importer/checkout-settings/flavour-step-2.php:119
+#: importer/checkout-settings/marketer-step-2.php:105
+#: importer/checkout-settings/marketer-step-3.php:108
+#: importer/checkout-settings/minimilist-step-2.php:111
+#: importer/checkout-settings/minimilist-step-3.php:111
+#: importer/checkout-settings/minimilist.php:137
+#: importer/checkout-settings/persuader-step-2.php:121
+#: importer/checkout-settings/persuader-step-3.php:131
+#: importer/checkout-settings/persuader.php:137
+#: importer/checkout-settings/presenter-step-2.php:121
+#: importer/checkout-settings/presenter-step-3.php:131
+#: importer/checkout-settings/presenter.php:125
+#: importer/checkout-settings/razor-step-2.php:119
+#: importer/checkout-settings/razor-step-3.php:129
+#: importer/checkout-settings/razor.php:124
+#: importer/checkout-settings/salesletter-step-2.php:103
+#: importer/checkout-settings/salesletter-step-3.php:109
+#: importer/checkout-settings/shopcheckout.php:125
+#: includes/class-wfacp-common-helper.php:2348
+#: includes/class-wfacp-common-helper.php:2523
+#: public/template-common/order-summary.php:39
+msgid "Order Summary"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-order-summary.php:65
+#: builder/customizer/customizer-options/class-section-product-details.php:202
+msgid "Product Image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:57
+msgid "Enable Product Section"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:65
+msgid "Summary"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:71
+msgid "Your Awesome Product"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:80
+msgid "Title Font Size"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:111
+msgid "Use this section to highlight your product's USP. Mention the most important benefit. E.g: This awesome product has 100% organic hand-picked ingredients that heal and protect your skin."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:130
+msgid "Description Font Size"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:168
+msgid "Section Height"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-product-details.php:195
+msgid "Show Product Image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-promises.php:62
+msgid "Badge Structure"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-promises.php:92
+msgid "We Protect Your Privacy"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-promises.php:96
+msgid "100% Satisfaction Guaranteed"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-promises.php:100
+msgid "Your Information Is Secure"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-promises.php:137
+msgid "Hide Text"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-styles.php:88
+msgid "Body Background Color "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-styles.php:113
+msgid "Sidebar Background Color "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-styles.php:172
+msgid "Font Family"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:52
+#: builder/customizer/templates/layout_9/template.php:809
+#: builder/customizer/templates/layout_9/template.php:1095
+msgid "Layout"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:62
+msgid "Parallel"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:66
+msgid "Alternative"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:91
+msgid "What They're Saying"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:211
+msgid "Testimonials Type"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:222
+msgid "Show Reviews"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:223
+msgid "Greater than or equal to"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:241
+msgid "No. Of Reviews To Show "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:263
+msgid "Testimonial"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:267
+msgid "Amazing Product"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:268
+#: builder/customizer/customizer-options/class-section-testimonial.php:277
+msgid "Christine McVeigh"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:269
+#: builder/customizer/customizer-options/class-section-testimonial.php:278
+msgid "Store Owner"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:270
+#: builder/customizer/customizer-options/class-section-testimonial.php:279
+msgid "Add a testimonial should highlight why they use the product and how It benefits them."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:271
+msgid "2018-09-08"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:276
+msgid "Got Great Results"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:280
+msgid "2018-10-03"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:300
+msgid "Message"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:304
+msgid "Date"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:305
+msgid "Date Format"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:309
+msgid "Rating"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:312
+msgid "1"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:313
+msgid "2"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:314
+msgid "3"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:315
+msgid "4"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:316
+msgid "5"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:336
+msgid "Hide Testimonial Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:337
+msgid "Enable if you want to hide the testimonial heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:351
+msgid "Hide Designation"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:352
+msgid "Enable if you want to hide the designation"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:366
+msgid "Hide Image "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:367
+msgid "Enable if you want to hide the image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:373
+msgid "Hide Author Meta "
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:374
+msgid "Enable if you want to remove Star Rating and Author Meta"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-testimonial.php:380
+msgid "Image Type"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:63
+msgid "Contents"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:73
+msgid "30 Days Refund Policy"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:74
+#: builder/customizer/templates/layout_2/template.php:240
+#: builder/customizer/templates/layout_9/template.php:387
+msgid "You have to take enough risks in life, this shouldn’t be one of them. Try this out for 30 days on me and if you aren’t happy just send me an email and I’ll refund your entire purchase – no questions asked."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:78
+msgid "Privacy"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:79
+#: builder/customizer/templates/layout_2/template.php:245
+msgid "We will not share or trade online information that you provide us (including e-mail addresses)."
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:87
+msgid "Upload Image"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:92
+msgid "Widget Heading"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:96
+msgid "Widget Content"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:105
+msgid "Hide Widget Title"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:115
+msgid "Show Images"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:122
+msgid "Enable Divider Line"
+msgstr ""
+
+#: builder/customizer/customizer-options/class-section-twidget.php:389
+msgid "Divider Color"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:557
+msgid "Form Padding"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:574
+msgid "Top Bar"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:587
+msgid "Visibility"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:598
+msgid "Disable Top Bar"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:616
+#: builder/divi/modules/class-divi-form.php:147
+#: builder/oxygen/modules/class-oxy-form.php:90
+msgid "Select Type"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:789
+msgid "Step Heading"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:830
+msgid "Step Sub-Heading"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:962
+#: builder/divi/modules/class-divi-form.php:175
+#: builder/oxygen/modules/class-oxy-form.php:116
+msgid "Step"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1059
+#: builder/customizer/templates/embed_forms_1/template.php:1400
+msgid "Tab Border"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1100
+#: builder/customizer/templates/embed_forms_1/template.php:1289
+msgid "Count Background"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1136
+#: builder/customizer/templates/embed_forms_1/template.php:1326
+msgid "Count Text"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1173
+#: builder/customizer/templates/embed_forms_1/template.php:1363
+msgid "Count Border"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1440
+msgid "This setting is applicable for multistep forms only "
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1521
+#: builder/divi/modules/class-divi-form.php:160
+#: builder/elementor/widgets/class-elementor-form.php:393
+#: builder/oxygen/modules/class-oxy-form.php:101
+msgid "SHIPPING"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1522
+#: builder/elementor/widgets/class-elementor-form.php:394
+#: builder/oxygen/modules/class-oxy-form.php:102
+msgid "Where to ship it?"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1529
+#: builder/customizer/templates/embed_forms_1/template.php:1538
+#: builder/divi/modules/class-divi-form.php:168
+#: builder/elementor/widgets/class-elementor-form.php:401
+#: builder/oxygen/modules/class-oxy-form.php:109
+#: importer/checkout-settings/custom_funnel_form_3.php:12
+msgid "PAYMENT"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1530
+#: builder/elementor/widgets/class-elementor-form.php:402
+#: builder/oxygen/modules/class-oxy-form.php:110
+#: importer/checkout-settings/embed_forms_2.php:85
+msgid "Confirm your order"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1531
+#: builder/customizer/templates/embed_forms_1/template.php:1540
+#: importer/checkout-settings/embed_forms_2.php:87
+#: importer/checkout-settings/embed_forms_3.php:85
+msgid "PROCEED TO NEXT STEP  →"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1536
+#: builder/customizer/templates/embed_forms_1/template.php:1552
+#: builder/divi/modules/class-divi-form.php:164
+#: builder/elementor/widgets/class-elementor-form.php:397
+#: builder/oxygen/modules/class-oxy-form.php:105
+msgid "PRODUCTS"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1541
+#: importer/checkout-settings/embed_forms_3.php:88
+msgid "PROCEED TO FINAL STEP →"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1546
+msgid "GET YOUR FREE COPY OF AMAZING BOOK"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1547
+msgid "Shipped in less than 3 days!"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1553
+#: builder/customizer/templates/embed_forms_1/template.php:1558
+#: builder/customizer/templates/embed_forms_1/template.php:1563
+#: importer/checkout-settings/custom_funnel_form_3.php:10
+#: importer/checkout-settings/embed_forms_2.php:82
+msgid "INFORMATION"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1559
+#: importer/checkout-settings/custom_funnel_form_3.php:11
+#: importer/checkout-settings/custom_funnel_form_3.php:15
+msgid "REVIEW"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1675
+#: builder/customizer/templates/layout_9/template.php:1000
+msgid "Mini Cart On Mobile View"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1691
+#: builder/customizer/templates/layout_9/template.php:1008
+#: builder/divi/class-abstract-wfacp-fields.php:58
+#: builder/divi/modules/class-divi-form.php:257
+#: builder/divi/modules/class-divi-mini-cart.php:35
+#: builder/elementor/widgets/class-elementor-form.php:235
+#: builder/elementor/widgets/class-elementor-summary.php:47
+#: builder/oxygen/class-abstract-wfacp-fields.php:80
+#: builder/oxygen/modules/class-oxy-form.php:476
+#: includes/class-wfacp-common-helper.php:1254
+msgid "Enable"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1697
+#: builder/customizer/templates/layout_9/template.php:1014
+msgid "Collapse View Text"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1698
+#: builder/customizer/templates/layout_9/template.php:1015
+#: builder/divi/modules/class-divi-form.php:259
+#: builder/elementor/widgets/class-elementor-form.php:246
+#: builder/oxygen/modules/class-oxy-form.php:480
+msgid "Show Order Summary"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1719
+#: builder/customizer/templates/layout_9/template.php:1037
+#: builder/divi/modules/class-divi-form.php:260
+#: builder/elementor/widgets/class-elementor-form.php:247
+#: builder/oxygen/modules/class-oxy-form.php:489
+msgid "Expanded View Text"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1720
+#: builder/customizer/templates/layout_9/template.php:1038
+#: builder/divi/modules/class-divi-form.php:260
+#: builder/elementor/widgets/class-elementor-form.php:247
+#: builder/oxygen/modules/class-oxy-form.php:489
+msgid "Hide Order Summary"
+msgstr ""
+
+#: builder/customizer/templates/embed_forms_1/template.php:1741
+#: builder/customizer/templates/layout_9/template.php:1059
+msgid "Check if you want to hide the coupon"
+msgstr ""
+
+#: builder/customizer/templates/layout_1/template.php:315
+#: builder/customizer/templates/layout_4/template.php:295
+#: builder/customizer/templates/layout_9/template.php:709
+msgid "Elements Order & Visibility for Desktop Other Widgets"
+msgstr ""
+
+#: builder/customizer/templates/layout_2/template.php:191
+#: builder/customizer/templates/layout_9/template.php:316
+msgid "WHY BUY FROM US"
+msgstr ""
+
+#: builder/customizer/templates/layout_2/template.php:210
+#: builder/customizer/templates/layout_9/template.php:338
+msgid "WHAT THEY'RE SAYING"
+msgstr ""
+
+#: builder/customizer/templates/layout_2/template.php:239
+#: builder/customizer/templates/layout_9/template.php:386
+msgid "30 DAYS REFUND POLICY"
+msgstr ""
+
+#: builder/customizer/templates/layout_2/template.php:244
+msgid "PRIVACY"
+msgstr ""
+
+#: builder/customizer/templates/layout_2/template.php:265
+#: builder/customizer/templates/layout_9/template.php:393
+msgid "CUSTOMER SUPPORT"
+msgstr ""
+
+#: builder/customizer/templates/layout_2/template.php:273
+#: builder/customizer/templates/layout_9/template.php:401
+msgid "Our Award-Winning Customer Support Is Here For You"
+msgstr ""
+
+#: builder/customizer/templates/layout_9/template.php:459
+#: importer/checkout-settings/classic-step-2.php:129
+#: importer/checkout-settings/classic-step-3.php:132
+#: importer/checkout-settings/marketer-step-2.php:128
+#: importer/checkout-settings/marketer-step-3.php:131
+#: importer/checkout-settings/royale-step-2.php:196
+#: importer/checkout-settings/royale-step-3.php:194
+#: importer/checkout-settings/salesletter-step-2.php:126
+#: importer/checkout-settings/salesletter-step-3.php:132
+#: importer/checkout-settings/shopcheckout-multi.php:157
+#: importer/checkout-settings/shopcheckout-step-2.php:117
+#: importer/checkout-settings/shopcheckout-step-3.php:112
+#: importer/checkout-settings/shopcheckout-three.php:140
+#: includes/class-wfacp-common-helper.php:302
+msgid "WHAT'S INCLUDED IN YOUR PLAN?"
+msgstr ""
+
+#: builder/customizer/templates/layout_9/template.php:1104
+msgid "Top bottom"
+msgstr ""
+
+#: builder/customizer/templates/layout_9/template.php:1108
+msgid "left right"
+msgstr ""
+
+#: builder/customizer/templates/layout_9/template.php:1131
+msgid "YOUR AWESOME PRODUCT"
+msgstr ""
+
+#: builder/customizer/templates/layout_9/template.php:1630
+msgid "ORDER SUMMARY"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:502
+msgid "None"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:503
+msgid "Solid"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:504
+msgid "Double"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:505
+msgid "Dotted"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:506
+msgid "Dashed"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:507
+msgid "Groove"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:545
+msgid "Type"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:553
+#: builder/divi/class-abstract-wfacp-fields.php:562
+#: builder/divi/class-abstract-wfacp-fields.php:607
+msgid "Top"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:554
+#: builder/divi/class-abstract-wfacp-fields.php:563
+#: builder/divi/class-abstract-wfacp-fields.php:608
+msgid "Bottom"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:555
+#: builder/divi/class-abstract-wfacp-fields.php:564
+#: builder/divi/class-abstract-wfacp-fields.php:609
+msgid "Left"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:556
+#: builder/divi/class-abstract-wfacp-fields.php:565
+#: builder/divi/class-abstract-wfacp-fields.php:610
+msgid "Right"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:939
+#: builder/divi/modules/class-divi-form.php:110
+#: builder/oxygen/class-abstract-wfacp-fields.php:863
+#: builder/oxygen/modules/class-oxy-form.php:304
+msgid "Full"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:940
+#: builder/oxygen/class-abstract-wfacp-fields.php:864
+msgid "One Half"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:941
+#: builder/oxygen/class-abstract-wfacp-fields.php:865
+msgid "One Third"
+msgstr ""
+
+#: builder/divi/class-abstract-wfacp-fields.php:942
+#: builder/oxygen/class-abstract-wfacp-fields.php:866
+msgid "Two Third"
+msgstr ""
+
+#: builder/divi/class-wfacp-divi.php:84
+msgid "Divi"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:47
+#: builder/divi/modules/class-divi-form.php:869
+#: builder/elementor/class-wfacp-html-block-elementor.php:58
+#: builder/elementor/widgets/class-elementor-form.php:1280
+#: builder/oxygen/class-wfacp-html-block-oxy.php:81
+#: builder/oxygen/modules/class-oxy-form.php:750
+msgid "Enable Image"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:247
+#: builder/elementor/class-wfacp-html-block-elementor.php:186
+msgid "Selected Items"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:276
+#: builder/elementor/class-wfacp-html-block-elementor.php:287
+#: builder/oxygen/class-wfacp-html-block-oxy.php:273
+msgid "Item Color"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:304
+#: builder/elementor/class-wfacp-html-block-elementor.php:262
+#: builder/oxygen/class-wfacp-html-block-oxy.php:246
+msgid "Non-selected Items"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:308
+#: builder/elementor/class-wfacp-html-block-elementor.php:311
+msgid "Saving Text"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:355
+#: builder/elementor/class-wfacp-html-block-elementor.php:361
+#: builder/oxygen/class-wfacp-html-block-oxy.php:328
+msgid "Custom Product Description"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:415
+#: builder/elementor/class-wfacp-html-block-elementor.php:422
+#: builder/oxygen/class-wfacp-html-block-oxy.php:353
+msgid "Note: Add this CSS class <strong>\"wfacp_for_mb_style\"</strong> here if your checkout page width is less than 375px on desktop browser"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:416
+#: builder/elementor/class-wfacp-html-block-elementor.php:423
+msgid "CSS Class"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:480
+#: builder/divi/modules/class-divi-mini-cart.php:161
+#: builder/elementor/class-wfacp-html-block-elementor.php:483
+#: builder/elementor/widgets/class-elementor-form.php:285
+#: builder/elementor/widgets/class-elementor-summary.php:160
+#: builder/oxygen/class-wfacp-html-block-oxy.php:398
+#: builder/oxygen/modules/class-oxy-mini-cart.php:109
+#: builder/oxygen/modules/class-oxy-mini-cart.php:130
+#: builder/oxygen/modules/class-oxy-mini-cart.php:154
+msgid "Label Typography"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:485
+#: builder/divi/modules/class-divi-mini-cart.php:166
+#: builder/elementor/class-wfacp-html-block-elementor.php:488
+#: builder/elementor/widgets/class-elementor-form.php:290
+#: builder/elementor/widgets/class-elementor-summary.php:165
+msgid "Label Color"
+msgstr ""
+
+#: builder/divi/class-wfacp-html-block-divi.php:501
+#: builder/divi/modules/class-divi-mini-cart.php:183
+#: builder/elementor/class-wfacp-html-block-elementor.php:502
+#: builder/elementor/widgets/class-elementor-form.php:304
+#: builder/elementor/widgets/class-elementor-summary.php:179
+msgid "Coupon Color"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:36
+msgid "Field Classes"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:127
+#: builder/elementor/widgets/class-elementor-form.php:348
+#: builder/oxygen/modules/class-oxy-form.php:71
+msgid "Steps"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:130
+#: builder/oxygen/modules/class-oxy-form.php:74
+msgid "Tabs"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:131
+#: builder/oxygen/modules/class-oxy-form.php:75
+msgid "Breadcrumb"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:135
+#: builder/elementor/widgets/class-elementor-form.php:358
+#: builder/oxygen/modules/class-oxy-form.php:79
+#: includes/class-wfacp-common-helper.php:1491
+msgid "Header"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:201
+msgid "Cart title"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:202
+#: builder/oxygen/modules/class-oxy-form.php:129
+msgid "Note: Cart settings will work for Global Checkout when user navigates from Product > Cart > Checkout"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:205
+#: builder/oxygen/modules/class-oxy-form.php:132
+#: includes/class-wfacp-common-helper.php:1469
+msgid "Yes"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:206
+#: builder/oxygen/modules/class-oxy-form.php:133
+#: includes/class-wfacp-common-helper.php:1473
+msgid "No"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:209
+#: builder/oxygen/modules/class-oxy-form.php:136
+msgid "Add to Breadcrumb"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:230
+#: builder/elementor/widgets/class-elementor-form.php:181
+#: builder/oxygen/modules/class-oxy-form.php:442
+msgid "NEXT STEP →"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:234
+#: builder/elementor/widgets/class-elementor-form.php:185
+#: builder/oxygen/modules/class-oxy-form.php:446
+#: importer/checkout-settings/royale-step-2.php:45
+#: importer/checkout-settings/royale-step-3.php:47
+#: importer/checkout-settings/shopcheckout-multi.php:23
+msgid "PLACE ORDER NOW"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:246
+#: builder/elementor/widgets/class-elementor-form.php:204
+#: builder/oxygen/modules/class-oxy-form.php:459
+#: public/template-common/next-button.php:50
+msgid "« Return to Cart"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:256
+#: builder/elementor/widgets/class-elementor-form.php:220
+#: builder/oxygen/modules/class-oxy-form.php:473
+msgid "Collapsible Order Summary"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:259
+#: builder/elementor/widgets/class-elementor-form.php:246
+#: builder/oxygen/modules/class-oxy-form.php:480
+msgid "Collapsed View Text "
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:265
+#: builder/elementor/widgets/class-elementor-form.php:251
+#: builder/oxygen/modules/class-oxy-form.php:496
+msgid "Collapsible Coupon Field"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:348
+#: builder/elementor/widgets/class-elementor-form.php:568
+#: builder/oxygen/modules/class-oxy-form.php:551
+msgid "Active Step"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:354
+#: builder/divi/modules/class-divi-form.php:875
+#: builder/elementor/widgets/class-elementor-form.php:589
+#: builder/elementor/widgets/class-elementor-form.php:1286
+#: builder/oxygen/modules/class-oxy-form.php:385
+#: builder/oxygen/modules/class-oxy-form.php:484
+#: builder/oxygen/modules/class-oxy-form.php:565
+msgid "Text Color"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:360
+#: builder/elementor/widgets/class-elementor-form.php:582
+msgid "Inactive Step"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:572
+#: builder/oxygen/modules/class-oxy-form.php:613
+msgid "Normal"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:576
+#: builder/elementor/widgets/class-elementor-form.php:332
+#: builder/oxygen/modules/class-oxy-form.php:623
+msgid "Hover"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:793
+msgid "Form Background Color"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:870
+#: builder/oxygen/modules/class-oxy-form.php:485
+msgid "Collapsed Background"
+msgstr ""
+
+#: builder/divi/modules/class-divi-form.php:871
+#: builder/oxygen/modules/class-oxy-form.php:755
+msgid "Expanded Background"
+msgstr ""
+
+#: builder/divi/modules/class-divi-mini-cart.php:37
+#: builder/elementor/widgets/class-elementor-summary.php:48
+#: includes/class-wfacp-common-helper.php:1557
+msgid "Collapsible"
+msgstr ""
+
+#: builder/elementor/class-abstract-wfacp-fields.php:716
+msgid "Fonts"
+msgstr ""
+
+#: builder/elementor/class-wfacp-elementor.php:157
+msgid "Elementor"
+msgstr ""
+
+#: builder/elementor/widgets/class-elementor-form.php:333
+msgid "Hover Label"
+msgstr ""
+
+#: builder/elementor/widgets/class-elementor-form.php:398
+#: builder/oxygen/modules/class-oxy-form.php:106
+msgid "Select your product"
+msgstr ""
+
+#: builder/oxygen/class-abstract-wfacp-fields.php:654
+msgid "Margin"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:104
+msgid "Image Border Color"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:183
+msgid "Product Switcher"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:187
+msgid "Selected Items Typography"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:266
+msgid "Non-selected Color"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:314
+msgid "Best Value Typography"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:319
+msgid "Best Value Color"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:355
+msgid "Whats Included CSS Class"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:389
+msgid "Field"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:401
+#: builder/oxygen/modules/class-oxy-form.php:396
+msgid "Focus Color"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:403
+msgid "Button Normal"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:412
+msgid "Button Hover"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-html-block-oxy.php:417
+msgid "Button Typography"
+msgstr ""
+
+#: builder/oxygen/class-wfacp-oxy.php:146
+msgid "Oxygen"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:72
+msgid "Enable Steps Desktop"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:80
+msgid "Enable Header"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:376
+msgid "Input"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:395
+msgid "Error Validation Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:440
+msgid "Button Text"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:458
+msgid "Return Link Text"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:478
+msgid "Collapsed"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:488
+msgid "Expanded"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:498
+#: builder/oxygen/modules/class-oxy-mini-cart.php:37
+msgid "Quantity Count"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:537
+msgid "Breadcrumb Typography"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:554
+#: builder/oxygen/modules/class-oxy-form.php:566
+msgid "Tab Border Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:557
+#: builder/oxygen/modules/class-oxy-form.php:568
+msgid "Count Border Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:563
+msgid "InActive Step"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:571
+#: builder/oxygen/modules/class-oxy-mini-cart.php:32
+msgid "Heading Typography"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:575
+msgid "SubHeading Typography"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:587
+msgid "Payment Buttons"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:590
+msgid "Steps Buttons"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:600
+msgid "Buttons Typography"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:634
+msgid "Button Border"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:637
+msgid "Return Link"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:721
+msgid "Default Text Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:744
+msgid "Default Link Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:745
+msgid "Default Link Hover Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:787
+msgid "Product Price"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:802
+msgid "Product Variant"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:811
+msgid "Subtotal Label"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:821
+msgid "Subtotal Price"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:828
+msgid "Total Label"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-form.php:836
+msgid "Total Price"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:62
+#: builder/oxygen/modules/class-oxy-mini-cart.php:120
+#: builder/oxygen/modules/class-oxy-mini-cart.php:140
+msgid "Price Typography"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:79
+msgid "Variant Typography"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:146
+msgid "Collapsible Coupon"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:173
+msgid "Button Background"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:174
+msgid "Button Label Color"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:177
+msgid "Button Hover Background"
+msgstr ""
+
+#: builder/oxygen/modules/class-oxy-mini-cart.php:178
+msgid "Button Label Hover Color"
+msgstr ""
+
+#: compatibilities/ecrm/class-aelia-vat-field.php:159
+msgid "EU VAT field requires Billing Address field to present in checkout. Please drag Billing Address to place it in form."
+msgstr ""
+
+#: compatibilities/ecrm/class-creative-mail-by-constant-contact.php:45
+msgid "Creative Mail"
+msgstr ""
+
+#: compatibilities/ecrm/class-mailjet-for-wp.php:29
+msgid "Mailjet for WordPress"
+msgstr ""
+
+#: compatibilities/ecrm/class-wc-ac-hook.php:32
+msgid "WC AC Hook"
+msgstr ""
+
+#: compatibilities/ecrm/class-wc-active-campaign-integration.php:32
+msgid "ActiveWoo"
+msgstr ""
+
+#: compatibilities/fields/class-affiliatewp-checkout-referrals-wc.php:44
+msgid "AffiliateWC Referrals"
+msgstr ""
+
+#: compatibilities/fields/class-mailpoet.php:45
+msgid "MailPoet"
+msgstr ""
+
+#: compatibilities/fields/class-omnisend-for-wc.php:44
+msgid "Omnisend WC"
+msgstr ""
+
+#: compatibilities/fields/class-ry-wc-ecpay.php:37
+msgid "RC WC Ecpay"
+msgstr ""
+
+#: compatibilities/fields/class-sg-checkout-location-picker-for-wc.php:66
+#: compatibilities/fields/class-sg-checkout-location-picker-for-wc.php:83
+msgid "SG Checkout Location Picker"
+msgstr ""
+
+#: compatibilities/fields/class-tickera-bridge-for-wc.php:40
+msgid "Tickera WC"
+msgstr ""
+
+#: compatibilities/fields/class-wc-disability-vat-exemption.php:44
+msgid "WC Disability VAT Exemption"
+msgstr ""
+
+#: compatibilities/fields/class-wc-multiple-customer-addresses.php:41
+#: compatibilities/fields/class-wc-multiple-customer-addresses.php:58
+msgid "WC Multi Customer Address"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-class-tipping.php:40
+msgid "WooCommerce Tipping"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-coderockz-woo-delivery.php:27
+msgid "Coderockz Woo Delivery"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-delivery-date-for-wc.php:32
+#: compatibilities/fields/class-wfacp-order-delivery-date-tyche.php:23
+#: compatibilities/fields/class-wfacp-order-delivery-date-tyche.php:169
+#: compatibilities/fields/class-wfacp-wc-delivery.php:40
+msgid "Delivery Date"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-facturare-wc.php:39
+msgid "WooFacturare"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-facturare-wc.php:47
+msgid "WooFacturare Fields"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-fattura-24.php:39
+#: compatibilities/fields/class-wfacp-fattura-24.php:40
+msgid "Fattura 24"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-FFI-API.php:37
+msgid "FFL API"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-mailchimp-for-wc.php:65
+msgid "MailChimp"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-order-delivery-date-tyche.php:176
+msgid "Time Slot"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-order-delivery-date-tyche.php:183
+msgid "Pickup Location"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-delivery.php:48
+msgid "Delivery Time"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-delivery.php:55
+msgid "Delivery Location"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-italian-add-on.php:57
+#: compatibilities/fields/class-wfacp-wc-italian-add-on.php:58
+msgid "WC Italian Fields"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-sendinblue.php:26
+#: compatibilities/fields/class-wfacp-wc-sendinblue.php:27
+msgid "Sendinblue"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-timologia.php:40
+msgid "Invoice"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-timologia.php:41
+msgid "VAT"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-timologia.php:42
+msgid "Tax Office"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-wc-timologia.php:43
+msgid "Profession"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-woo-mailerlite.php:45
+msgid "Woo MailerLite"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-woocommerce-ups.php:23
+#: compatibilities/fields/class-wfacp-woocommerce-ups.php:24
+msgid "Access Point Locations"
+msgstr ""
+
+#: compatibilities/fields/class-wfacp-yth-wc-points-rewards.php:55
+msgid "Yth WC Birthday"
+msgstr ""
+
+#: compatibilities/fields/class-woo-delivery-slots-primium.php:56
+msgid "WC Delivery Slots (Iconic)"
+msgstr ""
+
+#: compatibilities/fields/class-woocommerce-zoom-meeting.php:44
+msgid "Zoom Meetings"
+msgstr ""
+
+#: compatibilities/fields/class-yth-delivery-date-shipping-manager.php:28
+msgid "YITH Delivery Date"
+msgstr ""
+
+#: compatibilities/fields/class-yth-wc-eu-vat.php:45
+msgid "YTH EU Vat"
+msgstr ""
+
+#: compatibilities/gateways/class-angel-eye.php:353
+#: compatibilities/gateways/class-paypal-express.php:380
+msgid "Full Name"
+msgstr ""
+
+#: compatibilities/gateways/class-kco.php:51
+msgid "<strong> Attention: </strong>You are using Klarna Checkout which completely takes over the checkout. To have best experience with WooFunnels Checkout please activate <a href=\"https://wordpress.org/plugins/klarna-payments-for-woocommerce/\" target=\"_blank\">Klarna Payments</a>."
+msgstr ""
+
+#: compatibilities/library/class-add-address-field.php:41
+#: includes/class-wfacp-common-helper.php:2579
+#: includes/class-wfacp-common-helper.php:2587
+#: includes/class-wfacp-common-helper.php:2600
+#: includes/class-wfacp-common-helper.php:2607
+#: includes/class-wfacp-common-helper.php:2614
+#: includes/class-wfacp-common-helper.php:2621
+#: includes/class-wfacp-common-helper.php:2628
+#: includes/class-wfacp-common-helper.php:2635
+#: includes/class-wfacp-common-helper.php:2642
+msgid "Field ID: "
+msgstr ""
+
+#: compatibilities/setup-theme/class-convert-kit-wc.php:51
+msgid "ConvertKit"
+msgstr ""
+
+#: compatibilities/setup-theme/class-extra-checkout-fields-for-brazil.php:527
+msgid "\"WooCommerce Extra Checkout Fields for Brazil\" is activated. Learn about the right away to configure it with AeroCheckout.<a target=\"_blank\" href=\"//buildwoofunnels.com/docs/aerocheckout/compatibility/woocommerce-extra-checkout-fields-for-Brazil\"> Know more</a>"
+msgstr ""
+
+#: compatibilities/setup-theme/class-smart-coupon.php:29
+msgid "Smart Coupon Gift"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:20
+#: importer/checkout-settings/build_2.php:20
+#: importer/checkout-settings/classic-step-2.php:7
+#: importer/checkout-settings/classic-step-3.php:7
+#: importer/checkout-settings/closer-step-2.php:20
+#: importer/checkout-settings/closer-step-3.php:20
+#: importer/checkout-settings/closer.php:23
+#: importer/checkout-settings/custom_funnel_form_1.php:21
+#: importer/checkout-settings/custom_funnel_form_2.php:59
+#: importer/checkout-settings/embed_forms_1.php:92
+#: importer/checkout-settings/embed_forms_2.php:97
+#: importer/checkout-settings/embed_forms_3.php:97
+#: importer/checkout-settings/embed_forms_4.php:56
+#: importer/checkout-settings/embed_forms_5.php:56
+#: importer/checkout-settings/flavour-step-2.php:20
+#: importer/checkout-settings/flavour-step-3.php:20
+#: importer/checkout-settings/flavour.php:21
+#: importer/checkout-settings/magnetic-step-2.php:20
+#: importer/checkout-settings/magnetic-step-3.php:22
+#: importer/checkout-settings/magnetic.php:21
+#: importer/checkout-settings/marketer-step-2.php:6
+#: importer/checkout-settings/marketer-step-3.php:6
+#: importer/checkout-settings/minimalist-step-2.php:20
+#: importer/checkout-settings/minimalist-step-3.php:23
+#: importer/checkout-settings/minimalist.php:21
+#: importer/checkout-settings/minimilist-step-2.php:20
+#: importer/checkout-settings/minimilist-step-3.php:20
+#: importer/checkout-settings/minimilist.php:23
+#: importer/checkout-settings/persuader-step-2.php:20
+#: importer/checkout-settings/persuader-step-3.php:20
+#: importer/checkout-settings/persuader.php:23
+#: importer/checkout-settings/presenter-step-2.php:20
+#: importer/checkout-settings/presenter-step-3.php:20
+#: importer/checkout-settings/presenter.php:21
+#: importer/checkout-settings/razor-step-2.php:20
+#: importer/checkout-settings/razor-step-3.php:20
+#: importer/checkout-settings/razor.php:21
+#: importer/checkout-settings/royale-step-2.php:7
+#: importer/checkout-settings/royale-step-3.php:7
+#: importer/checkout-settings/salesletter-step-2.php:6
+#: importer/checkout-settings/salesletter-step-3.php:7
+#: importer/checkout-settings/shopcheckout-step-2.php:7
+#: importer/checkout-settings/shopcheckout.php:21
+#: includes/class-wfacp-common-helper.php:1317
+#: includes/class-wfacp-common-helper.php:2655
+msgid "Step 1"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:22
+#: importer/checkout-settings/build_2.php:22
+#: importer/checkout-settings/classic-step-2.php:9
+#: importer/checkout-settings/classic-step-3.php:9
+#: importer/checkout-settings/closer-step-2.php:22
+#: importer/checkout-settings/closer-step-3.php:22
+#: importer/checkout-settings/closer.php:25
+#: importer/checkout-settings/custom_funnel_form_1.php:23
+#: importer/checkout-settings/custom_funnel_form_2.php:61
+#: importer/checkout-settings/embed_forms_1.php:94
+#: importer/checkout-settings/embed_forms_2.php:99
+#: importer/checkout-settings/embed_forms_3.php:99
+#: importer/checkout-settings/embed_forms_4.php:58
+#: importer/checkout-settings/embed_forms_5.php:58
+#: importer/checkout-settings/flavour-step-2.php:22
+#: importer/checkout-settings/flavour-step-3.php:22
+#: importer/checkout-settings/flavour.php:23
+#: importer/checkout-settings/magnetic-step-2.php:22
+#: importer/checkout-settings/magnetic-step-3.php:24
+#: importer/checkout-settings/magnetic.php:23
+#: importer/checkout-settings/marketer-step-2.php:8
+#: importer/checkout-settings/marketer-step-3.php:8
+#: importer/checkout-settings/minimalist-step-2.php:22
+#: importer/checkout-settings/minimalist-step-3.php:25
+#: importer/checkout-settings/minimalist.php:23
+#: importer/checkout-settings/minimilist-step-2.php:22
+#: importer/checkout-settings/minimilist-step-3.php:22
+#: importer/checkout-settings/minimilist.php:25
+#: importer/checkout-settings/persuader-step-2.php:22
+#: importer/checkout-settings/persuader-step-3.php:22
+#: importer/checkout-settings/persuader.php:25
+#: importer/checkout-settings/presenter-step-2.php:22
+#: importer/checkout-settings/presenter-step-3.php:22
+#: importer/checkout-settings/presenter.php:23
+#: importer/checkout-settings/razor-step-2.php:22
+#: importer/checkout-settings/razor-step-3.php:22
+#: importer/checkout-settings/razor.php:23
+#: importer/checkout-settings/royale-step-2.php:9
+#: importer/checkout-settings/royale-step-3.php:9
+#: importer/checkout-settings/salesletter-step-2.php:8
+#: importer/checkout-settings/salesletter-step-3.php:9
+#: importer/checkout-settings/shopcheckout-step-2.php:9
+#: importer/checkout-settings/shopcheckout.php:23
+#: includes/class-wfacp-common-helper.php:2657
+msgid "Single Step Checkout"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:26
+#: importer/checkout-settings/build_2.php:26
+#: importer/checkout-settings/classic-step-2.php:13
+#: importer/checkout-settings/classic-step-3.php:13
+#: importer/checkout-settings/closer-step-2.php:26
+#: importer/checkout-settings/closer-step-3.php:26
+#: importer/checkout-settings/closer.php:29
+#: importer/checkout-settings/custom_funnel_form_1.php:27
+#: importer/checkout-settings/custom_funnel_form_2.php:65
+#: importer/checkout-settings/embed_forms_1.php:98
+#: importer/checkout-settings/embed_forms_2.php:103
+#: importer/checkout-settings/embed_forms_3.php:103
+#: importer/checkout-settings/embed_forms_4.php:62
+#: importer/checkout-settings/embed_forms_5.php:62
+#: importer/checkout-settings/flavour-step-2.php:26
+#: importer/checkout-settings/flavour-step-3.php:26
+#: importer/checkout-settings/flavour.php:27
+#: importer/checkout-settings/magnetic-step-2.php:26
+#: importer/checkout-settings/magnetic-step-3.php:28
+#: importer/checkout-settings/magnetic.php:27
+#: importer/checkout-settings/marketer-step-2.php:12
+#: importer/checkout-settings/marketer-step-3.php:12
+#: importer/checkout-settings/minimalist-step-2.php:26
+#: importer/checkout-settings/minimalist-step-3.php:29
+#: importer/checkout-settings/minimalist.php:27
+#: importer/checkout-settings/minimilist-step-2.php:26
+#: importer/checkout-settings/minimilist-step-3.php:26
+#: importer/checkout-settings/minimilist.php:29
+#: importer/checkout-settings/persuader-step-2.php:26
+#: importer/checkout-settings/persuader-step-3.php:26
+#: importer/checkout-settings/persuader.php:29
+#: importer/checkout-settings/presenter-step-2.php:26
+#: importer/checkout-settings/presenter-step-3.php:26
+#: importer/checkout-settings/presenter.php:27
+#: importer/checkout-settings/razor-step-2.php:26
+#: importer/checkout-settings/razor-step-3.php:26
+#: importer/checkout-settings/razor.php:27
+#: importer/checkout-settings/royale-step-2.php:13
+#: importer/checkout-settings/royale-step-3.php:13
+#: importer/checkout-settings/salesletter-step-2.php:12
+#: importer/checkout-settings/salesletter-step-3.php:13
+#: importer/checkout-settings/shopcheckout-step-2.php:13
+#: importer/checkout-settings/shopcheckout.php:27
+#: includes/class-wfacp-common-helper.php:1318
+#: includes/class-wfacp-common-helper.php:2661
+msgid "Step 2"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:28
+#: importer/checkout-settings/build_2.php:28
+#: importer/checkout-settings/classic-step-2.php:15
+#: importer/checkout-settings/classic-step-3.php:15
+#: importer/checkout-settings/closer-step-2.php:28
+#: importer/checkout-settings/closer-step-3.php:28
+#: importer/checkout-settings/closer.php:31
+#: importer/checkout-settings/custom_funnel_form_1.php:29
+#: importer/checkout-settings/custom_funnel_form_2.php:67
+#: importer/checkout-settings/embed_forms_1.php:100
+#: importer/checkout-settings/embed_forms_2.php:105
+#: importer/checkout-settings/embed_forms_3.php:105
+#: importer/checkout-settings/embed_forms_4.php:64
+#: importer/checkout-settings/embed_forms_5.php:64
+#: importer/checkout-settings/flavour-step-2.php:28
+#: importer/checkout-settings/flavour-step-3.php:28
+#: importer/checkout-settings/flavour.php:29
+#: importer/checkout-settings/magnetic-step-2.php:28
+#: importer/checkout-settings/magnetic-step-3.php:30
+#: importer/checkout-settings/magnetic.php:29
+#: importer/checkout-settings/marketer-step-2.php:14
+#: importer/checkout-settings/marketer-step-3.php:14
+#: importer/checkout-settings/minimalist-step-2.php:28
+#: importer/checkout-settings/minimalist-step-3.php:31
+#: importer/checkout-settings/minimalist.php:29
+#: importer/checkout-settings/minimilist-step-2.php:28
+#: importer/checkout-settings/minimilist-step-3.php:28
+#: importer/checkout-settings/minimilist.php:31
+#: importer/checkout-settings/persuader-step-2.php:28
+#: importer/checkout-settings/persuader-step-3.php:28
+#: importer/checkout-settings/persuader.php:31
+#: importer/checkout-settings/presenter-step-2.php:28
+#: importer/checkout-settings/presenter-step-3.php:28
+#: importer/checkout-settings/presenter.php:29
+#: importer/checkout-settings/razor-step-2.php:28
+#: importer/checkout-settings/razor-step-3.php:28
+#: importer/checkout-settings/razor.php:29
+#: importer/checkout-settings/royale-step-2.php:15
+#: importer/checkout-settings/royale-step-3.php:15
+#: importer/checkout-settings/salesletter-step-2.php:14
+#: importer/checkout-settings/salesletter-step-3.php:15
+#: importer/checkout-settings/shopcheckout-step-2.php:15
+#: importer/checkout-settings/shopcheckout.php:29
+#: includes/class-wfacp-common-helper.php:2663
+msgid "Two Step Checkout"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:32
+#: importer/checkout-settings/build_2.php:32
+#: importer/checkout-settings/classic-step-2.php:19
+#: importer/checkout-settings/classic-step-3.php:19
+#: importer/checkout-settings/closer-step-2.php:32
+#: importer/checkout-settings/closer-step-3.php:32
+#: importer/checkout-settings/closer.php:35
+#: importer/checkout-settings/custom_funnel_form_1.php:33
+#: importer/checkout-settings/custom_funnel_form_2.php:71
+#: importer/checkout-settings/embed_forms_1.php:104
+#: importer/checkout-settings/embed_forms_2.php:109
+#: importer/checkout-settings/embed_forms_3.php:109
+#: importer/checkout-settings/embed_forms_4.php:68
+#: importer/checkout-settings/embed_forms_5.php:68
+#: importer/checkout-settings/flavour-step-2.php:32
+#: importer/checkout-settings/flavour-step-3.php:32
+#: importer/checkout-settings/flavour.php:33
+#: importer/checkout-settings/magnetic-step-2.php:32
+#: importer/checkout-settings/magnetic-step-3.php:34
+#: importer/checkout-settings/magnetic.php:33
+#: importer/checkout-settings/marketer-step-2.php:18
+#: importer/checkout-settings/marketer-step-3.php:18
+#: importer/checkout-settings/minimalist-step-2.php:32
+#: importer/checkout-settings/minimalist-step-3.php:35
+#: importer/checkout-settings/minimalist.php:33
+#: importer/checkout-settings/minimilist-step-2.php:32
+#: importer/checkout-settings/minimilist-step-3.php:32
+#: importer/checkout-settings/minimilist.php:35
+#: importer/checkout-settings/persuader-step-2.php:32
+#: importer/checkout-settings/persuader-step-3.php:32
+#: importer/checkout-settings/persuader.php:35
+#: importer/checkout-settings/presenter-step-2.php:32
+#: importer/checkout-settings/presenter-step-3.php:32
+#: importer/checkout-settings/presenter.php:33
+#: importer/checkout-settings/razor-step-2.php:32
+#: importer/checkout-settings/razor-step-3.php:32
+#: importer/checkout-settings/razor.php:33
+#: importer/checkout-settings/royale-step-2.php:19
+#: importer/checkout-settings/royale-step-3.php:19
+#: importer/checkout-settings/salesletter-step-2.php:18
+#: importer/checkout-settings/salesletter-step-3.php:19
+#: importer/checkout-settings/shopcheckout-step-2.php:19
+#: importer/checkout-settings/shopcheckout.php:33
+#: includes/class-wfacp-common-helper.php:1319
+#: includes/class-wfacp-common-helper.php:2667
+msgid "Step 3"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:34
+#: importer/checkout-settings/build_2.php:34
+#: importer/checkout-settings/classic-step-2.php:21
+#: importer/checkout-settings/classic-step-3.php:21
+#: importer/checkout-settings/closer-step-2.php:34
+#: importer/checkout-settings/closer-step-3.php:34
+#: importer/checkout-settings/closer.php:37
+#: importer/checkout-settings/custom_funnel_form_1.php:35
+#: importer/checkout-settings/custom_funnel_form_2.php:73
+#: importer/checkout-settings/embed_forms_1.php:106
+#: importer/checkout-settings/embed_forms_2.php:111
+#: importer/checkout-settings/embed_forms_3.php:111
+#: importer/checkout-settings/embed_forms_4.php:70
+#: importer/checkout-settings/embed_forms_5.php:70
+#: importer/checkout-settings/flavour-step-2.php:34
+#: importer/checkout-settings/flavour-step-3.php:34
+#: importer/checkout-settings/flavour.php:35
+#: importer/checkout-settings/magnetic-step-2.php:34
+#: importer/checkout-settings/magnetic-step-3.php:36
+#: importer/checkout-settings/magnetic.php:35
+#: importer/checkout-settings/marketer-step-2.php:20
+#: importer/checkout-settings/marketer-step-3.php:20
+#: importer/checkout-settings/minimalist-step-2.php:34
+#: importer/checkout-settings/minimalist-step-3.php:37
+#: importer/checkout-settings/minimalist.php:35
+#: importer/checkout-settings/minimilist-step-2.php:34
+#: importer/checkout-settings/minimilist-step-3.php:34
+#: importer/checkout-settings/minimilist.php:37
+#: importer/checkout-settings/persuader-step-2.php:34
+#: importer/checkout-settings/persuader-step-3.php:34
+#: importer/checkout-settings/persuader.php:37
+#: importer/checkout-settings/presenter-step-2.php:34
+#: importer/checkout-settings/presenter-step-3.php:34
+#: importer/checkout-settings/presenter.php:35
+#: importer/checkout-settings/razor-step-2.php:34
+#: importer/checkout-settings/razor-step-3.php:34
+#: importer/checkout-settings/razor.php:35
+#: importer/checkout-settings/royale-step-2.php:21
+#: importer/checkout-settings/royale-step-3.php:21
+#: importer/checkout-settings/salesletter-step-2.php:20
+#: importer/checkout-settings/salesletter-step-3.php:21
+#: importer/checkout-settings/shopcheckout-step-2.php:21
+#: importer/checkout-settings/shopcheckout.php:35
+#: includes/class-wfacp-common-helper.php:2669
+msgid "Three Step Checkout"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:58
+#: importer/checkout-settings/build_2.php:58
+#: importer/checkout-settings/build_3.php:43
+#: importer/checkout-settings/classic-step-2.php:47
+#: importer/checkout-settings/classic-step-3.php:47
+#: importer/checkout-settings/closer-step-2.php:59
+#: importer/checkout-settings/closer-step-3.php:73
+#: importer/checkout-settings/closer.php:62
+#: importer/checkout-settings/custom_funnel_form_1.php:86
+#: importer/checkout-settings/custom_funnel_form_2.php:97
+#: importer/checkout-settings/custom_funnel_form_3.php:87
+#: importer/checkout-settings/embed_forms_1.php:131
+#: importer/checkout-settings/embed_forms_2.php:136
+#: importer/checkout-settings/embed_forms_3.php:150
+#: importer/checkout-settings/embed_forms_4.php:99
+#: importer/checkout-settings/embed_forms_5.php:94
+#: importer/checkout-settings/embed_forms_6.php:81
+#: importer/checkout-settings/flavour-step-2.php:59
+#: importer/checkout-settings/flavour-step-3.php:78
+#: importer/checkout-settings/flavour.php:64
+#: importer/checkout-settings/magnetic-step-2.php:72
+#: importer/checkout-settings/magnetic-step-3.php:93
+#: importer/checkout-settings/magnetic.php:78
+#: importer/checkout-settings/marketer-step-2.php:46
+#: importer/checkout-settings/marketer-step-3.php:46
+#: importer/checkout-settings/minimalist-step-2.php:62
+#: importer/checkout-settings/minimalist-step-3.php:65
+#: importer/checkout-settings/minimalist.php:68
+#: importer/checkout-settings/minimilist-step-2.php:61
+#: importer/checkout-settings/minimilist-step-3.php:61
+#: importer/checkout-settings/minimilist.php:67
+#: importer/checkout-settings/persuader-step-2.php:61
+#: importer/checkout-settings/persuader-step-3.php:61
+#: importer/checkout-settings/persuader.php:67
+#: importer/checkout-settings/presenter-step-2.php:61
+#: importer/checkout-settings/presenter-step-3.php:61
+#: importer/checkout-settings/presenter.php:65
+#: importer/checkout-settings/razor-step-2.php:59
+#: importer/checkout-settings/razor-step-3.php:59
+#: importer/checkout-settings/razor.php:77
+#: importer/checkout-settings/royale-step-2.php:123
+#: importer/checkout-settings/royale-step-3.php:121
+#: importer/checkout-settings/salesletter-step-2.php:44
+#: importer/checkout-settings/salesletter-step-3.php:47
+#: importer/checkout-settings/shopcheckout-multi.php:86
+#: importer/checkout-settings/shopcheckout-step-2.php:46
+#: importer/checkout-settings/shopcheckout-step-3.php:41
+#: importer/checkout-settings/shopcheckout-three.php:69
+#: importer/checkout-settings/shopcheckout.php:66
+#: includes/class-wfacp-common-helper.php:2289
+#: includes/class-wfacp-common-helper.php:2452
+msgid "john.doe@example.com "
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:69
+#: importer/checkout-settings/build_2.php:69
+#: importer/checkout-settings/build_3.php:54
+#: importer/checkout-settings/classic-step-2.php:58
+#: importer/checkout-settings/classic-step-3.php:58
+#: importer/checkout-settings/closer-step-2.php:70
+#: importer/checkout-settings/closer-step-3.php:84
+#: importer/checkout-settings/closer.php:73
+#: importer/checkout-settings/custom_funnel_form_1.php:63
+#: importer/checkout-settings/custom_funnel_form_2.php:108
+#: importer/checkout-settings/custom_funnel_form_3.php:98
+#: importer/checkout-settings/embed_forms_1.php:142
+#: importer/checkout-settings/embed_forms_2.php:147
+#: importer/checkout-settings/embed_forms_3.php:161
+#: importer/checkout-settings/embed_forms_4.php:110
+#: importer/checkout-settings/embed_forms_5.php:105
+#: importer/checkout-settings/embed_forms_6.php:92
+#: importer/checkout-settings/flavour-step-2.php:70
+#: importer/checkout-settings/flavour-step-3.php:89
+#: importer/checkout-settings/flavour.php:85
+#: importer/checkout-settings/magnetic-step-2.php:83
+#: importer/checkout-settings/magnetic-step-3.php:104
+#: importer/checkout-settings/magnetic.php:89
+#: importer/checkout-settings/marketer-step-2.php:57
+#: importer/checkout-settings/marketer-step-3.php:57
+#: importer/checkout-settings/minimalist-step-2.php:75
+#: importer/checkout-settings/minimalist-step-3.php:78
+#: importer/checkout-settings/minimalist.php:81
+#: importer/checkout-settings/minimilist-step-2.php:72
+#: importer/checkout-settings/minimilist-step-3.php:72
+#: importer/checkout-settings/minimilist.php:80
+#: importer/checkout-settings/persuader-step-2.php:72
+#: importer/checkout-settings/persuader-step-3.php:72
+#: importer/checkout-settings/persuader.php:80
+#: importer/checkout-settings/presenter-step-2.php:72
+#: importer/checkout-settings/presenter-step-3.php:72
+#: importer/checkout-settings/presenter.php:76
+#: importer/checkout-settings/razor-step-2.php:70
+#: importer/checkout-settings/razor-step-3.php:70
+#: importer/checkout-settings/razor.php:88
+#: importer/checkout-settings/royale-step-2.php:142
+#: importer/checkout-settings/royale-step-3.php:140
+#: importer/checkout-settings/salesletter-step-2.php:55
+#: importer/checkout-settings/salesletter-step-3.php:58
+#: importer/checkout-settings/shopcheckout-multi.php:105
+#: importer/checkout-settings/shopcheckout-step-2.php:65
+#: importer/checkout-settings/shopcheckout-step-3.php:60
+#: importer/checkout-settings/shopcheckout-three.php:88
+#: importer/checkout-settings/shopcheckout.php:77
+#: includes/class-wfacp-common-helper.php:2311
+#: includes/class-wfacp-common-helper.php:2465
+#: includes/class-wfacp-common-helper.php:2578
+msgid "John"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:80
+#: importer/checkout-settings/build_2.php:80
+#: importer/checkout-settings/build_3.php:65
+#: importer/checkout-settings/classic-step-2.php:69
+#: importer/checkout-settings/classic-step-3.php:69
+#: importer/checkout-settings/closer-step-2.php:81
+#: importer/checkout-settings/closer-step-3.php:95
+#: importer/checkout-settings/closer.php:84
+#: importer/checkout-settings/custom_funnel_form_1.php:74
+#: importer/checkout-settings/custom_funnel_form_2.php:119
+#: importer/checkout-settings/custom_funnel_form_3.php:109
+#: importer/checkout-settings/embed_forms_1.php:153
+#: importer/checkout-settings/embed_forms_2.php:158
+#: importer/checkout-settings/embed_forms_3.php:172
+#: importer/checkout-settings/embed_forms_4.php:121
+#: importer/checkout-settings/embed_forms_5.php:116
+#: importer/checkout-settings/embed_forms_6.php:103
+#: importer/checkout-settings/flavour-step-2.php:81
+#: importer/checkout-settings/flavour-step-3.php:100
+#: importer/checkout-settings/flavour.php:96
+#: importer/checkout-settings/magnetic-step-2.php:94
+#: importer/checkout-settings/magnetic-step-3.php:115
+#: importer/checkout-settings/magnetic.php:100
+#: importer/checkout-settings/marketer-step-2.php:68
+#: importer/checkout-settings/marketer-step-3.php:68
+#: importer/checkout-settings/minimalist-step-2.php:89
+#: importer/checkout-settings/minimalist-step-3.php:92
+#: importer/checkout-settings/minimalist.php:95
+#: importer/checkout-settings/minimilist-step-2.php:83
+#: importer/checkout-settings/minimilist-step-3.php:83
+#: importer/checkout-settings/minimilist.php:94
+#: importer/checkout-settings/persuader-step-2.php:83
+#: importer/checkout-settings/persuader-step-3.php:83
+#: importer/checkout-settings/persuader.php:94
+#: importer/checkout-settings/presenter-step-2.php:83
+#: importer/checkout-settings/presenter-step-3.php:83
+#: importer/checkout-settings/presenter.php:87
+#: importer/checkout-settings/razor-step-2.php:81
+#: importer/checkout-settings/razor-step-3.php:81
+#: importer/checkout-settings/razor.php:99
+#: importer/checkout-settings/royale-step-2.php:154
+#: importer/checkout-settings/royale-step-3.php:152
+#: importer/checkout-settings/salesletter-step-2.php:66
+#: importer/checkout-settings/salesletter-step-3.php:69
+#: importer/checkout-settings/shopcheckout-multi.php:116
+#: importer/checkout-settings/shopcheckout-step-2.php:76
+#: importer/checkout-settings/shopcheckout-step-3.php:71
+#: importer/checkout-settings/shopcheckout-three.php:99
+#: importer/checkout-settings/shopcheckout.php:88
+#: includes/class-wfacp-common-helper.php:2325
+#: includes/class-wfacp-common-helper.php:2479
+#: includes/class-wfacp-common-helper.php:2586
+msgid "Doe"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:99
+#: importer/checkout-settings/build_2.php:99
+#: importer/checkout-settings/build_3.php:84
+#: importer/checkout-settings/classic-step-2.php:97
+#: importer/checkout-settings/classic-step-3.php:100
+#: importer/checkout-settings/closer-step-2.php:108
+#: importer/checkout-settings/closer-step-3.php:46
+#: importer/checkout-settings/embed_forms_2.php:185
+#: importer/checkout-settings/embed_forms_3.php:123
+#: importer/checkout-settings/flavour-step-2.php:110
+#: importer/checkout-settings/marketer-step-2.php:96
+#: importer/checkout-settings/marketer-step-3.php:99
+#: importer/checkout-settings/minimalist-step-2.php:118
+#: importer/checkout-settings/minimalist-step-3.php:121
+#: importer/checkout-settings/minimilist-step-2.php:104
+#: importer/checkout-settings/minimilist-step-3.php:104
+#: importer/checkout-settings/minimilist.php:125
+#: importer/checkout-settings/persuader-step-2.php:112
+#: importer/checkout-settings/persuader.php:125
+#: importer/checkout-settings/presenter-step-2.php:112
+#: importer/checkout-settings/presenter.php:112
+#: importer/checkout-settings/razor-step-2.php:110
+#: importer/checkout-settings/salesletter-step-2.php:94
+#: importer/checkout-settings/salesletter-step-3.php:100
+#: importer/checkout-settings/shopcheckout.php:113
+#: includes/class-wfacp-common-helper.php:2336
+#: includes/class-wfacp-common-helper.php:2514
+msgid "Your Products"
+msgstr ""
+
+#: importer/checkout-settings/build_1.php:112
+#: importer/checkout-settings/build_2.php:112
+#: importer/checkout-settings/build_3.php:100
+#: importer/checkout-settings/custom_funnel_form_1.php:113
+#: importer/checkout-settings/custom_funnel_form_2.php:159
+#: importer/checkout-settings/custom_funnel_form_3.php:149
+#: importer/checkout-settings/embed_forms_4.php:139
+#: importer/checkout-settings/embed_forms_5.php:147
+#: importer/checkout-settings/embed_forms_6.php:137
+#: importer/checkout-settings/minimalist-step-2.php:40
+#: importer/checkout-settings/minimalist-step-3.php:43
+#: importer/checkout-settings/minimalist.php:42
+#: importer/checkout-settings/royale-step-3.php:34
+msgid "Shipping Method"
+msgstr ""
+
+#: importer/checkout-settings/classic-step-2.php:30
+#: importer/checkout-settings/classic-step-3.php:30
+#: importer/checkout-settings/closer-step-2.php:45
+#: importer/checkout-settings/closer-step-3.php:59
+#: importer/checkout-settings/embed_forms_2.php:122
+#: importer/checkout-settings/embed_forms_3.php:136
+#: importer/checkout-settings/marketer-step-2.php:29
+#: importer/checkout-settings/marketer-step-3.php:29
+#: importer/checkout-settings/presenter.php:46
+#: importer/checkout-settings/royale-step-2.php:46
+#: importer/checkout-settings/royale-step-2.php:108
+#: importer/checkout-settings/royale-step-3.php:33
+#: importer/checkout-settings/royale-step-3.php:106
+#: importer/checkout-settings/salesletter-step-2.php:29
+#: importer/checkout-settings/salesletter-step-3.php:30
+#: importer/checkout-settings/shopcheckout-multi.php:71
+#: importer/checkout-settings/shopcheckout-step-2.php:31
+#: importer/checkout-settings/shopcheckout-step-3.php:26
+#: importer/checkout-settings/shopcheckout-three.php:54
+#: includes/class-wfacp-common-helper.php:2271
+#: includes/class-wfacp-common-helper.php:2400
+msgid "Customer Information"
+msgstr ""
+
+#: importer/checkout-settings/classic-step-2.php:242
+#: importer/checkout-settings/classic-step-3.php:244
+#: importer/checkout-settings/marketer-step-2.php:240
+#: importer/checkout-settings/marketer-step-3.php:243
+#: importer/checkout-settings/royale-step-2.php:307
+#: importer/checkout-settings/royale-step-3.php:314
+#: importer/checkout-settings/salesletter-step-2.php:238
+#: importer/checkout-settings/salesletter-step-3.php:244
+#: importer/checkout-settings/shopcheckout-multi.php:269
+#: importer/checkout-settings/shopcheckout-step-2.php:229
+#: importer/checkout-settings/shopcheckout-step-3.php:211
+#: importer/checkout-settings/shopcheckout-three.php:254
+#: includes/class-wfacp-common-helper.php:2563
+#: includes/class-wfacp-common.php:1568
+msgid "Use a different shipping address"
+msgstr ""
+
+#: importer/checkout-settings/classic-step-2.php:312
+#: importer/checkout-settings/classic-step-3.php:314
+#: importer/checkout-settings/marketer-step-2.php:310
+#: importer/checkout-settings/marketer-step-3.php:313
+#: importer/checkout-settings/royale-step-2.php:314
+#: importer/checkout-settings/royale-step-3.php:321
+#: importer/checkout-settings/salesletter-step-2.php:308
+#: importer/checkout-settings/salesletter-step-3.php:314
+#: importer/checkout-settings/shopcheckout-multi.php:339
+#: importer/checkout-settings/shopcheckout-step-2.php:299
+msgid "Use a different Billing address"
+msgstr ""
+
+#: importer/checkout-settings/closer-step-3.php:113
+#: importer/checkout-settings/closer.php:100
+#: importer/checkout-settings/embed_forms_1.php:169
+#: importer/checkout-settings/embed_forms_3.php:190
+#: importer/checkout-settings/minimilist-step-2.php:89
+#: importer/checkout-settings/minimilist-step-3.php:89
+msgid "Shipping Address"
+msgstr ""
+
+#: importer/checkout-settings/closer-step-3.php:127
+#: importer/checkout-settings/embed_forms_3.php:204
+msgid "Order summary"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_1.php:41
+#: importer/checkout-settings/embed_forms_4.php:76
+msgid "Choose shipping method"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_1.php:103
+#: importer/checkout-settings/custom_funnel_form_2.php:135
+#: importer/checkout-settings/custom_funnel_form_3.php:125
+msgid "Billing Details"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_1.php:190
+#: importer/checkout-settings/custom_funnel_form_2.php:24
+#: importer/checkout-settings/custom_funnel_form_3.php:13
+#: importer/checkout-settings/embed_forms_1.php:21
+#: importer/checkout-settings/embed_forms_2.php:23
+#: importer/checkout-settings/embed_forms_3.php:26
+#: importer/checkout-settings/embed_forms_4.php:23
+#: importer/checkout-settings/embed_forms_5.php:24
+#: importer/checkout-settings/embed_forms_6.php:13
+msgid "* 100% Secure &amp; Safe Payments *"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_2.php:22
+#: importer/checkout-settings/embed_forms_5.php:22
+#: importer/checkout-settings/embed_forms_6.php:11
+#: importer/checkout-settings/shopcheckout-three.php:24
+#: public/template-common/shipping-options.php:59
+msgid "Shipping"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_2.php:23
+#: importer/checkout-settings/custom_funnel_form_3.php:16
+#: importer/checkout-settings/embed_forms_2.php:84
+#: importer/checkout-settings/embed_forms_5.php:23
+#: importer/checkout-settings/embed_forms_6.php:12
+#: importer/checkout-settings/royale-step-2.php:47
+#: importer/checkout-settings/royale-step-3.php:35
+#: importer/checkout-settings/shopcheckout-multi.php:25
+#: importer/checkout-settings/shopcheckout-three.php:25
+msgid "Payment"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_2.php:144
+#: importer/checkout-settings/custom_funnel_form_3.php:134
+#: importer/checkout-settings/embed_forms_4.php:148
+#: importer/checkout-settings/embed_forms_5.php:134
+#: importer/checkout-settings/embed_forms_6.php:121
+msgid "Your Product"
+msgstr ""
+
+#: importer/checkout-settings/custom_funnel_form_3.php:14
+#: importer/checkout-settings/embed_forms_6.php:10
+#: importer/checkout-settings/shopcheckout-multi.php:24
+#: importer/checkout-settings/shopcheckout-three.php:23
+msgid "Information"
+msgstr ""
+
+#: importer/checkout-settings/embed_forms_2.php:83
+msgid "Enter basic details"
+msgstr ""
+
+#: importer/checkout-settings/embed_forms_2.php:88
+msgid "COMPLETE ORDER"
+msgstr ""
+
+#: importer/checkout-settings/embed_forms_3.php:86
+msgid "PLACE ORDER NOW "
+msgstr ""
+
+#: importer/checkout-settings/embed_forms_3.php:87
+msgid "Payment method"
+msgstr ""
+
+#: importer/checkout-settings/flavour-step-3.php:45
+#: importer/checkout-settings/magnetic-step-2.php:45
+#: importer/checkout-settings/magnetic-step-3.php:47
+#: importer/checkout-settings/magnetic.php:46
+msgid "Select Your Plan"
+msgstr ""
+
+#: importer/checkout-settings/flavour.php:46
+msgid "One-Step Checkout"
+msgstr ""
+
+#: importer/checkout-settings/flavour.php:70
+msgid "Your Shipping Address"
+msgstr ""
+
+#: importer/checkout-settings/magnetic-step-2.php:58
+#: importer/checkout-settings/magnetic.php:59
+msgid "Enter Customer Information"
+msgstr ""
+
+#: importer/checkout-settings/minimalist-step-2.php:47
+#: importer/checkout-settings/minimalist-step-3.php:50
+#: importer/checkout-settings/minimalist.php:49
+msgid "Your Information"
+msgstr ""
+
+#: importer/checkout-settings/minimalist-step-2.php:130
+#: importer/checkout-settings/minimalist-step-3.php:133
+msgid "Your Order Summary"
+msgstr ""
+
+#: importer/checkout-settings/razor.php:46
+msgid "Choose Your Product"
+msgstr ""
+
+#: importer/checkout-settings/royale-step-2.php:29
+#: importer/checkout-settings/royale-step-3.php:28
+msgid "Continue to Shipping →"
+msgstr ""
+
+#: importer/checkout-settings/royale-step-2.php:44
+#: importer/checkout-settings/royale-step-3.php:46
+#: importer/checkout-settings/shopcheckout-multi.php:22
+#: importer/checkout-settings/shopcheckout-three.php:21
+msgid "Continue to payment →"
+msgstr ""
+
+#: importer/checkout-settings/royale-step-2.php:48
+#: importer/checkout-settings/shopcheckout-multi.php:26
+msgid "Order Completed"
+msgstr ""
+
+#: importer/checkout-settings/shopcheckout-multi.php:7
+#: importer/checkout-settings/shopcheckout-three.php:6
+msgid "Continue to shipping →"
+msgstr ""
+
+#: importer/checkout-settings/shopcheckout-three.php:22
+msgid "Place Order Now"
+msgstr ""
+
+#: importer/class-wfacp-elementor-importer.php:66
+msgid "Something Went wrong"
+msgstr ""
+
+#: importer/class-wfacp-template-importer.php:64
+msgid "Elementor requires WordPress version %s+. please update the wordpress version to import the template."
+msgstr ""
+
+#: importer/class-wfacp-template-importer.php:198
+msgid "Server Down"
+msgstr ""
+
+#: importer/class-wfacp-template-importer.php:207
+msgid "No Template found"
+msgstr ""
+
+#: includes/class-dynamic-merge-tags.php:144
+msgid "Subscription Product String"
+msgstr ""
+
+#: includes/class-dynamic-merge-tags.php:148
+#: includes/class-dynamic-merge-tags.php:152
+msgid "You Save"
+msgstr ""
+
+#: includes/class-track-analytics.php:302
+#: includes/class-wfacp-common.php:274
+#: includes/class-wfacp-common.php:275
+msgid "Checkout"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:172
+msgid "Checkout Page not found"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:197
+msgid "Checkout Page Successfully Update"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:211
+msgid "Checkout Page Successfully Created"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:407
+#: includes/class-wfacp-ajax-controller.php:468
+#: includes/class-wfacp-ajax-controller.php:1108
+#: includes/class-wfacp-ajax-controller.php:1132
+msgid "Changes saved"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:534
+msgid "Field Added Saved"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:561
+msgid "Field Deleted"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:600
+msgid "Field Updated"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:627
+msgid "Checkout Page status updated"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:653
+msgid "Template imported"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:684
+msgid "Design Saved Successfully"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:767
+#: includes/class-wfacp-ajax-controller.php:785
+#: includes/class-wfacp-ajax-controller.php:976
+#: includes/class-wfacp-ajax-controller.php:1073
+#: includes/class-wfacp-ajax-controller.php:1355
+msgid "Sorry, we do not have enough stock to fulfill your order. Please change quantity and try again. We apologize for any inconvenience caused."
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1163
+msgid "on Regular Price"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1164
+msgid "on Sale Price"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1185
+msgid "--"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1225
+msgid "No product is associated in the checkout form"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1396
+msgid "Copy - "
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1747
+msgid "Importing of template failed"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1765
+msgid "Importing of template finished"
+msgstr ""
+
+#: includes/class-wfacp-ajax-controller.php:1788
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:137
+msgid "is required field"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:138
+msgid "is not a valid"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:298
+msgid "Buy {{quantity}} and Save {{saving_value}} ({{saving_percentage}})"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:937
+msgid "Select"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1219
+msgid "Changes have been made!"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1220
+msgid "You need to save changes before generating preview."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1221
+msgid "Yes, Save it!"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1225
+msgid "No product associated with this checkout. You need to add minimum one product to generate preview"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1227
+msgid "Want to delete this product from checkout?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1228
+msgid "You won't be able to revert this!"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1229
+#: includes/class-wfacp-common.php:2314
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1233
+#: includes/class-wfacp-common-helper.php:1301
+#: includes/class-wfacp-common-helper.php:1518
+#: includes/class-wfacp-post-table.php:60
+msgid "Active"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1234
+#: includes/class-wfacp-common-helper.php:1302
+#: includes/class-wfacp-common-helper.php:1519
+#: includes/class-wfacp-post-table.php:61
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1240
+msgid "Yes, delete this checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1241
+msgid "Remove"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1243
+msgid "Ok"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1244
+msgid "Billing Email field must be on step 1 for the form"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1246
+msgid "Are you sure you want to delete this checkout page?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1247
+msgid "Are you sure, you want to delete this permanently? This can`t be undone"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1248
+msgid "New Checkout"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1249
+msgid "Edit Checkout Page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1250
+msgid "Add"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1252
+msgid "Data Saving..."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1253
+msgid "Shortcode Copied!"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1259
+msgid "Oops! Unable to save this form"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1260
+msgid "This Forms contains extremely large options. Please increase server's max_input_vars limit. Not sure? Contact support."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1261
+#: includes/class-wfacp-common-helper.php:1267
+#: includes/class-wfacp-common-helper.php:1273
+msgid "Okay! Got it"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1265
+msgid "Oops! Internal Server Error"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1271
+msgid "Oops! Bad Gateway"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1279
+msgid "Are you sure you want to apply this template?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1281
+msgid "Yes, apply this template!"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1285
+msgid "Are you sure you want to import this template?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1287
+msgid "Yes, Import this template!"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1290
+msgid "Are you sure you want to remove this template?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1291
+msgid "Any changes done to the current template will be lost."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1292
+msgid "Confirm"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1294
+msgid "Oops! Something went wrong"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1295
+msgid "Try again or contact support."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1296
+msgid "Close"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1299
+msgid "Field ID"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1305
+msgid "Example: Fields marked with * are mandatory"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1309
+msgid "Are you sure you want to remove {{section_name}} Section?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1311
+msgid "Section Name"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1321
+msgid "can't be blank. Add a few fields or remove the step and save again."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1323
+msgid "Billing Email is required for processing payment"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1325
+msgid "Enable checkbox to show above fields"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1326
+#: includes/class-wfacp-common-helper.php:1328
+msgid "This will make shipping address an optional checkbox when billing address is present in the form"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1327
+msgid "Different from shipping address"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1331
+msgid "Status"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1334
+msgid "Merge Tags: {{quantity}}, {{saving_value}}, {{saving_percentage}} and {{unit_price}}"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1335
+msgid "Field Type"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1339
+msgid "Single Line Text"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1343
+msgid "Checkbox"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1347
+msgid "Radio"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1351
+msgid "HTML"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1356
+msgid "Dropdown"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1360
+msgid "Select2"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1364
+msgid "Multi Select"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1369
+msgid "Paragraph Text"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1373
+msgid "Number"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1377
+msgid "Tel"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1381
+msgid "Hidden"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1385
+msgid "Password"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1392
+msgid "Field ID (Order Meta Key)"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1393
+msgid "Field ID (Order Meta Key) where value of this field gets stored. Use '_' to seperate in case of multiple words. Example: date_of_birth"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1395
+msgid "Options (|) separated"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1397
+msgid "Max number of selection"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1398
+msgid "Error Message"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1399
+msgid "You can only select {maximum_number} items"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1402
+msgid "Enter the default text for shipping method"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1403
+msgid "Default Value"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1405
+msgid "Detailed Summary"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1406
+msgid "Enable this to show detailed summary including Subtotal, Coupon, Fees, Shipping and Taxes whichever are applicable."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1407
+msgid "Enable this to show delete icon below item subtotal"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1411
+msgid "True"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1415
+msgid "False"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1421
+#: includes/class-wfacp-common-helper.php:1422
+msgid "Please keep this field turned OFF, if you are using First name separate field in the form"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1436
+msgid "Edit Field"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1439
+msgid "Show On Thank You Page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1440
+msgid "Show In Order Email"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1441
+msgid "Enable Time"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1442
+msgid "Time Format"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1446
+msgid "12 Hours"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1450
+msgid "24 Hours"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1453
+msgid "Validation Error"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1454
+msgid "Are you sure you want to delete field"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1455
+msgid "This action can be undone."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1456
+msgid "Yes, Delete the field"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1477
+msgid "Heading (optional)"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1478
+msgid "Subheading (optional)"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1480
+msgid "Preview Link Text"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1481
+msgid "Enable this on multistep form to help user preview entered values at next steps. It helps user recap the information and prevent inadvertent errors."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1482
+msgid "This Feature is available only for multistep form"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1484
+msgid "Empty cart"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1485
+msgid "Message when cart is empty"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1486
+msgid "Empty cart message"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1487
+msgid "Message when no product added to cart"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1489
+msgid "Embed Script"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1490
+msgid "Add custom scripts on checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1492
+#: includes/class-wfacp-common-helper.php:1494
+msgid "Paste your code here"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1498
+msgid "Add custom CSS on checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1499
+msgid "CSS"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1500
+msgid "Paste your CSS code here"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1508
+msgid "Enable this to surprise your buyers with special auto applied coupon. Reduces cart abandonment rate and discourages buyers from hunting coupons else where."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1513
+msgid "Auto Apply Coupon"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1514
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1515
+msgid "Enter coupon code here"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1516
+msgid "Choose Coupon"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1517
+msgid "Disable Coupon Field"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1522
+msgid "Google Autocomplete"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1524
+msgid "Enable google autocomplete"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1525
+msgid "Enter Api Key"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1527
+msgid "Api Key"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1531
+msgid "By default, WooCommerce shows countries in alphabetical order. Enable this option to re-arrange the list such that your top selling countries are always on top"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1532
+msgid "Select Countries"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1541
+msgid "Choose Position"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1547
+#: includes/class-wfacp-common-helper.php:1568
+msgid "You can manage the quantity increment, quick view provision from here"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1548
+msgid "You Save text"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1549
+msgid "Hide Quantity Incrementor"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1550
+msgid "Hide Quick View"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1551
+msgid "Hide Product Image"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1554
+msgid "Success message"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1555
+msgid "Use merge tags to display Coupon Code: {{coupon_code}} & Coupon Value: {{coupon_value}} in success message"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1556
+msgid "Failure message"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1561
+msgid "yes"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1565
+msgid "no"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1571
+msgid "Enable this to set expiry of checkout page after certain sales or at a particular date. Used for generating scarcity during time sensitive campaigns."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1572
+msgid "<p>Note: The settings are only applicable for product specific checkout pages or order forms</p>"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1576
+msgid "Close This checkout Page After # of Orders"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1577
+msgid "Close Checkout After Date"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1578
+msgid "Total Orders Allowed"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1579
+msgid "After given number of order made, disable this checkout page and redirect buyer to a specified URL"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1580
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1581
+#: includes/class-wfacp-common-helper.php:1585
+msgid "Buyer will be redirect to given URL here"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1582
+msgid "Close Checkout On"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1583
+msgid "Set the date to close this checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1584
+msgid "Closed Checkout Redirect URL"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1586
+msgid "Note: These settings are only applicable for dedicated checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1592
+msgid "Enable this to populate previously entered values as abandoned users return back to checkout."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1596
+#: includes/class-wfacp-common-helper.php:1638
+msgid "Enable this to auto fill State from combination of Zip code and Country"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1597
+#: includes/class-wfacp-common-helper.php:1639
+msgid "Choose service"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1601
+msgid "By Zippopotamus"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1608
+msgid "Use these settings to pre-populate checkout with URLs parameters"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1610
+msgid "Tip: Enter Comma Separated Product IDs for multiple products"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1611
+msgid "Coupons"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1612
+msgid "Tip: Enter Comma Separated coupon code for multiple Coupons"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1613
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1614
+msgid "Tip: Enter Comma Separated quantity value for multiple products"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1630
+msgid "Email Service"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1632
+msgid "Checkout URL"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1636
+msgid "Tracking and Analytics"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1637
+msgid "Use this to adjust the tracking events for one-page checkouts"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1641
+msgid "Facebook Pixel"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1644
+msgid "Google Analytics"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1647
+msgid "Enable AddtoCart Event"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1648
+msgid "Enable PageView Event"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1649
+msgid "Enable BeginCheckout Event"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1650
+msgid "Enable AddPaymentInfo Event"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1652
+msgid "Trigger Event"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1653
+msgid "Override Global Settings"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1657
+msgid "Tracking and analytics"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1658
+msgid "Override global settings"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1670
+msgid "Please Validate Field "
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1758
+msgid "At top of checkout Page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1762
+msgid "Before product switcher"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1766
+msgid "After product switcher"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1770
+msgid "Before order summary"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1774
+msgid "After order summary"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1778
+msgid "Above the payment gateways"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:1838
+msgid "Default WooCommerce Checkout Page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2022
+msgid "Select content id parameter"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2023
+msgid "Product ID"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2024
+msgid "Product Sku"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2033
+msgid "On Page Load"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2034
+msgid "On Button Click"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2035
+msgid "On Email Capture"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2050
+#: includes/class-wfacp-common-helper.php:2167
+msgid "Override Default Checkout"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2051
+#: includes/class-wfacp-common-helper.php:2168
+msgid "Selected checkout page will replace default WooCommerce checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2061
+#: includes/class-wfacp-common-helper.php:2062
+msgid "Global Checkout"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2072
+#: includes/class-wfacp-common-helper.php:2238
+msgid "Set Shipping Method Prices in Ascending Order"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2090
+#: includes/class-wfacp-common-helper.php:2203
+msgid "Custom CSS Tweaks"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2097
+msgid "Global Custom CSS"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2107
+#: includes/class-wfacp-common-helper.php:2217
+msgid "External JS Scripts"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2114
+#: includes/class-wfacp-common-helper.php:2115
+msgid "External Scripts"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2120
+#: includes/class-wfacp-common-helper.php:2154
+msgid "Click here for more info"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2128
+#: includes/class-wfacp-common-helper.php:2189
+msgid "Looking for Google Map API key?"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2168
+msgid "No checkout pages found."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2188
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2231
+msgid "Shipping Method Prices"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2295
+#: includes/class-wfacp-common-helper.php:2397
+msgid "Shipping Information"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2569
+#: includes/class-wfacp-common.php:1578
+msgid "Use a different billing address"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2593
+msgid "Note: Keep this field turned OFF, if you are using First name as a separate field."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2594
+msgid "Note: Keep this field turned OFF, if you are using Last name as a separate field."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2719
+#: includes/class-wfacp-template.php:2264
+msgid "Congrats! Coupon code %s %s applied successfully."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2807
+msgid "At least one item should be available in your cart to checkout."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2811
+msgid "Click to delete this last item from your cart."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2918
+msgid "One Step"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2919
+msgid "Two Step"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:2920
+msgid "Three Step"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:3148
+msgid "No Builder Specified"
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:3165
+msgid "Site has an older version of Oxygen Builder. Templates are supported for v%s or greater.<br /> Please update."
+msgstr ""
+
+#: includes/class-wfacp-common-helper.php:3206
+msgid "Site has an older version of Divi Builder. Templates are supported for v%s or greater.<br /> Please update."
+msgstr ""
+
+#: includes/class-wfacp-common.php:276
+msgid "Add Checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common.php:277
+msgid "Add New Checkout page"
+msgstr ""
+
+#: includes/class-wfacp-common.php:338
+msgid "WooFunnels Boxed"
+msgstr ""
+
+#: includes/class-wfacp-common.php:339
+msgid "WooFunnels Canvas For Page Builder"
+msgstr ""
+
+#: includes/class-wfacp-common.php:449
+msgid "Design"
+msgstr ""
+
+#: includes/class-wfacp-common.php:467
+msgid "Optimizations"
+msgstr ""
+
+#: includes/class-wfacp-common.php:489
+msgid "%s Fixed Amount on Regular Price"
+msgstr ""
+
+#: includes/class-wfacp-common.php:490
+msgid "%s Fixed Amount on Sale Price"
+msgstr ""
+
+#: includes/class-wfacp-common.php:491
+msgid "% on Regular Price"
+msgstr ""
+
+#: includes/class-wfacp-common.php:492
+msgid "% on Sale Price"
+msgstr ""
+
+#: includes/class-wfacp-common.php:2292
+msgid "View"
+msgstr ""
+
+#: includes/class-wfacp-common.php:2300
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-wfacp-common.php:2358
+#: includes/class-wfacp-common.php:2360
+msgid "Copy"
+msgstr ""
+
+#: includes/class-wfacp-common.php:3055
+msgid "Unable to execute a shortcode as it contains a form inside."
+msgstr ""
+
+#: includes/class-wfacp-common.php:3075
+msgid "Day"
+msgstr ""
+
+#: includes/class-wfacp-common.php:3081
+msgid "Month"
+msgstr ""
+
+#: includes/class-wfacp-common.php:3087
+msgid "Year"
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:59
+msgid "All"
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:98
+msgid "No Checkout page available."
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:264
+msgid "&nbsp;"
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:266
+msgid "Last Update"
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:267
+msgid "Quick Links"
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:365
+msgid "Close modal panel"
+msgstr ""
+
+#: includes/class-wfacp-post-table.php:373
+msgid "Launch"
+msgstr ""
+
+#: includes/class-wfacp-template-loader.php:88
+msgid "Elementor Checkout Page"
+msgstr ""
+
+#: includes/class-wfacp-template.php:1779
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/class-wfacp-template.php:1780
+msgid "Enabled payment methods will display on the frontend."
+msgstr ""
+
+#: includes/class-wfacp-template.php:2187
+msgid "Review Order Summary"
+msgstr ""
+
+#: public/class-wfacp-public.php:335
+msgid "No product in this checkout page"
+msgstr ""
+
+#: public/template-common/form-express-checkout.php:149
+msgid "Confirm your PayPal order"
+msgstr ""
+
+#: public/template-common/next-button.php:39
+msgid "Next Step"
+msgstr ""
+
+#: public/template-common/next-button.php:54
+msgid "« Return to "
+msgstr ""
+
+#: public/template-common/order-coupon.php:48
+msgid "Enter the coupon code below"
+msgstr ""
+
+#: public/template-common/quick-view/qv-template.php:92
+msgid "Choose an Option"
+msgstr ""
+
+#: public/template-common/shipping-options.php:107
+msgid "Select Shipping Method"
+msgstr ""
+
+#: public/template-common/shipping-options.php:159
+msgid "Shipping Recurring"
+msgstr ""
+
+#: public/template-common/shipping-options.php:162
+msgid "Recurring Shipping Method"
+msgstr ""
+
+#: public/template-common/smart_buttons.php:14
+msgid "OR"
+msgstr ""
+
+#: public/template-common/smart_buttons.php:15
+msgid "Express Checkout"
+msgstr ""
+
+#. translators: %1$s: Min required woocommerce version
+#: woofunnels-aero-checkout.php:288
+msgid "<strong> Attention: </strong>AeroCheckout requires WooCommerce version %1$s or greater. Kindly update the WooCommerce plugin."
+msgstr ""
+
+#. translators: %1$s: Min required woocommerce version
+#: woofunnels-aero-checkout.php:301
+msgid "<strong> Attention: </strong>AeroCheckout requires WordPress version %1$s or greater. Kindly update the WordPress."
+msgstr ""
+
+#: woofunnels-aero-checkout.php:314
+msgid "<strong> Attention: </strong>WooCommerce is not installed or activated. AeroCheckout is a WooCommerce Extension and would only work if WooCommerce is activated. Please install the WooCommerce Plugin first."
+msgstr ""

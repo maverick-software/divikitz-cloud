@@ -1,0 +1,98 @@
+.bloxx-setting-box {
+    border: 1px solid #ccc;
+    padding: 13px 10px;
+    background: #fff;
+}
+
+.bloxx-setting-box input[type="email"],
+.bloxx-setting-box input[type="text"] {
+    height: 42px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+.bloxx-setting-box input[type="submit"] {
+    background: #6bb4a7;
+    border: 0;
+    padding: 10px 26px;
+    margin-top: 12px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wp-core-ui select {
+    min-width: 55px;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    border-bottom: 0 !important;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 10px 18px !important;
+}
+
+table.dataTable {
+    margin: 15px auto;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid #c3c4c7 !important;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.hosting-box {
+    padding: 20px 20px 20px;
+}
+
+.hosting-box form {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-flow: row wrap;
+}
+
+.hosting-box .col-4 {
+    flex: 0 0 20%;
+    margin: 0 12px 12px 0;
+    max-width: 20%;
+    border: 1px solid #eee;
+    padding: 1rem;
+}
+
+.hosting-box .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.hosting-box .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hosting-box h2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+@media (max-width:575px) {
+    .hosting-box .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,1718 @@
+# Translation of YITH Stripe Connect for WooCommerce in Greek
+# This file is distributed under the same license as the YITH Stripe Connect for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Stripe Connect for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-stripe-"
+"connect-for-woocommerce.premium\n"
+"POT-Creation-Date: 2023-06-06 11:22:33+00:00\n"
+"PO-Revision-Date: 2021-02-11 19:46:41+0000\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/class.yith-stripe-connect-admin.php:196
+#: includes/class.yith-stripe-connect-admin.php:197
+#: includes/class.yith-stripe-connect.php:530
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/class.yith-stripe-connect-admin.php:345
+msgid "Stripe Connect Receivers"
+msgstr "Δέκτες Stripe Connect"
+
+#: includes/class.yith-stripe-connect-admin.php:490
+msgid "Test"
+msgstr "Δοκιμή"
+
+#: includes/class.yith-stripe-connect-admin.php:490
+msgid "Live"
+msgstr "Ζωντανό"
+
+#: includes/class.yith-stripe-connect-admin.php:492
+msgid "Test Client ID"
+msgstr "ID Δοκιμής Πελάτη"
+
+#: includes/class.yith-stripe-connect-admin.php:493
+msgid "Test Public Key"
+msgstr "Δημόσιο Κλειδί Δοκιμής"
+
+#: includes/class.yith-stripe-connect-admin.php:494
+msgid "Test Secret Key"
+msgstr "Μυστικό Κλειδί Δοκιμής"
+
+#: includes/class.yith-stripe-connect-admin.php:496
+msgid "Live Client ID"
+msgstr "Ζωντανό ID Πελάτη"
+
+#: includes/class.yith-stripe-connect-admin.php:497
+msgid "Live Public Key"
+msgstr "Ζωντανό Δημόσιο Κλειδί"
+
+#: includes/class.yith-stripe-connect-admin.php:498
+msgid "Live Secret Key"
+msgstr "Ζωντανό Μυστικό Κλειδί"
+
+#. translators: 1. Stripe Connect for WooCommerce. 2. Mode (Live/Test). 3.
+#. Missing field.
+#: includes/class.yith-stripe-connect-admin.php:510
+msgid "<b>%1$s -</b> you have enable %2$s mode. This field is required: %3$s"
+msgstr ""
+"<b>%1$s -</b> έχετε ενεργοποιήσει λειτουργία %2$s. Αυτό το πεδίο απαιτείται: "
+"%3$s"
+
+#. translators: 1. YITH Stripe Connect for WooCommerce. 2. Webhook uri 3. Url
+#. to Stripe Dashboard.
+#: includes/class.yith-stripe-connect-admin.php:536
+msgid ""
+"<b>%1$s -</b> Define the following <b>Webhook</b> <code>%2$s</code> in <a "
+"href=\"%3$s\" target=\"_blank\">Stripe Dashboard > Developers > Webhooks</a> "
+"(Endpoints receiving events from Connect applications) section."
+msgstr ""
+"<b>%1$s -</b> Ορίστε την ακόλουθη ενότητα <b>Webhook</b> <code>%2$s</code> "
+"στο <a href=\"%3$s\" target=\"_blank\">Stripe Dashboard > Developers > "
+"Webhooks</a> (Τα τελικά σημεία δέχονται events απο τις εφαρμογές Connect)"
+
+#: includes/class.yith-stripe-connect-admin.php:540
+#: includes/class.yith-stripe-connect-admin.php:555
+msgid "Done"
+msgstr "Έτοιμο"
+
+#. translators: 1. YITH Stripe Connect for WooCommerce. 2. Redirect uri 3. Url
+#. to Stripe Dashboard.
+#: includes/class.yith-stripe-connect-admin.php:551
+msgid ""
+"<b>%1$s -</b> Define the following <b>Redirect URI</b> <code>%2$s</code> in "
+"<a href=\"%3$s\" target=\"_blank\">Stripe Dashboard > Settings > Connect > "
+"Integration ></a> <b>Redirects</b> section."
+msgstr ""
+"<b>%1$s -</b> Ορίστε την ακόλουθη ενότητα <b>Redirect URI</b> <code>%2$s</"
+"code> στο <a href=\"%3$s\" target=\"_blank\">Stripe Dashboard > Settings > "
+"Connect > Integration ></a> <b>Redirects</b>."
+
+#: includes/class.yith-stripe-connect-commissions.php:100
+#, fuzzy
+msgid ""
+"There are still days left before the automatic payment. Do you want to do it"
+"\r\n"
+"\t\t\t\t\tnow?"
+msgstr ""
+"Απομένουν ακόμη μέρες έως την αυτόματη πληρωμή. Θέλετε να γίνει\n"
+"\t\t\t\t\tτώρα;"
+
+#: includes/class.yith-stripe-connect-commissions.php:104
+msgid "Users have disconnected their Stripe Account from your website!"
+msgstr ""
+"Οι χρήστες έχουν αποσυνδέσει τον Λογαριασμό Stripe τους από τον ιστότοπό σας!"
+
+#: includes/class.yith-stripe-connect-commissions.php:439
+msgid "fixed commission"
+msgstr "σταθερή προμήθεια"
+
+#. translators: 1. Commission amount 2. Commission type 3. Receiver email.
+#: includes/class.yith-stripe-connect-commissions.php:443
+msgid "A commission with %1$s (from %2$s) has been created for %3$s"
+msgstr "Μια προμήθεια με %1$s (από %2$s) έχει δημιουργηθεί για %3$s"
+
+#: includes/class.yith-stripe-connect-commissions.php:866
+msgid "The current commissions have been paid"
+msgstr "Έχει γίνει πληρωμή τρεχουσών προμηθειών"
+
+#: includes/class.yith-stripe-connect-commissions.php:881
+#: includes/functions.yith-wcsc.php:342
+msgid "The user's Stripe account has been disconnected"
+msgstr "Ο λογαριασμός Stripe χρήστη έχει αποσυνδεθεί"
+
+#: includes/class.yith-stripe-connect-commissions.php:932
+msgid ""
+"Can't transfer the commissions %s for %s. Please take a look at the log file "
+"for more details."
+msgstr ""
+"Δεν μπόρεσε να γίνει μεταφορά προμηθειών %s για %s. Παρακαλώ ελέγξτε το "
+"αρχείο καταγραφής για περισσότερες λεπτομέρειες."
+
+#: includes/class.yith-stripe-connect-commissions.php:936
+msgid "Stripe Connect message: "
+msgstr "Μήνυμα Stripe Connect: "
+
+#: includes/class.yith-stripe-connect-commissions.php:951
+#, fuzzy
+msgid ""
+"Commissions %s for %s have been transferred correctly. Transfer ID: \"%s\". "
+"Destination Payment:\r\n"
+"\t\t\t\t\t\"%s\"."
+msgstr ""
+"Οι προμήθειες %s για %s έχουν μεταφερθεί επιτυχώς. ID Μεταφοράς: “%s”. "
+"Πληρωμή Προορισμού:\n"
+"\t\t\t\t\t”%s”."
+
+#: includes/class.yith-stripe-connect-commissions.php:1166
+msgid "Couldn't create commission because it exceeded the order total"
+msgstr ""
+"Δεν μπόρεσε να γίνει δημιουργία προμήθειας γιατί υπερέβη το σύνολο "
+"παραγγελίας"
+
+#: includes/class.yith-stripe-connect-commissions.php:1182
+msgid "N/A; This commission was processed using Alternative Payment Flow"
+msgstr ""
+"N/A; Αυτή η προμήθεια επεξεργάστηκε χρησιμοποιώντας Εναλλακτική Ροή Πληρωμής"
+
+#: includes/class.yith-stripe-connect-commissions.php:1435
+#: includes/class.yith-stripe-connect-commissions.php:1502
+#: includes/functions.yith-wcsc.php:386 templates/admin/receivers-panel.php:72
+#: templates/common/commission-pdf.php:124
+#: templates/common/commission-view.php:166
+#: templates/common/commissions-panel.php:214
+msgid "Commission"
+msgstr "Προμήθεια"
+
+#: includes/class.yith-stripe-connect-commissions.php:1436
+#: includes/class.yith-stripe-connect-commissions.php:1503
+#: includes/functions.yith-wcsc.php:387 templates/admin/receivers-panel.php:74
+#: templates/common/commission-pdf.php:119
+#: templates/common/commission-view.php:161
+#: templates/common/commissions-panel.php:217
+msgid "Product"
+msgstr "Προϊόν"
+
+#: includes/class.yith-stripe-connect-commissions.php:1437
+#: includes/class.yith-stripe-connect-commissions.php:1504
+#: includes/functions.yith-wcsc.php:388
+#: templates/common/commissions-panel.php:219
+msgid "Total"
+msgstr "Σύνολο"
+
+#: includes/class.yith-stripe-connect-commissions.php:1438
+#: includes/class.yith-stripe-connect-commissions.php:1505
+#: includes/functions.yith-wcsc.php:389
+msgid "Details"
+msgstr "Στοιχεία"
+
+#: includes/class.yith-stripe-connect-commissions.php:1439
+#: includes/class.yith-stripe-connect-commissions.php:1506
+#: includes/functions.yith-wcsc.php:390
+#: templates/common/commissions-panel.php:222
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: includes/class.yith-stripe-connect-commissions.php:1440
+#: includes/class.yith-stripe-connect-commissions.php:1507
+#: includes/functions.yith-wcsc.php:391
+msgid "Purchased date"
+msgstr "Ημερομηνία αγοράς"
+
+#: includes/class.yith-stripe-connect-commissions.php:1441
+#: includes/class.yith-stripe-connect-commissions.php:1508
+#: includes/functions.yith-wcsc.php:392
+#: templates/common/commissions-panel.php:227
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: includes/class.yith-stripe-connect-commissions.php:1442
+#: includes/class.yith-stripe-connect-commissions.php:1509
+msgid "Receiver status"
+msgstr "Κατάσταση δέκτη"
+
+#: includes/class.yith-stripe-connect-commissions.php:1443
+#: includes/class.yith-stripe-connect-commissions.php:1510
+#: includes/functions.yith-wcsc.php:394
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+#: includes/class.yith-stripe-connect-frontend.php:133
+#: includes/class.yith-stripe-connect-frontend.php:207
+msgid "Disconnect from Stripe"
+msgstr "Αποσύνδεση από Stripe"
+
+#: includes/class.yith-stripe-connect-frontend.php:141
+#: includes/class.yith-stripe-connect-frontend.php:201
+msgid "Connect with Stripe"
+msgstr "Σύνδεση με Stripe"
+
+#: includes/class.yith-stripe-connect-privacy.php:46
+msgid "While you visit our site, we’ll track:"
+msgstr "Κατά την επίσκεψή σας στη σελίδα μας, θα καταγράφουμε:"
+
+#: includes/class.yith-stripe-connect-privacy.php:48
+msgid ""
+"User unique identifier: this ID is used to uniquely identify the user on "
+"Stripe platform and create charges/refunds."
+msgstr ""
+"Μοναδικό αναγνωριστικό χρήστη: αυτό το ID χρησιμοποιείται για την μοναδική "
+"αναγνώριση του χρήστη στην πλατφόρμα Stripe και την δημιουργία χρεώσεων/"
+"επιστροφών."
+
+#: includes/class.yith-stripe-connect-privacy.php:52
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Μέλη της ομάδας μας έχουν πρόσβαση στις πληροφορίες που μας παραχωρείτε. Για "
+"παράδειγμα, Διαχειριστές και Διαχειριστές Kαταστήματος έχουν πρόσβαση σε:"
+
+#: includes/class.yith-stripe-connect-privacy.php:54
+msgid "All data returned by Stripe Connect, including users’ details."
+msgstr ""
+"Όλα τα δεδομένα επιστράφηκαν από το Stripe Connect, συμπεριλαμβανομένων των "
+"στοιχείων χρηστών."
+
+#: includes/class.yith-stripe-connect-privacy.php:56
+msgid ""
+"Our team members have access to this information to track users’ identity on "
+"Stripe Connect’s server."
+msgstr ""
+"Τα μέλη της ομάδας μας έχουν πρόσβαση σε αυτές τις πληροφορίες για την "
+"καταγραφή ταυτότητας χρηστών στον διακομιστή Stripe Connect."
+
+#: includes/class.yith-stripe-connect-privacy.php:59
+msgid ""
+"We accept payments through Stripe Connect. When processing payments, some of "
+"your data will be passed to Stripe Connect, including information required "
+"to process or support the payment, such as the purchase total and billing "
+"information."
+msgstr ""
+"Δεχόμαστε πληρωμές μέσω Stripe Connect. Κατα την επεξεργασία πληρωμών, "
+"μερικά από τα δεδομένα σας θα περαστούν στο Stripe Connect, "
+"συμπεριλαμβανομένων απαιτούμενων πληροφοριών για την επεξεργασία ή "
+"υποστήριξη της πληρωμής, όπως το σύνολο αγοράς και πληροφορίες χρέωσης."
+
+#: includes/class.yith-stripe-connect-privacy.php:60
+msgid ""
+"Please see the <a href=\"https://stripe.com/us/privacy/\">Stripe Worldwide "
+"Privacy Policy</a> for more details."
+msgstr ""
+"Παρακαλώ δείτε <a href=\"https://stripe.com/us/privacy/\">Stripe Worldwide "
+"Privacy Policy</a> για περισσότερες πληροφορίες."
+
+#: includes/class.yith-stripe-connect-privacy.php:87
+msgid "Stripe Connect data"
+msgstr "Δεδομένα Stripe Connect"
+
+#: includes/class.yith-stripe-connect-privacy.php:119
+msgid "Removed Stripe Connect's customer data."
+msgstr "Αφαιρέθηκαν δεδομένα πελάτη Stripe Connect."
+
+#: includes/class.yith-stripe-connect-receivers.php:306
+msgid ""
+"A problem occurred while trying to disconnect from Stripe Connect server"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατα την προσπάθεια αποσύνδεσης από τον διακομιστή "
+"Stripe Connect"
+
+#: includes/class.yith-stripe-connect-receivers.php:322
+msgid "A problem occurred while trying to disconnect from the web page"
+msgstr "Παρουσιάστηκε σφάλμα κατα την προσπάθεια αποσύνδεσης από την σελίδα"
+
+#: includes/class.yith-stripe-connect-receivers.php:329
+msgid "Your account has been disconnected"
+msgstr "Ο λογαριασμός σας έχει αποσυνδεθεί"
+
+#. translators: 1. User display name.
+#: includes/class.yith-stripe-connect-wc-api.php:104
+msgid ""
+"account.application.deauthorized Stripe Webhook event is disconnect for %s, "
+"but it could not be removed from the server"
+msgstr ""
+"account.application.deauthorized Stripe Webhook event is disconnect for %s, "
+"but it could not be removed from the server"
+
+#. translators: 1. User display name.
+#: includes/class.yith-stripe-connect-wc-api.php:113
+msgid ""
+"account.application.deauthorized Stripe Webhook event is disconnect for %s"
+msgstr ""
+"account.application.deauthorized Stripe Webhook event is disconnect for %s"
+
+#: includes/class.yith-stripe-connect-wc-api.php:181
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:304
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:315
+msgid "Source payment failed"
+msgstr "Πληρωμή πηγής απέτυχε"
+
+#: includes/class.yith-stripe-connect-wc-api.php:210
+msgid "Source payment cancelled"
+msgstr "Πληρωμή πηγής ακυρώθηκε"
+
+#: includes/class.yith-stripe-connect.php:420
+msgid "There was an error during payment; please, try again later"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατα την πληρωμή. Παρακαλώ, προσπαθήστε ξανά αργότερα"
+
+#: includes/class.yith-stripe-connect.php:449
+msgid "Error while initializing gateway"
+msgstr "Σφάλμα κατα την αρχικοποίηση πύλης"
+
+#: includes/class.yith-stripe-connect.php:456
+msgid "Missing order ID for payment confirmation"
+msgstr "Λείπει ID παραγγελίας για την επιβεβαίωση πληρωμής"
+
+#. translators: 1. Specific error message.
+#: includes/class.yith-stripe-connect.php:477
+msgid "Payment verification error: %s"
+msgstr "Σφάλμα επαλήθευσης πληρωμής: %s"
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:52
+msgid "Please, update affiliates to latest version."
+msgstr ""
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:88
+msgid "Please take a look at Stripe Connect log file for more details."
+msgstr ""
+"Παρακαλώ ελέγξτε το αρχείο καταγραφής Stripe Connect για περισσότερες "
+"λεπτομέρειες."
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:91
+msgid "Affiliates' payment: "
+msgstr "Πληρωμή συνεργατών: "
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:100
+msgid "Payment correctly issued to Stripe Connect"
+msgstr "Η πληρωμή εκδόθηκε επιτυχώς στο Stripe Connect"
+
+#. Translators: 1. User display name.
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:146
+msgid "The destination account is not connected to any Stripe account."
+msgstr ""
+"Ο λογαριασμός προορισμού δεν έχει συνδεθεί σε κανέναν λογαριασμό Stripe."
+
+#: includes/class.yith-wcaf-yith-wcsc-gateway.php:154
+msgid "Payment sent"
+msgstr "Πληρωμή εστάλη"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:39
+msgid "Commission created for Stripe disconnected account"
+msgstr "Δημιουργήθηκε προμήθεια για αποσυνδεδεμένο λογαριασμό Stripe"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:40
+#, fuzzy
+msgid ""
+"This email is sent to customers each time a new commission is created for "
+"users who have disconnected their\r\n"
+"\t\t\tStripe account"
+msgstr ""
+"Αυτό το email στέλνεται στους πελάτες κάθε φορά που μια νέα προμήθεια "
+"δημιουργείται για τους χρήστες που έχουν αποσυνδέσει τον\n"
+"\t\t\tλογαριασμό Stripe τους"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:43
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:44
+msgid ""
+"New commission has been created, but needs your Stripe Account to be "
+"connected"
+msgstr ""
+"Έχει δημιουργηθεί νέα προμήθεια, αλλά χρειάζεται τον Λογαριασμό Stripe σας "
+"για να συνδεθεί"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:145
+msgid "Recipient(s)"
+msgstr "Παραλήπτης(ες)"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:147
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Εισάγετε παραλήπτες (διαχωρίστε με κόμμα) για αυτό το email. Προεπιλεγμένα "
+"σε <code>%s</code>."
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:152
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:310
+msgid "Subject"
+msgstr "Θέμα"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:154
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:312
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Ελέγχει την γραμμή θέματος email. Διατηρήστε κενό για να χρησιμοποιήσετε το "
+"προεπιλεγμένο θέμα: <code>%s</code>."
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:159
+msgid "Email heading"
+msgstr "Επικεφαλίδα email"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:161
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:319
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Ελέγχει την κύρια επικεφαλίδα που περιλαμβάνεται στην ειδοποίηση email. "
+"Διατηρήστε κενό για να χρησιμοποιήσετε την προεπιλεγμένη επικεφαλίδα: <code>"
+"%s</code>."
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:166
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:352
+msgid "Email type"
+msgstr "Τύπος email"
+
+#: includes/emails/class.yith-wcsc-customer-new-commission-disconnected-email.php:168
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:354
+msgid "Choose which format of email to send."
+msgstr "Επιλέξτε ποια μορφή email να στέλνεται."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:50
+msgid "Payment confirmation email"
+msgstr "Email επιβεβαίωσης πληρωμής"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:51
+msgid ""
+"This email is sent to customers that have an off session payment pending "
+"confirmation"
+msgstr ""
+"Αυτό το email στέλνεται στους πελάτες που έχουν σε αναμονή επιβεβαίωση "
+"πληρωμής εκτός συνόδου"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:54
+msgid "Confirm your {order_total} payment"
+msgstr "Επιβεβαιώστε την πληρωμή σας {order_total}"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:55
+msgid "Confirm your {order_total_plain} payment"
+msgstr "Επιβεβαιώστε την πληρωμή σας {order_total_plain}"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:304
+msgid "Enable/Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:306
+msgid "Enable this email notification"
+msgstr "Ενεργοποιήστε αυτή την ειδοποίηση email"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:317
+msgid "Email Heading"
+msgstr "Επικεφαλίδα Email"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:324
+msgid "Opening text HTML"
+msgstr "HTML κείμενο ανοίγματος"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:326
+msgid ""
+"Enter the text that you want to show before CTA button. You can use the "
+"following placeholders: <code>{site_title}, {site_url}, {card_type}, "
+"{pay_renew_url}, {card_last4}, {order_id}, {order_total}, {billing_email}, "
+"{contact_email}, {opening_text}, {closing_text}</code>."
+msgstr ""
+"Εισάγετε το κείμενο που θέλετε να εμφανίζετε πριν το κουμπί CTA. Μπορείτε να "
+"χρησιμοποιήσετε τα ακόλουθα placeholders:. Μπορείτε να χρησιμοποιήσετε τα "
+"ακόλουθα placeholders: <code>{site_title}, {site_url}, {card_type}, "
+"{pay_renew_url}, {card_last4}, {order_id}, {order_total}, {billing_email}, "
+"{contact_email}, {opening_text}, {closing_text}</code>."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:331
+msgid "Opening text plain"
+msgstr "Απλό κείμενο ανοίγματος"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:333
+msgid ""
+"Enter the text that you want to show before CTA button (plain text version). "
+"You can use the following placeholders: <code>{site_title}, {site_url}, "
+"{card_type}, {pay_renew_url}, {card_last4}, {order_id}, {order_total}, "
+"{billing_email}, {contact_email}, {opening_text}, {closing_text}</code>."
+msgstr ""
+"Εισάγετε το κείμενο που θέλετε να εμφανίζετε πριν το κουμπί CTA (έκδοση "
+"απλού κειμένου). Μπορείτε να χρησιμοποιήσετε τα ακόλουθα placeholders: "
+"<code>{site_title}, {site_url}, {card_type}, {pay_renew_url}, {card_last4}, "
+"{order_id}, {order_total}, {billing_email}, {contact_email}, {opening_text}, "
+"{closing_text}</code>."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:338
+msgid "Closing text HTML"
+msgstr "HTML κείμενο κλεισίματος"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:340
+msgid ""
+"Enter the text that you want to show after order summary table. You can use "
+"the following placeholders: <code>{site_title}, {site_url}, {card_type}, "
+"{pay_renew_url}, {card_last4}, {order_id}, {order_total}, {billing_email}, "
+"{contact_email}, {opening_text}, {closing_text}</code>."
+msgstr ""
+"Εισάγετε το κείμενο που θέλετε να εμφανίζετε μετά τον πίνακα περίληψης "
+"παραγγελίας. Μπορείτε να χρησιμοποιήσετε τα ακόλουθα placeholders: "
+"<code>{site_title}, {site_url}, {card_type}, {pay_renew_url}, {card_last4}, "
+"{order_id}, {order_total}, {billing_email}, {contact_email}, {opening_text}, "
+"{closing_text}</code>."
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:345
+msgid "Closing text plain"
+msgstr "Απλό κείμενο κλεισίματος"
+
+#: includes/emails/class.yith-wcsc-renew-needs-action-email.php:347
+msgid ""
+"Enter the text that you want to show after order summary table (plain text "
+"version). You can use the following placeholders: <code>{site_title}, "
+"{site_url}, {card_type}, {pay_renew_url}, {card_last4}, {order_id}, "
+"{order_total}, {billing_email}, {contact_email}, {opening_text}, "
+"{closing_text}</code>."
+msgstr ""
+"Εισάγετε το κείμενο που θέλετε να εμφανίζετε μετά τον πίνακα περίληψης "
+"παραγγελίας (έκδοση απλού κειμένου). Μπορείτε να χρησιμοποιήσετε τα ακόλουθα "
+"placeholders: <code>{site_title}, {site_url}, {card_type}, {pay_renew_url}, "
+"{card_last4}, {order_id}, {order_total}, {billing_email}, {contact_email}, "
+"{opening_text}, {closing_text}</code>."
+
+#: includes/functions.yith-wcsc.php:105
+msgid "Transfer ID: %s"
+msgstr "ID Μεταφοράς: %s"
+
+#: includes/functions.yith-wcsc.php:108
+msgid "Destination payment: %s"
+msgstr "Πληρωμή προορισμού: %s"
+
+#: includes/functions.yith-wcsc.php:111
+msgid "Transfer error: %s"
+msgstr "Σφάλμα μεταφοράς: %s"
+
+#: includes/functions.yith-wcsc.php:137
+msgid "Commissions paid with YITH WooCommerce Affiliates Plugin"
+msgstr "Προμήθειες πληρωμένες με το Πρόσθετο YITH WooCommerce Affiliates"
+
+#: includes/functions.yith-wcsc.php:160
+msgid "Fixed commission"
+msgstr "Σταθερή προμήθεια"
+
+#: includes/functions.yith-wcsc.php:162
+msgid "each one"
+msgstr "καθένα"
+
+#: includes/functions.yith-wcsc.php:327
+msgid "Pending..."
+msgstr "Σε αναμονή…"
+
+#: includes/functions.yith-wcsc.php:327
+msgid "Pending payment"
+msgstr "Πληρωμή σε αναμονή"
+
+#: includes/functions.yith-wcsc.php:342 templates/admin/receiver-row.php:149
+#: templates/common/commission-row.php:114
+msgid "Disconnected"
+msgstr "Αποσυνδεδεμένο"
+
+#: includes/functions.yith-wcsc.php:348
+msgid "days left..."
+msgstr "υπολειπόμενες ημέρες…"
+
+#: includes/functions.yith-wcsc.php:348
+msgid "days left to proceed with payment..."
+msgstr "υπολειπόμενες ημέρες για συνέχεια πληρωμής…"
+
+#: includes/functions.yith-wcsc.php:354
+msgid "Processing..."
+msgstr "Σε επεξεργασία…"
+
+#: includes/functions.yith-wcsc.php:354
+msgid "Processing transfer"
+msgstr "Επεξεργασία μεταφοράς"
+
+#: includes/functions.yith-wcsc.php:359
+msgid "Transfer error..."
+msgstr "Σφάλμα μεταφοράς…"
+
+#: includes/functions.yith-wcsc.php:359
+msgid "Error processing transfer"
+msgstr "Σφάλμα κατα την επεξεργασία μεταφοράς χρημάτων"
+
+#: includes/functions.yith-wcsc.php:364
+msgid "Paid"
+msgstr "Πληρωμένη"
+
+#: includes/functions.yith-wcsc.php:364
+msgid "Commission paid"
+msgstr "Προμήθεια πληρώθηκε"
+
+#: includes/functions.yith-wcsc.php:393 templates/admin/receivers-panel.php:79
+#: templates/common/commissions-panel.php:230
+msgid "Receiver Status"
+msgstr "Κατάσταση Δέκτη"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:89
+msgid "Stripe Connect Gateway"
+msgstr "Πύλη Stripe Connect"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:171
+msgid "A valid Name on Card is required."
+msgstr "Απαιτείται έγκυρο Όνομα Κάρτας."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:172
+msgid "The credit card number seems to be invalid."
+msgstr "Η πιστωτική κάρτα φαίνεται να μην είναι έγκυρη."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:173
+msgid "The CVC number seems to be invalid."
+msgstr "Ο αριθμός CVC φαίνεται να μην είναι έγκυρος."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:174
+msgid "The expiration date seems to be invalid."
+msgstr "Η ημερομηνία λήξης φαίνεται να μην είναι έγκυρη."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:175
+msgid "You have to add extra information to checkout."
+msgstr "Πρέπει να προσθέσετε επιπλέον στοιχεία για να μεταβείτε στο ταμείο."
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:273
+#: includes/gateways/class.yith-stripe-connect-gateway.php:297
+#: includes/gateways/class.yith-stripe-connect-gateway.php:426
+#: includes/gateways/class.yith-stripe-connect-gateway.php:431
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:610
+msgid "Sorry, There was an error while processing payment; please, try again"
+msgstr ""
+"Λυπούμαστε, παρουσιάστηκε σφάλμα κατα την επεξεργασία πληρωμής. Παρακαλώ, "
+"προσπαθήστε ξανά"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:293
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1468
+msgid ""
+"Please, validate your payment method before proceeding further; in order to "
+"do this, refresh the page and proceed at checkout as usual"
+msgstr ""
+"Παρακαλώ, επιβεβαιώστε την μέθοδο πληρωμής σας πριν προχωρήσετε περαιτέρω. "
+"Για να το κάνετε, ανανεώστε την σελίδα και προχωρήστε στο ταμείο κανονικά"
+
+#. translators: 1. Blog name. 2. Order number.
+#. translators: 1. Blog name 2. Order number.
+#. translators: 1. Blog name. 2. Order number.
+#. translators: 1. Blog name. 2. Order number.
+#: includes/gateways/class.yith-stripe-connect-gateway.php:321
+#: includes/gateways/class.yith-stripe-connect-gateway.php:673
+#: includes/gateways/class.yith-stripe-connect-gateway.php:822
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:351
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:560
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:753
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Παραγγελία %2$s"
+
+#. translators: 1. Stripe charge id.
+#. translators: 1. Charge id.
+#: includes/gateways/class.yith-stripe-connect-gateway.php:388
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:395
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:656
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:844
+msgid "Stripe Connect payment approved (ID: %s)"
+msgstr "Επιβεβαιωμένη πληρωμή Stripe Connect (ID: %s)"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:459
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:265
+msgid ""
+"No payment method could be applied to this payment; please try again "
+"selecting another payment method"
+msgstr ""
+"Δεν μπόρεσε να εφαρμοστεί μέθοδος πληρωμής σε αυτή την πληρωμή. Παρακαλώ "
+"προσπαθήστε ξανά επιλέγοντας άλλη μέθοδο πληρωμής"
+
+#. translators: 1. Cart hash.
+#: includes/gateways/class.yith-stripe-connect-gateway.php:685
+#: includes/gateways/class.yith-stripe-connect-gateway.php:833
+msgid "Payment intent for cart %s"
+msgstr "Προσπάθεια πληρωμής για κάρτα %s"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1037
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:170
+msgid "There was an error with payment process; please try again later"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατα την πληρωμή. Παρακαλώ, προσπαθήστε ξανά αργότερα"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1047
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:180
+msgid "You must login before using a registered card"
+msgstr "Πρέπει να συνδεθείτε πριν χρησιμοποιήσετε μια εγγεγραμμένη κάρτα"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1053
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1074
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:186
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:206
+msgid ""
+"The card you're trying to use isn't valid; please, try again with another "
+"payment method"
+msgstr ""
+"Η κάρτα που προσπαθείτε να χρησιμοποιήσετε δεν είναι έγκυρη. Παρακαλώ, "
+"προσπαθήστε ξανά με άλλη μέθοδο πληρωμής"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1207
+msgid "Guest"
+msgstr "Επισκέπτης"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1370
+msgid "Credit card info not valid"
+msgstr "Μη έγκυρα στοιχεία πιστωτικής κάρτας"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1456
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1470
+msgid ""
+"Sorry, There was an error while registering payment method; please, try again"
+msgstr ""
+"Λυπούμαστε, παρουσιάστηκε σφάλμα κατα την εγγραφή μεθόδου πληρωμής. "
+"Παρακαλώ, προσπαθήστε ξανά"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1553
+msgid "Card code"
+msgstr "Κωδικός κάρτας"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1554
+msgid "CVC"
+msgstr "CVC"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1559
+msgid "Card number"
+msgstr "Αριθμός κάρτας"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1563
+msgid "Expiry (MM/YY)"
+msgstr "Λήξη (MM/YY)"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1564
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1576
+#: includes/gateways/class.yith-stripe-connect-gateway.php:1577
+msgid "Name on Card"
+msgstr "Όνομα σε Κάρτα"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:86
+msgid "Multibanco"
+msgstr "Multibanco"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:161
+msgid "Unable to find order"
+msgstr "Δεν είναι δυνατή η εύρεση παραγγελίας"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:215
+msgid "An error occurred while processing your payment, please try again later"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την επεξεργασία πληρωμής σας, παρακαλώ, "
+"προσπαθήστε ξανά αργότερα"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:243
+msgid "Awaiting for MultiBanco payment confirmation"
+msgstr "Αναμονή επιβεβαίωσης πληρωμής MultiBanco"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:308
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:319
+msgid ""
+"Payment failed because MultiBanco transaction wasn't completed correctly; "
+"please, try again"
+msgstr ""
+"Η πληρωμή απέτυχε επειδή η συναλλαγή MultiBanco δεν ολοκληρώθηκε σωστά. "
+"Παρακαλώ, προσπαθήστε ξανά"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:428
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:451
+msgid "MULTIBANCO TRANSACTIONS DETAILS:"
+msgstr "ΛΕΠΤΟΜΕΡΕΙΕΣ ΣΥΝΑΛΛΑΓΩΝ MULTIBANCO:"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:430
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:452
+msgid "Amount:"
+msgstr "Ποσό:"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:432
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:454
+msgid "Entity:"
+msgstr "Φορέας:"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:434
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:456
+msgid "Reference:"
+msgstr "Αναφορά:"
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:230
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:235
+msgid "Sorry, there was an error while processing payment; please, try again"
+msgstr ""
+
+#. translators: 1. Subscription id. 2. Order id. 3. Charge id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:413
+msgid ""
+"Stripe Connect processed successfully. Subscription %1$s. Order %2$s. "
+"(Transaction ID: %3$s)"
+msgstr ""
+"Επιτυχής επεξεργασία Stripe Connect. Συνδρομή %1$s. Παραγγελία %2$s. (ID "
+"Συναλλαγής: %3$s)"
+
+#. translators: 1. Order id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:455
+msgid "Sorry, any subscription is found for this order: %s"
+msgstr "Λυπούμαστε, δεν βρέθηκε συνδρομή για αυτή τη παραγγελία: %s"
+
+#. translators: 1. Order number.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:474
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:704
+msgid "Failed payment for order #%s"
+msgstr "Αποτυχία πληρωμής για την παραγγελία #%s"
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:484
+msgid ""
+"Sorry, the minimum order total allowed to use this payment method is 0.50."
+msgstr ""
+"Λυπούμαστε, το ελάχιστο επιτρεπόμενο σύνολο παραγγελίας για να "
+"χρησιμοποιηθεί με αυτή τη μέθοδο πληρωμής είναι 0.50."
+
+#. translators: 1. Renew order id. 2. Subscription id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:510
+msgid ""
+"Sorry, couldn't find any user registered to pay the order renew %1$s for "
+"subscription %2$s ."
+msgstr ""
+"Λυπούμαστε, δεν βρέθηκε καταχωρημένος χρήστης για την πληρωμή της ανανέωσης "
+"παραγγελίας %1$s της συνδρομής %2$s ."
+
+#. translators: 1. Renew order id. 2. Subscription id.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:527
+msgid ""
+"Sorry, any card is registered to pay the order renew %1$s for subscription "
+"%2$s ."
+msgstr ""
+"Λυπούμαστε, δεν βρέθηκε καταχωρημένη κάρτα για την πληρωμή της ανανέωσης "
+"παραγγελίας %1$s της συνδρομής %2$s ."
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:601
+msgid "Please, validate your payment method before proceeding further"
+msgstr ""
+"Παρακαλώ, επιβεβαιώστε την μέθοδο πληρωμής σας πριν προχωρήσετε περαιτέρω"
+
+#. translators: 1. Order number.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:651
+msgid "Payment approved for order #%s"
+msgstr "Η πληρωμή για την παραγγελία #%s επιβεβαιώθηκε"
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:675
+msgid "Process pre-order upon-release payment: the order does not exist."
+msgstr ""
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:685
+msgid ""
+"(Order #%1$d) Process pre-order upon-release payment: order #%1$d not an "
+"upon release pre-order"
+msgstr ""
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:695
+msgid "(Order #%d) Process pre-order upon-release payment: no token ID."
+msgstr ""
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:715
+msgid ""
+"(Order #%d) Process pre-order upon-release payment: sorry, the minimum order "
+"total allowed to use this payment method is 0.50."
+msgstr ""
+
+#. translators: %d: order ID.
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:725
+msgid ""
+"(Order #%d) Process pre-order upon-release payment: sorry, couldn't find any "
+"user registered to pay the pre-order."
+msgstr ""
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:794
+msgid ""
+"Process pre-order upon-release payment: Please, validate your payment method "
+"before proceeding further."
+msgstr ""
+
+#: includes/gateways/class.yith-stripe-connect-source-gateway.php:803
+msgid ""
+"Process pre-order upon-release payment: There was an error while processing "
+"payment. Please, try again."
+msgstr ""
+
+#. translators: 1. Plugin name.
+#: init.php:104
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s είναι ενεργοποιημένο αλλά αναποτελεσματικό. Για σωστή λειτουργία "
+"απαιτείται WooCommerce."
+
+#: plugin-options/settings-sc-gateway.php:6
+msgid "Choose the alternative flow to apply, when it is possible for the order"
+msgstr ""
+"Επιλέξτε την εναλλακτική ροή που θα εφαρμοστεί στην παραγγελία όταν είναι "
+"δυνατό"
+
+#: plugin-options/settings-sc-gateway.php:10
+#: plugin-options/settings-sc-gateway.php:153
+msgid "None"
+msgstr "Κανένα"
+
+#: plugin-options/settings-sc-gateway.php:11
+msgid ""
+"keep using separate Transfers and Charges for any transaction, even one "
+"eligible for other flows. Accounts must be located in the same region (US/"
+"EU); Stripe fees are due to platform."
+msgstr ""
+"συνεχίστε να χρησιμοποιείτε ξεχωριστές Μεταφορές και Χρεώσεις για "
+"οποιαδήποτε συναλλαγή, ακόμη και για αυτές που δικαιούνται άλλες ροές. Οι "
+"λογαριασμοί πρέπει να είναι τοποθετημένοι στην ίδια περιοχή (US/EU); Οι "
+"χρεώσεις Stripe προγραμματίζονται από την πλατφόρμα."
+
+#: plugin-options/settings-sc-gateway.php:15
+#: plugin-options/settings-sc-gateway.php:154
+msgid "Destination charges"
+msgstr "Χρεώσεις προορισμού"
+
+#: plugin-options/settings-sc-gateway.php:16
+msgid ""
+"are created on the platform, but as part of the charge operation, funds are "
+"transferred to the connected account. Stripe fees are split between platform "
+"and connected account."
+msgstr ""
+"έχουν δημιουργηθεί στην πλατφόρμα, αλλά ως μέρος της διαδικασίας χρέωσης, τα "
+"κεφάλαια μεταφέρονται στον συνδεδεμένο λογαριασμό. Οι χρεώσεις Stripe "
+"χωρίζονται μεταξύ πλατφόρμας και συνδεδεμένου λογαριασμού."
+
+#: plugin-options/settings-sc-gateway.php:21
+#: plugin-options/settings-sc-gateway.php:155
+msgid "Direct charges"
+msgstr "Απευθείας χρεώσεις"
+
+#: plugin-options/settings-sc-gateway.php:22
+msgid ""
+"charge will be created directly on connected account, while platform will "
+"retain its fee. Will disable saved cards. Stripe fees are due to connected "
+"account. Not available when order includes subscriptions."
+msgstr ""
+"η χρέωση θα δημιουργείται απευθείας στον συνδεδεμένο λογαριασμό, ενώ η "
+"πλατφόρμα θα διατηρεί την χρέωση της. Θα απενεργοποιηθούν οι αποθηκευμένες "
+"κάρτες. Οι χρεώσεις Stripe είναι προγραμματισμένες με τον συνδεδεμένο "
+"λογαριασμό. Δεν είναι διαθέσιμο όταν η παραγγελία περιλαμβάνει συνδρομές."
+
+#: plugin-options/settings-sc-gateway.php:42
+#: plugin-options/settings-sc-multibanco-gateway.php:17
+msgid "Label Settings"
+msgstr "Ρυθμίσεις Επιγραφής"
+
+#: plugin-options/settings-sc-gateway.php:44
+#: plugin-options/settings-sc-multibanco-gateway.php:19
+msgid ""
+"Change the title and description that Stripe Connect displays on Checkout"
+msgstr ""
+"Αλλάξτε τον τίτλο και περιγραφή που εμφανίζει το Stripe Connect στο Ταμείο"
+
+#: plugin-options/settings-sc-gateway.php:48
+#: plugin-options/settings-sc-multibanco-gateway.php:22
+msgid "Title"
+msgstr "Τίτλος"
+
+#: plugin-options/settings-sc-gateway.php:50
+#: plugin-options/settings-sc-multibanco-gateway.php:24
+msgid "This controls the title that users see during checkout."
+msgstr "Ελέγχει τον τίτλο που βλέπουν οι χρήστες κατα την διαδικασία ταμείου."
+
+#: plugin-options/settings-sc-gateway.php:51
+msgid "Credit Card (Stripe Connect)"
+msgstr "Πιστωτική Κάρτα (Stripe Connect)"
+
+#: plugin-options/settings-sc-gateway.php:55
+#: plugin-options/settings-sc-multibanco-gateway.php:29
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: plugin-options/settings-sc-gateway.php:58
+#: plugin-options/settings-sc-multibanco-gateway.php:32
+msgid "This controls the description that users see during checkout."
+msgstr ""
+"Ελέγχει την περιγραφή που βλέπουν οι χρήστες κατα την διαδικασία ταμείου."
+
+#: plugin-options/settings-sc-gateway.php:59
+msgid ""
+"Pay via Stripe Connect; you can pay with your credit card if you don't have "
+"a Stripe account."
+msgstr ""
+"Πληρωμή μέσω Stripe Connect: μπορείτε να πληρώσετε με την πιστωτική σας "
+"κάρτα αν δεν έχετε λογαριασμό Stripe."
+
+#: plugin-options/settings-sc-gateway.php:63
+msgid "Display card logo"
+msgstr "Εμφάνιση λογότυπου κάρτας"
+
+#: plugin-options/settings-sc-gateway.php:65
+msgid "Choose the card logo that you want to show"
+msgstr "Επιλέξτε το λογότυπο κάρτας που θέλετε να εμφανίζεται"
+
+#: plugin-options/settings-sc-gateway.php:78
+msgid "Display \"Name on Card\" field during checkout"
+msgstr "Εμφάνιση πεδίου “Όνομα σε Κάρτα” κατα την διαδικασία ταμείου"
+
+#: plugin-options/settings-sc-gateway.php:80
+msgid "Choose whether to show \"Name on Card\" field of Credit Card form"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε το πεδίο “Όνομα σε Κάρτα” της φόρμας "
+"Πιστωτικής Κάρτας"
+
+#: plugin-options/settings-sc-gateway.php:85
+msgid "Save cards"
+msgstr "Αποθήκευση καρτών"
+
+#: plugin-options/settings-sc-gateway.php:87
+msgid ""
+"Choose whether to save cards used at checkout (this is required when YITH "
+"WooCommerce Subscription is enabled)"
+msgstr ""
+"Επιλέξτε αν θέλετε να αποθηκεύσετε τις κάρτες που χρησιμοποιούνται στο "
+"ταμείο (αυτό απαιτείται όταν είναι ενεργοποιημένο το YITH WooCommerce "
+"Subscription)"
+
+#: plugin-options/settings-sc-gateway.php:91
+#: plugin-options/settings-sc-multibanco-gateway.php:36
+msgid "API Settings"
+msgstr "Ρυθμίσεις API"
+
+#: plugin-options/settings-sc-gateway.php:93
+msgid ""
+"Type here your API Keys from Stripe Connect Account. This step is mandatory "
+"for the plugin to work"
+msgstr ""
+"Εισάγετε εδώ τα Κλειδιά API από τον Λογαριασμό Stripe Connect. Αυτό το βήμα "
+"είναι υποχρεωτικό για την λειτουργία του πρόσθετου"
+
+#: plugin-options/settings-sc-gateway.php:97
+#: plugin-options/settings-sc-gateway.php:99
+msgid "Live mode client ID"
+msgstr "ID πελάτη live λειτουργίας"
+
+#: plugin-options/settings-sc-gateway.php:99
+#: plugin-options/settings-sc-gateway.php:104
+msgid "section (Check before \"View test data\" is <b>disabled</b> )"
+msgstr ""
+"ενότητα (Ελέγξτε αν το “Προβολή δεδομένα δοκιμής” είναι <b>απενεργοποιημένο</"
+"b> )"
+
+#: plugin-options/settings-sc-gateway.php:102
+msgid "Publishable live key"
+msgstr "Live Κλειδί προς έκδοση"
+
+#: plugin-options/settings-sc-gateway.php:104
+#: plugin-options/settings-sc-gateway.php:109
+msgid "Standard keys"
+msgstr "Βασικά κλειδιά"
+
+#: plugin-options/settings-sc-gateway.php:107
+msgid "Secret live key"
+msgstr "Μυστικό live κλειδί"
+
+#: plugin-options/settings-sc-gateway.php:109
+msgid ""
+"section, <b>Reveal live key</b> (Check before \"View test data\" is "
+"<b>disabled</b> )"
+msgstr ""
+"ενότητα, <b>Reveal live key</b> (Ελέγξτε αν το “Προβολή δεδομένων δοκιμής” "
+"είναι <b>απενεργοποιημένο</b> )"
+
+#: plugin-options/settings-sc-gateway.php:112
+msgid "Test mode"
+msgstr "Λειτουργία δοκιμής"
+
+#: plugin-options/settings-sc-gateway.php:114
+msgid "Enable test mode"
+msgstr "Ενεργοποίηση λειτουργίας δοκιμής"
+
+#: plugin-options/settings-sc-gateway.php:118
+#: plugin-options/settings-sc-gateway.php:120
+msgid "Test mode client ID"
+msgstr "ID πελάτη λειτουργίας δοκιμής"
+
+#: plugin-options/settings-sc-gateway.php:120
+#: plugin-options/settings-sc-gateway.php:126
+msgid "section (Check before \"View test data\" is <b>enabled</b> )"
+msgstr ""
+"ενότητα (Ελέγξτε αν το “Προβολή δεδομένα δοκιμής” είναι <b>ενεργό</b> )"
+
+#: plugin-options/settings-sc-gateway.php:124
+msgid "Publishable test key"
+msgstr "Κλειδί δοκιμής προς έκδοση"
+
+#: plugin-options/settings-sc-gateway.php:126
+#: plugin-options/settings-sc-gateway.php:132
+msgid "Standard API keys"
+msgstr "Βασικά κλειδιά API"
+
+#: plugin-options/settings-sc-gateway.php:130
+msgid "Secret test key"
+msgstr "Μυστικό κλειδί δοκιμής"
+
+#: plugin-options/settings-sc-gateway.php:132
+msgid ""
+"section, <b>Reveal live key</b> (Check before \"View test data\" is "
+"<b>enabled</b> )"
+msgstr ""
+"ενότητα, <b>Reveal live key</b> (Ελέγξτε αν το “Προβολή δεδομένων δοκιμής” "
+"είναι <b>ενεργό</b> )"
+
+#: plugin-options/settings-sc-gateway.php:136
+msgid "Payment Flow settings"
+msgstr "Ρυθμίσεις Ροής Πληρωμής"
+
+#: plugin-options/settings-sc-gateway.php:138
+msgid "Choose how you want to transfer money to receivers"
+msgstr "Επιλέξτε τρόπο μεταφοράς χρημάτων σε δέκτες"
+
+#: plugin-options/settings-sc-gateway.php:141
+msgid "Enable alternative flows"
+msgstr "Ενεργοποίηση εναλλακτικών ροών"
+
+#: plugin-options/settings-sc-gateway.php:143
+msgid ""
+"By default plugin will create separate charges and transfers; anyway, for "
+"order that only requires one transfer, you can opt for one of the other "
+"supported methods."
+msgstr ""
+"Προεπιλεγμένα το πρόσθετο θα δημιουργήσει ξεχωριστές χρεώσεις και μεταφορές. "
+"Ωστόσο, για παραγγελίες για τις οποίες απαιτείται μόνο μια μεταφορά, "
+"μπορείτε να επιλέξετε μια από τις άλλες υποστηριζόμενες μεθόδους."
+
+#: plugin-options/settings-sc-gateway.php:148
+msgid "Alternative flow"
+msgstr "Εναλλακτική ροή"
+
+#: plugin-options/settings-sc-gateway.php:159
+msgid "Delay settings"
+msgstr "Ρυθμίσεις καθυστέρησης"
+
+#: plugin-options/settings-sc-gateway.php:161
+msgid ""
+"Indicate after how many days the payment will be sent to the receivers (this "
+"option will apply only for Separate Charges and Transfers)"
+msgstr ""
+"Αναφέρετε μετά από πόσες ημέρες η πληρωμή θα σταλεί στους δέκτες (αυτή η "
+"επιλογή θα εφαρμοστεί μόνο για Ξεχωριστές Χρεώσεις και Μεταφορές χρημάτων)"
+
+#: plugin-options/settings-sc-gateway.php:164
+msgid "Delay time"
+msgstr "Χρόνος καθυστέρησης"
+
+#: plugin-options/settings-sc-gateway.php:167
+msgid "Instant payment if empty or with \"0\" value"
+msgstr "Άμεση πληρωμή αν είναι κενό ή με αξία “0”"
+
+#: plugin-options/settings-sc-gateway.php:171
+#: plugin-options/settings-sc-multibanco-gateway.php:45
+msgid "Advanced"
+msgstr "Προηγμένο"
+
+#: plugin-options/settings-sc-gateway.php:175
+#: plugin-options/settings-sc-multibanco-gateway.php:49
+msgid "Log"
+msgstr "Καταγραφή"
+
+#: plugin-options/settings-sc-gateway.php:177
+#: plugin-options/settings-sc-multibanco-gateway.php:51
+msgid "Enable log"
+msgstr "Ενεργοποίηση καταγραφής"
+
+#. translators: 1. Path to log file.
+#: plugin-options/settings-sc-gateway.php:181
+msgid "Log Stripe Connect events inside <code>%s</code>"
+msgstr "Καταγραφή Stripe Connect events σε <code>%s</code>"
+
+#: plugin-options/settings-sc-gateway.php:181
+msgid ""
+"You can also consult the logs in your <a href=\"%s\">Log Dashboard</a>, "
+"without checking this option."
+msgstr ""
+"Μπορείτε επίσης να συμβουλευτείτε τις καταγραφές στο <a href=\"%s\">Log "
+"Dashboard</a>, χωρίς να επιλέξετε την επιλογή."
+
+#: plugin-options/settings-sc-gateway.php:185
+msgid "Exceeding commissions"
+msgstr "Υπερβαίνουσες προμήθειες"
+
+#: plugin-options/settings-sc-gateway.php:187
+msgid ""
+"Enable this option to allow commission creation when the commissions exceed "
+"the order total"
+msgstr ""
+"Ενεργοποιήστε την επιλογή για να επιτρέψετε την δημιουργία προμήθειας όταν "
+"οι προμήθειες υπερβαίνουν το σύνολο παραγγελίας"
+
+#: plugin-options/settings-sc-gateway.php:191
+msgid "Config Webhooks"
+msgstr "Ρύθμιση Webhooks"
+
+#. translators: 1. Webhook url to configure. 2. Url to Stripe Dashboard
+#. settings page.
+#: plugin-options/settings-sc-gateway.php:195
+msgid ""
+"You can configure the webhook url <code>%1$s</code> in your <a href=\"%2$s\" "
+"target=\"_blank\">Stripe Dashboard > Developers > Webhooks</a> (Endpoints "
+"receiving events from Connect applications) section. All the webhooks for "
+"all your connected users will be sent to this endpoint."
+msgstr ""
+"Μπορείτε να ρυθμίσετε το webhook url <code>%1$s</code> στην ενότητα <a href="
+"\"%2$s\" target=\"_blank\">Stripe Dashboard > Developers > Webhooks</a> (Τα "
+"τελικά σημεία λαμβάνουν events από τις εφαρμογές Connect). Όλα τα webhooks "
+"για τους συνδεδεμένους χρήστες σας θα στέλνονται σε αυτό το τελικό σημείο."
+
+#: plugin-options/settings-sc-gateway.php:196
+msgid ""
+"It's important to note that only test webhooks will be sent to your "
+"development webhook url*. Yet, if you are working on a live website, <b>both "
+"live and test</b> webhooks will be sent to your production webhook URL. This "
+"is due to the fact that you can create both live and test objects under a "
+"production application."
+msgstr ""
+"Χρειάζεται να σημειωθεί ότι θα στέλνονται μόνο webhooks δοκιμής στο url "
+"webhook προγραμματισμού σας*. Ωστόσο, αν δουλεύετε σε ζωντανό ιστότοπο, τα "
+"<b>ζωντανά αλλά και σε δοκιμή</b> webhooks θα στέλνονται στο URL webhook "
+"παραγωγής σας. Αυτό οφείλεται στο ότι μπορείτε να δημιουργήσετε ζωντανά "
+"αντικείμενα αλλά και δοκιμής σε μια εφαρμογή παραγωγής."
+
+#: plugin-options/settings-sc-gateway.php:196
+msgid ""
+"we'd recommend that you check the livemode when receiving an event webhook."
+msgstr ""
+"συνιστούμε να ελέγξετε την ζωντανή λειτουργία όταν λαμβάνετε event webhook."
+
+#. translators: 1. Url to stripe doc.
+#: plugin-options/settings-sc-gateway.php:198
+msgid ""
+"For more information about webhooks, see the <a href=\"%s\" target=\"_blank"
+"\">webhook documentation</a>"
+msgstr ""
+"Για περισσότερες πληροφορίες σχετικά με τα webhooks, δείτε <a href=\"%s\" "
+"target=\"_blank\">webhook documentation</a>"
+
+#: plugin-options/settings-sc-gateway.php:201
+msgid "Config Redirect URIs"
+msgstr "Ρύθμιση URIs Ανακατεύθυνσης"
+
+#. translators: 1. Url sto Stripe Dashboard settings page. 2. Redirect URI.
+#: plugin-options/settings-sc-gateway.php:205
+msgid ""
+"A <b>Redirection URI is required</b> when users connect their account to "
+"your site. Go to <a href=\"%1$s\" target=\"_blank\">Stripe Dashboard > "
+"Settings > Connect > Integration ></a> <b>Redirects</b> section and add the "
+"following URl to redirect: <code>%2$s</code>. Redirects URI can be defined "
+"on test and live mode, we would recommend to test both scenarios."
+msgstr ""
+"Απαιτείται <b>Redirection URI</b> κατα την σύνδεση λογαριασμών χρηστών στον "
+"ιστότοπό σας. Μεταβείτε στην ενότητα <a href=\"%1$s\" target=\"_blank"
+"\">Stripe Dashboard > Settings > Connect > Integration ></a> <b>Redirects</"
+"b> και προσθέστε το ακόλουθο URl για ανακατεύθυνση: <code>%2$s</code>. Τα "
+"URIs Ανακατεύθυνσης μπορούν να οριστούν στην λειτουργία δοκιμής αλλά και στη "
+"ζωντανή. Συνιστάται να εξετάσετε και τις δυο περιπτώσεις."
+
+#: plugin-options/settings-sc-multibanco-gateway.php:25
+msgid "MultiBanco (Stripe Connect)"
+msgstr "MultiBanco (Stripe Connect)"
+
+#: plugin-options/settings-sc-multibanco-gateway.php:33
+msgid "Pay via MultiBanco."
+msgstr "Πληρώστε μέσω MultiBanco."
+
+#. translators: 1. Href to main settings tab.
+#: plugin-options/settings-sc-multibanco-gateway.php:40
+msgid ""
+"This gateway will use API Credentials that you configured in main settings "
+"tab. You can check your configuration <a href=\"%s\">here</a>"
+msgstr ""
+"Αυτή η πύλη θα χρησιμοποιήσει τα Διαπιστευτήρια API που ρυθμίσατε στην "
+"καρτέλα κύριων ρυθμίσεων. Μπορείτε να ελέγξετε τη διαμόρφωση σας <a href=\"%s"
+"\">εδώ</a>"
+
+#. translators: 1. Multibanco log file path. 2. Stripe dashboard url.
+#: plugin-options/settings-sc-multibanco-gateway.php:54
+msgid ""
+"Log Stripe Connect events inside <code>%1$s</code><br/>You can also consult "
+"the logs in your <a href=\"%2$s\">Log Dashboard</a>, without checking this "
+"option."
+msgstr ""
+"Σύνδεση Stripe Connect events στο <code>%1$s</code><br/>Μπορείτε επίσης να "
+"συμβουλευτείτε τις καταγραφές σας στο <a href=\"%2$s\">Log Dashboard</a>, "
+"χωρίς να επιλέξετε αυτή την επιλογή."
+
+#: templates/admin/receiver-row.php:43
+msgid "Search user"
+msgstr "Αναζήτηση χρήστη"
+
+#: templates/admin/receiver-row.php:68
+msgid "Fixed"
+msgstr "Σταθερό"
+
+#: templates/admin/receiver-row.php:75
+msgid "%"
+msgstr "%"
+
+#: templates/admin/receiver-row.php:107
+msgid "Search product"
+msgstr "Αναζήτηση προϊόντος"
+
+#: templates/admin/receiver-row.php:142
+msgid "User disconnected"
+msgstr "Ο χρήστης αποσυνδέθηκε"
+
+#: templates/admin/receiver-row.php:154 templates/common/commission-row.php:111
+msgid "Connected"
+msgstr "Συνδεδεμένο"
+
+#: templates/admin/receiver-row.php:163
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: templates/admin/receiver-row.php:168
+msgid "This receiver has all products assigned"
+msgstr "Αυτός ο δέκτης έχει αναθέσει όλα του τα προϊόντα"
+
+#: templates/admin/receivers-panel.php:12
+msgid "Receiver's settings"
+msgstr "Ρυθμίσεις δέκτη"
+
+#: templates/admin/receivers-panel.php:15
+msgid ""
+"Add new receiver conditions that will be applied when a customer make a "
+"purchase (Order status is Processing or Complete). You can add a fixed or "
+"percentage amount for each product to specific user."
+msgstr ""
+"Προσθήκη νέων όρων δέκτη που θα εφαρμοστούν όταν ένας πελάτης ολοκληρώνει "
+"μια αγορά (Κατάσταση παραγγελίας βρίσκεται σε Επεξεργασία ή Ολοκληρωμένη). "
+"Μπορείτε να προσθέσετε ένα σταθερό ή τοις εκατό ποσό για κάθε προϊόν ενός "
+"συγκεκριμένου χρήστη."
+
+#: templates/admin/receivers-panel.php:59
+#: templates/admin/receivers-panel.php:101
+msgid "New receiver"
+msgstr "Νέος δέκτης"
+
+#: templates/admin/receivers-panel.php:64
+#: templates/admin/receivers-panel.php:106
+msgid "Save receivers"
+msgstr "Αποθήκευση δεκτών"
+
+#: templates/admin/receivers-panel.php:70
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: templates/admin/receivers-panel.php:71
+msgid "User"
+msgstr "Χρήστης"
+
+#: templates/admin/receivers-panel.php:76
+msgid "Stripe ID"
+msgstr "Stripe ID"
+
+#: templates/admin/receivers-panel.php:81
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: templates/admin/receivers-panel.php:113
+msgid "About Receiver's disconnected accounts"
+msgstr "Σχετικά με τους αποσυνδεδεμένους λογαριασμούς Δέκτη"
+
+#: templates/admin/receivers-panel.php:117
+msgid ""
+"The receiver user <b>must connect their Stripe Account</b>. If the <b>Stripe "
+"ID</b> is <b>\"User disconnected\"</b>, the <b>commission can't be created</"
+"b>. Please read the <a href=\"%s\" target=\"_blank\"> Connect User Account</"
+"a> from plugin documentation."
+msgstr ""
+"Ο χρήστης δέκτης <b>πρέπει να συνδέσει τον Λογαριασμό Stripe του</b>. Αν το "
+"<b>Stripe ID</b> είναι <b>”Μη συνδεδεμένος χρήστης”</b>, η <b>προμήθεια δεν "
+"μπορεί να δημιουργηθεί</b>. Παρακαλώ διαβάστε την ενότητα <a href=\"%s\" "
+"target=\"_blank\"> Connect User Account</a> του εγχειριδίου χρήσης πρόσθετου."
+
+#: templates/admin/receivers-panel.php:126
+msgid ""
+"You must create the product before proceeding with the Receivers "
+"configuration"
+msgstr "Πρέπει να δημιουργήσετε το προϊόν πριν προχωρήσετε στη ρύθμιση Δεκτών"
+
+#: templates/admin/settings-tab.php:26
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: templates/common/commission-pdf.php:9
+#: templates/common/commission-view.php:22
+msgid "Status details"
+msgstr "Στοιχεία κατάστασης"
+
+#: templates/common/commission-pdf.php:12
+#: templates/common/commission-view.php:25
+msgid "Commission status"
+msgstr "Κατάσταση προμήθειας"
+
+#: templates/common/commission-pdf.php:20
+#: templates/common/commission-view.php:33
+msgid "Commission date"
+msgstr "Ημερομηνία προμήθειας"
+
+#: templates/common/commission-pdf.php:29
+#: templates/common/commission-view.php:42
+msgid "Commission note"
+msgstr "Σημείωση προμήθειας"
+
+#: templates/common/commission-pdf.php:39
+#: templates/common/commission-view.php:52
+msgid "Stripe connect status"
+msgstr "Κατάσταση Stripe connect"
+
+#: templates/common/commission-pdf.php:46
+#: templates/common/commission-view.php:59
+msgid "%s is currently connected"
+msgstr "%s αυτή τη στιγμή είναι συνδεδεμένος"
+
+#: templates/common/commission-pdf.php:48
+#: templates/common/commission-view.php:61
+msgid "%s is currently disconnected"
+msgstr "%s αυτή τη στιγμή δεν είναι συνδεδεμένος"
+
+#: templates/common/commission-pdf.php:56
+#: templates/common/commission-view.php:69
+msgid "Order details"
+msgstr "Στοιχεία παραγγελίας"
+
+#: templates/common/commission-pdf.php:59
+#: templates/common/commission-view.php:72
+msgid "Order number"
+msgstr "Αριθμός παραγγελίας"
+
+#: templates/common/commission-pdf.php:67
+#: templates/common/commission-view.php:80
+msgid "Order status"
+msgstr "Κατάσταση παραγγελίας"
+
+#: templates/common/commission-pdf.php:75
+#: templates/common/commission-view.php:88
+msgid "Order date"
+msgstr "Ημερομηνία παραγγελίας"
+
+#: templates/common/commission-pdf.php:83
+#: templates/common/commission-view.php:96
+msgid "Order total"
+msgstr "Σύνολο παραγγελίας"
+
+#: templates/common/commission-pdf.php:92
+msgid "Affiliates' commission details"
+msgstr "Στοιχεία προμήθειας συνεργατών"
+
+#: templates/common/commission-pdf.php:95
+#: templates/common/commission-view.php:111
+msgid "Affiliate payment ID"
+msgstr "ID πληρωμής συνεργάτη"
+
+#: templates/common/commission-pdf.php:105
+#: templates/common/commission-view.php:123
+msgid "Affiliate commission ID"
+msgstr "ID προμήθειας συνεργάτη"
+
+#: templates/common/commission-pdf.php:120
+#: templates/common/commission-view.php:162
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: templates/common/commission-pdf.php:121
+#: templates/common/commission-view.php:163
+msgid "Cost"
+msgstr "Κόστος"
+
+#: templates/common/commission-row.php:52
+msgid "View"
+msgstr "Προβολή"
+
+#: templates/common/commission-row.php:56
+msgid "Affiliates Commission"
+msgstr "Προμήθεια Affiliates"
+
+#: templates/common/commission-row.php:60
+msgid "Multi Vendor Commission"
+msgstr "Προμήθεια Multi Vendor"
+
+#: templates/common/commission-view.php:17
+msgid "Close modal panel"
+msgstr "Κλείσιμο βοηθητικού πάνελ"
+
+#: templates/common/commission-view.php:105
+msgid "Affiliates Commission details"
+msgstr "Στοιχεία Προμήθειας Affiliates"
+
+#: templates/common/commission-view.php:137
+msgid "Multi Vendor Commission details"
+msgstr "Στοιχεία προμήθειας Multi Vendor"
+
+#: templates/common/commission-view.php:143
+msgid "Multivendor commission ID"
+msgstr "ID προμήθειας Multivendor"
+
+#: templates/common/commission-view.php:188
+msgid "Print"
+msgstr "Εκτύπωση"
+
+#: templates/common/commissions-panel.php:31
+msgid "Commission Report"
+msgstr "Αναφορά Προμήθειας"
+
+#. translators: 1. Display name. 2. User ID. 3. User email.
+#: templates/common/commissions-panel.php:78
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#: templates/common/commissions-panel.php:92
+msgid "Filter by product"
+msgstr "Ταξινόμηση κατά προϊόν"
+
+#: templates/common/commissions-panel.php:105
+msgid "Filter by user"
+msgstr "Ταξινόμηση κατα χρήστη"
+
+#: templates/common/commissions-panel.php:120
+msgid "From..."
+msgstr "Από…"
+
+#: templates/common/commissions-panel.php:123
+msgid "to"
+msgstr "προς"
+
+#: templates/common/commissions-panel.php:126
+msgid "To..."
+msgstr "Προς…"
+
+#: templates/common/commissions-panel.php:130
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: templates/common/commissions-panel.php:131
+msgid "Filter"
+msgstr "Ταξινόμηση"
+
+#: templates/common/commissions-panel.php:142
+msgid "Export to CSV"
+msgstr "Εξαγωγή σε CSV"
+
+#: templates/common/commissions-panel.php:148
+msgid "PDF"
+msgstr "PDF"
+
+#: templates/common/commissions-panel.php:225
+msgid "Purchase date"
+msgstr "Ημερομηνία αγοράς"
+
+#: templates/emails/plain/renew-needs-action-email.php:28
+#: templates/emails/renew-needs-action-email.php:35
+msgid "Hi %s,"
+msgstr "Γεια σας %s,"
+
+#: templates/emails/plain/renew-needs-action-email.php:33
+msgid "Confirm payment (%s)"
+msgstr "Επιβεβαίωση πληρωμής (%s)"
+
+#: templates/emails/renew-needs-action-email.php:41
+msgid "Confirm Payment"
+msgstr "Επιβεβαίωση Πληρωμής"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Stripe Connect for WooCommerce</strong></code> allows you "
+"to manage a complete commission system directly from your site. Accept "
+"payments with Stripe's reliability and send immediately part of your incomes "
+"to your suppliers or middlemen. <a href=\"https://yithemes.com/\" target="
+"\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+"Το <code><strong>YITH Stripe Connect for WooCommerce</strong></code> σας "
+"επιτρέπει να διαχειριστείτε ένα πλήρες σύστημα προμήθειας απευθείας από τον "
+"ιστότοπό σας. Δεχτείτε πληρωμές με την αξιοπιστία του Stripe και στείλτε "
+"αμέσως μέρος των εισοδημάτων σας στους προμηθευτές ή τους μεσάζοντές σας. <a "
+"href=\"https://yithemes.com/\" target=\"_blank\">Αποκτήστε περισσότερα "
+"πρόσθετα για το ηλεκτρονικό σας κατάστημα στο <strong>YITH</strong> </a>"
+
+#: includes/class.yith-stripe-connect-admin.php:186
+msgctxt "tab name"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class.yith-stripe-connect-admin.php:187
+msgctxt "tab name"
+msgid "Multibanco"
+msgstr "Multibanco"
+
+#: includes/class.yith-stripe-connect-admin.php:188
+msgctxt "tab name"
+msgid "Receivers"
+msgstr "Δέκτες"
+
+#: includes/class.yith-stripe-connect-admin.php:189
+msgctxt "tab name"
+msgid "Commissions"
+msgstr "Προμήθειες"
+
+#: includes/class.yith-stripe-connect-commissions.php:102
+#, fuzzy
+msgctxt ""
+"Window message that can be\r\n"
+"\t\t\t\t\tdisplayed with manual payments"
+msgid "Can't process the payment with the current order status"
+msgstr "Δεν έγινε επεξεργασία πληρωμής με την τρέχουσα κατάσταση παραγγελίας"
+
+#: includes/class.yith-stripe-connect-frontend.php:89
+msgctxt "No need translation..."
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/functions.yith-wcsc.php:158
+msgctxt "xx% from price-item"
+msgid "from"
+msgstr "από"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:74
+msgctxt "Order button text on Stripe Connect Gateway"
+msgid "Proceed to Stripe Connect"
+msgstr "Συνέχεια σε Stripe Connect"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:75
+msgctxt "The Gateway title, no need translation :D"
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:72
+msgctxt "The Gateway title, no need translation :D"
+msgid "Stripe Connect - Multibanco"
+msgstr "Stripe Connect - Multibanco"
+
+#: includes/gateways/class.yith-stripe-connect-gateway.php:76
+msgctxt "Stripe Connect Gateway description"
+msgid "Stripe Connect Gateway for WooCommerce"
+msgstr "Stripe Connect Gateway for WooCommerce"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:73
+msgctxt "Stripe Connect Gateway description"
+msgid "Pay with MultiBanco"
+msgstr "Πληρωμή με MultiBanco"
+
+#: includes/gateways/class.yith-stripe-connect-multibanco-gateway.php:71
+msgctxt "Label for the MultiBanco button"
+msgid "Proceed to MultiBanco"
+msgstr "Συνέχεια σε MultiBanco"
+
+#: plugin-options/settings-sc-gateway.php:35
+#: plugin-options/settings-sc-multibanco-gateway.php:11
+msgctxt "Settings, activate or deactivate Stripe Connect"
+msgid "Enable/Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#: plugin-options/settings-sc-gateway.php:37
+msgctxt "Settings, Label for checkbox that enables/disables Stripe Connect"
+msgid "Enable Stripe Connect Gateway"
+msgstr "Ενεργοποίηση Πύλης Stripe Connect"
+
+#: plugin-options/settings-sc-multibanco-gateway.php:13
+msgctxt "Settings, Label for checkbox that enables/disables Stripe Connect"
+msgid "Enable Stripe Connect MultiBanco Gateway"
+msgstr "Ενεργοποίηση Πύλης Stripe Connect MultiBanco"
+
+#: templates/common/commission-pdf.php:122
+#: templates/common/commission-view.php:164
+msgctxt "The type of commission applied"
+msgid "Rate"
+msgstr "Ποσοστό"
+
+#: templates/common/commission-pdf.php:123
+#: templates/common/commission-view.php:165
+msgctxt "The type of commission applied"
+msgid "Type"
+msgstr "Τύπος"
