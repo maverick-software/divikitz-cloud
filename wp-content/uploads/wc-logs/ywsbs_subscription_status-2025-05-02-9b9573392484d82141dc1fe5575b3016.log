@@ -1,0 +1,15 @@
+05-02-2025 @ 00:02:02 - ======================
+05-02-2025 @ 00:02:02 - Start check subscriptions that should change status after the payment due date at 2025-05-02 00:02:02
+05-02-2025 @ 00:02:02 - Search subscriptions with Payment due date < 2025-05-02 00:01:14
+05-02-2025 @ 00:02:02 - Found 0 subscriptions
+05-02-2025 @ 00:02:02 - ===============
+05-02-2025 @ 00:02:02 - ======================
+05-02-2025 @ 00:02:02 - Start expired cron at 2025-05-02 00:02:02
+05-02-2025 @ 00:02:02 - Search subscription with expired date < 2025-05-02 00:02:02
+05-02-2025 @ 00:02:02 - Found 0 subscriptions
+05-02-2025 @ 00:02:02 - ======================
+05-02-2025 @ 00:02:02 - ======================
+05-02-2025 @ 00:02:02 - Start resume orders cron at 2025-05-02 00:02:02
+05-02-2025 @ 00:02:02 - Search subscriptions to resume with expired pause date <  2025-05-02 07:02:02
+05-02-2025 @ 00:02:02 - Found 0 subscriptions
+05-02-2025 @ 00:02:02 - ======================
